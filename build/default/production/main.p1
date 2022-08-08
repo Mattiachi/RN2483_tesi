@@ -47,24 +47,24 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _INTCONbits `VS1095 ~T0 @X0 0 e@4082 ]
 "382 mcc_generated_files/tmr3.h
 [v _TMR3_SetInterruptHandler `(v ~T0 @X0 0 ef1`*v ]
-"14 main.c
+"24 main.c
 [v _handle16sInterrupt `(v ~T0 @X0 0 ef ]
-"19
+"29
 [v _SysConfigSleep `(v ~T0 @X0 0 ef ]
-"18
+"28
 [v _ADC_Init `(v ~T0 @X0 0 ef ]
-"15
+"25
 [v _IO_pins_init `(v ~T0 @X0 0 ef ]
-"49
+"60
 [c E8000 0 1 2 3 4 5 .. ]
 [n E8000 . MAC_NOT_OK MAC_OK RADIO_NOT_OK RADIO_OK INVALID_BUFFER_LEN MCAST_RE_KEYING_NEEDED  ]
 [v F8057 `(v ~T0 @X0 0 tf3`*uc`uc`E8000 ]
 [v F8062 `(v ~T0 @X0 0 tf1`uc ]
 "162 mcc_generated_files/LoRaWAN/lorawan.h
 [v _LORAWAN_Init `(v ~T0 @X0 0 ef2`*F8057`*F8062 ]
-"27 main.c
+"37 main.c
 [v _RxDataDone `(v ~T0 @X0 0 ef3`*uc`uc`E8000 ]
-"28
+"38
 [v _RxJoinResponse `(v ~T0 @X0 0 ef1`uc ]
 "489 mcc_generated_files/LoRaWAN/lorawan.h
 [v _LORAWAN_SetNetworkSessionKey `(v ~T0 @X0 0 ef1`*uc ]
@@ -72,7 +72,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _LORAWAN_SetApplicationSessionKey `(v ~T0 @X0 0 ef1`*uc ]
 "399
 [v _LORAWAN_SetDeviceAddress `(v ~T0 @X0 0 ef1`ul ]
-"53 main.c
+"64 main.c
 [c E8008 0 1 .. ]
 [n E8008 . OTAA ABP  ]
 [c E7985 0 1 2 3 4 5 6 7 8 9 10 11 12 .. ]
@@ -81,6 +81,17 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _LORAWAN_Join `(E7985 ~T0 @X0 0 ef1`E8008 ]
 "1529
 [v _LORAWAN_Mainloop `(v ~T0 @X0 0 ef ]
+"40 main.c
+[v _LoRaWakeUp `(v ~T0 @X0 0 ef ]
+"30
+[v _readAndSend `(v ~T0 @X0 0 ef ]
+"1513 mcc_generated_files/LoRaWAN/lorawan.h
+[v _LORAWAN_GetState `(uc ~T0 @X0 0 ef ]
+"80 main.c
+[c E8243 0 1 2 3 4 5 6 7 8 9 .. ]
+[n E8243 . IDLE TRANSMISSION_OCCURRING BEFORE_RX1 RX1_OPEN BETWEEN_RX1_RX2 RX2_OPEN RETRANSMISSION_DELAY ABP_DELAY CLASS_C_RX2_1_OPEN CLASS_C_RX2_2_OPEN  ]
+"39
+[v _LoRaSleep `(v ~T0 @X0 0 ef ]
 "7240 C:\Program Files (x86)\Microchip\xc8\v1.38\include\pic18lf46k22.h
 [s S434 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S434 . RD0 RD1 RD2 RD3 RD4 RD5 RD6 RD7 ]
@@ -107,24 +118,13 @@ Version 3.2 HI-TECH Software Intermediate Code
 [n S433 . . . . . . . . ]
 "7297
 [v _PORTDbits `VS433 ~T0 @X0 0 e@3971 ]
-"30 main.c
-[v _LoRaWakeUp `(v ~T0 @X0 0 ef ]
-"20
-[v _readAndSend `(v ~T0 @X0 0 ef ]
-"1513 mcc_generated_files/LoRaWAN/lorawan.h
-[v _LORAWAN_GetState `(uc ~T0 @X0 0 ef ]
-"70 main.c
-[c E8243 0 1 2 3 4 5 6 7 8 9 .. ]
-[n E8243 . IDLE TRANSMISSION_OCCURRING BEFORE_RX1 RX1_OPEN BETWEEN_RX1_RX2 RX2_OPEN RETRANSMISSION_DELAY ABP_DELAY CLASS_C_RX2_1_OPEN CLASS_C_RX2_2_OPEN  ]
-"29
-[v _LoRaSleep `(v ~T0 @X0 0 ef ]
 [v F7716 `(v ~T0 @X0 1 tf1`ul ]
 "157 C:\Program Files (x86)\Microchip\xc8\v1.38\include\pic18.h
 [v __delay `JF7716 ~T0 @X0 0 e ]
 [p i __delay ]
-"17 main.c
+"27 main.c
 [v _ADC_Read `(ui ~T0 @X0 0 ef1`uc ]
-"112
+"118
 [c E8012 0 1 .. ]
 [n E8012 . UNCNF CNF  ]
 "197 mcc_generated_files/LoRaWAN/lorawan.h
@@ -8443,14 +8443,14 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;tmr1.h: 418: void TMR1_DefaultInterruptHandler(void);
 [; ;mcc.h: 80: void SYSTEM_Initialize(void);
 [; ;mcc.h: 93: void OSCILLATOR_Initialize(void);
-[; ;main.c: 14: void handle16sInterrupt();
-[; ;main.c: 15: void IO_pins_init(void);
-[; ;main.c: 16: void ADC_SelChannel(uint8_t c);
-[; ;main.c: 17: uint16_t ADC_Read(uint8_t channel);
-[; ;main.c: 18: void ADC_Init(void);
-[; ;main.c: 19: void SysConfigSleep(void);
-[; ;main.c: 20: void readAndSend(void);
-"23 main.c
+[; ;main.c: 24: void handle16sInterrupt();
+[; ;main.c: 25: void IO_pins_init(void);
+[; ;main.c: 26: void ADC_SelChannel(uint8_t c);
+[; ;main.c: 27: uint16_t ADC_Read(uint8_t channel);
+[; ;main.c: 28: void ADC_Init(void);
+[; ;main.c: 29: void SysConfigSleep(void);
+[; ;main.c: 30: void readAndSend(void);
+"33 main.c
 [v _nwkSKey `uc ~T0 @X0 -> 16 `i e ]
 [i _nwkSKey
 :U ..
@@ -8472,8 +8472,8 @@ Version 3.2 HI-TECH Software Intermediate Code
 -> -> 178 `i `uc
 ..
 ]
-[; ;main.c: 23: uint8_t nwkSKey[16] = {0x75, 0xE0, 0x66, 0x1A, 0xA0, 0xBC, 0x21, 0xE4, 0x4B, 0x57, 0x21, 0xB0, 0xD6, 0x30, 0xF7, 0xB2};
-"24
+[; ;main.c: 33: uint8_t nwkSKey[16] = {0x75, 0xE0, 0x66, 0x1A, 0xA0, 0xBC, 0x21, 0xE4, 0x4B, 0x57, 0x21, 0xB0, 0xD6, 0x30, 0xF7, 0xB2};
+"34
 [v _appSKey `uc ~T0 @X0 -> 16 `i e ]
 [i _appSKey
 :U ..
@@ -8495,221 +8495,227 @@ Version 3.2 HI-TECH Software Intermediate Code
 -> -> 218 `i `uc
 ..
 ]
-[; ;main.c: 24: uint8_t appSKey[16] = {0xDD, 0x32, 0x54, 0xF0, 0x8D, 0x55, 0xD6, 0x52, 0xE7, 0x73, 0x0B, 0xBC, 0x26, 0x3E, 0x0A, 0xDA};
-"25
+[; ;main.c: 34: uint8_t appSKey[16] = {0xDD, 0x32, 0x54, 0xF0, 0x8D, 0x55, 0xD6, 0x52, 0xE7, 0x73, 0x0B, 0xBC, 0x26, 0x3E, 0x0A, 0xDA};
+"35
 [v _devAddr `ul ~T0 @X0 1 e ]
 [i _devAddr
 -> -> 305419896 `l `ul
 ]
-[; ;main.c: 25: uint32_t devAddr = 0x12345678;
-"26
+[; ;main.c: 35: uint32_t devAddr = 0x12345678;
+"36
 [v _payload `ui ~T0 @X0 -> 2 `i e ]
-[; ;main.c: 26: uint16_t payload[2];
-[; ;main.c: 27: void RxDataDone(uint8_t* pData, uint8_t dataLength, OpStatus_t status);
-[; ;main.c: 28: void RxJoinResponse(bool status);
-[; ;main.c: 29: void LoRaSleep(void);
-[; ;main.c: 30: void LoRaWakeUp(void);
-"32
+[; ;main.c: 36: uint16_t payload[2];
+[; ;main.c: 37: void RxDataDone(uint8_t* pData, uint8_t dataLength, OpStatus_t status);
+[; ;main.c: 38: void RxJoinResponse(bool status);
+[; ;main.c: 39: void LoRaSleep(void);
+[; ;main.c: 40: void LoRaWakeUp(void);
+"42
 [v _TimeToSend `uc ~T0 @X0 1 e ]
-[; ;main.c: 32: uint8_t TimeToSend;
-"34
+[; ;main.c: 42: uint8_t TimeToSend;
+"43
+[v _portNumber `uc ~T0 @X0 1 e ]
+[i _portNumber
+-> -> 1 `i `uc
+]
+[; ;main.c: 43: uint8_t portNumber = 1;
+"45
 [v _main `(v ~T0 @X0 1 ef ]
-"35
+"46
 {
-[; ;main.c: 34: void main(void)
-[; ;main.c: 35: {
+[; ;main.c: 45: void main(void)
+[; ;main.c: 46: {
 [e :U _main ]
 [f ]
-[; ;main.c: 37: SYSTEM_Initialize();
-"37
+[; ;main.c: 48: SYSTEM_Initialize();
+"48
 [e ( _SYSTEM_Initialize ..  ]
-[; ;main.c: 40: PORTCbits.RC5 = 1;
-"40
-[e = . . _PORTCbits 0 5 -> -> 1 `i `uc ]
-[; ;main.c: 42: (INTCONbits.GIE = 1);
-"42
-[e = . . _INTCONbits 1 7 -> -> 1 `i `uc ]
-[; ;main.c: 43: (INTCONbits.PEIE = 1);
-"43
-[e = . . _INTCONbits 1 6 -> -> 1 `i `uc ]
-[; ;main.c: 44: TMR3_SetInterruptHandler(handle16sInterrupt);
-"44
-[e ( _TMR3_SetInterruptHandler (1 -> &U _handle16sInterrupt `*v ]
-[; ;main.c: 45: SysConfigSleep();
-"45
-[e ( _SysConfigSleep ..  ]
-[; ;main.c: 46: ADC_Init();
-"46
-[e ( _ADC_Init ..  ]
-[; ;main.c: 47: IO_pins_init();
-"47
-[e ( _IO_pins_init ..  ]
-[; ;main.c: 49: LORAWAN_Init(RxDataDone, RxJoinResponse);
-"49
-[e ( _LORAWAN_Init (2 , &U _RxDataDone &U _RxJoinResponse ]
-[; ;main.c: 50: LORAWAN_SetNetworkSessionKey(nwkSKey);
-"50
-[e ( _LORAWAN_SetNetworkSessionKey (1 &U _nwkSKey ]
-[; ;main.c: 51: LORAWAN_SetApplicationSessionKey(appSKey);
+[; ;main.c: 51: PORTCbits.RC5 = 1;
 "51
-[e ( _LORAWAN_SetApplicationSessionKey (1 &U _appSKey ]
-[; ;main.c: 52: LORAWAN_SetDeviceAddress(devAddr);
-"52
-[e ( _LORAWAN_SetDeviceAddress (1 _devAddr ]
-[; ;main.c: 53: LORAWAN_Join(ABP);
+[e = . . _PORTCbits 0 5 -> -> 1 `i `uc ]
+[; ;main.c: 53: (INTCONbits.GIE = 1);
 "53
-[e ( _LORAWAN_Join (1 . `E8008 1 ]
-[; ;main.c: 56: TimeToSend = 1;
+[e = . . _INTCONbits 1 7 -> -> 1 `i `uc ]
+[; ;main.c: 54: (INTCONbits.PEIE = 1);
+"54
+[e = . . _INTCONbits 1 6 -> -> 1 `i `uc ]
+[; ;main.c: 55: TMR3_SetInterruptHandler(handle16sInterrupt);
+"55
+[e ( _TMR3_SetInterruptHandler (1 -> &U _handle16sInterrupt `*v ]
+[; ;main.c: 56: SysConfigSleep();
 "56
-[e = _TimeToSend -> -> 1 `i `uc ]
-[; ;main.c: 58: while (1)
+[e ( _SysConfigSleep ..  ]
+[; ;main.c: 57: ADC_Init();
+"57
+[e ( _ADC_Init ..  ]
+[; ;main.c: 58: IO_pins_init();
 "58
-[e :U 1156 ]
-[; ;main.c: 59: {
-"59
-{
-[; ;main.c: 60: LORAWAN_Mainloop();
+[e ( _IO_pins_init ..  ]
+[; ;main.c: 60: LORAWAN_Init(RxDataDone, RxJoinResponse);
 "60
-[e ( _LORAWAN_Mainloop ..  ]
-[; ;main.c: 61: PORTDbits.RD5 = 1;
+[e ( _LORAWAN_Init (2 , &U _RxDataDone &U _RxJoinResponse ]
+[; ;main.c: 61: LORAWAN_SetNetworkSessionKey(nwkSKey);
 "61
-[e = . . _PORTDbits 0 5 -> -> 1 `i `uc ]
-[; ;main.c: 63: if(TimeToSend){
+[e ( _LORAWAN_SetNetworkSessionKey (1 &U _nwkSKey ]
+[; ;main.c: 62: LORAWAN_SetApplicationSessionKey(appSKey);
+"62
+[e ( _LORAWAN_SetApplicationSessionKey (1 &U _appSKey ]
+[; ;main.c: 63: LORAWAN_SetDeviceAddress(devAddr);
 "63
+[e ( _LORAWAN_SetDeviceAddress (1 _devAddr ]
+[; ;main.c: 64: LORAWAN_Join(ABP);
+"64
+[e ( _LORAWAN_Join (1 . `E8008 1 ]
+[; ;main.c: 67: TimeToSend = 1;
+"67
+[e = _TimeToSend -> -> 1 `i `uc ]
+[; ;main.c: 69: while (1)
+"69
+[e :U 1156 ]
+[; ;main.c: 70: {
+"70
+{
+[; ;main.c: 71: LORAWAN_Mainloop();
+"71
+[e ( _LORAWAN_Mainloop ..  ]
+[; ;main.c: 73: if(TimeToSend){
+"73
 [e $ ! != -> _TimeToSend `i -> -> -> 0 `i `uc `i 1158  ]
 {
-[; ;main.c: 64: LoRaWakeUp();
-"64
+[; ;main.c: 74: LoRaWakeUp();
+"74
 [e ( _LoRaWakeUp ..  ]
-[; ;main.c: 65: readAndSend();
-"65
+[; ;main.c: 75: readAndSend();
+"75
 [e ( _readAndSend ..  ]
-[; ;main.c: 66: TimeToSend = 0;
-"66
+[; ;main.c: 76: TimeToSend = 0;
+"76
 [e = _TimeToSend -> -> 0 `i `uc ]
-"68
+"78
 }
 [e :U 1158 ]
-[; ;main.c: 68: }
-[; ;main.c: 70: if(LORAWAN_GetState() == IDLE){
-"70
+[; ;main.c: 78: }
+[; ;main.c: 80: if(LORAWAN_GetState() == IDLE){
+"80
 [e $ ! == -> ( _LORAWAN_GetState ..  `i -> . `E8243 0 `i 1159  ]
 {
-[; ;main.c: 71: LoRaSleep();
-"71
+[; ;main.c: 81: LoRaSleep();
+"81
 [e ( _LoRaSleep ..  ]
-[; ;main.c: 72: PORTDbits.RD5 = 0;
-"72
-[e = . . _PORTDbits 0 5 -> -> 0 `i `uc ]
-[; ;main.c: 73: asm(" sleep");
-"73
+[; ;main.c: 82: asm(" sleep");
+"82
 [; <"  sleep ;# ">
-"74
+"83
 }
 [e :U 1159 ]
-"75
+"84
 }
 [e :U 1155 ]
-"58
+"69
 [e $U 1156  ]
 [e :U 1157 ]
-[; ;main.c: 74: }
-[; ;main.c: 75: }
-[; ;main.c: 76: }
-"76
+[; ;main.c: 83: }
+[; ;main.c: 84: }
+[; ;main.c: 85: }
+"85
 [e :UE 1154 ]
 }
-"78
+"87
 [v _handle16sInterrupt `(v ~T0 @X0 1 ef ]
 {
-[; ;main.c: 78: void handle16sInterrupt() {
+[; ;main.c: 87: void handle16sInterrupt() {
 [e :U _handle16sInterrupt ]
 [f ]
-"82
-[v F8820 `Vuc ~T0 @X0 1 s counterSleepTimeout ]
-[i F8820
+"89
+[v F8821 `Vuc ~T0 @X0 1 s counterSleepTimeout ]
+[i F8821
 -> -> 0 `i `uc
 ]
-[; ;main.c: 82: static volatile uint8_t counterSleepTimeout = 0;
-[; ;main.c: 83: if( ++counterSleepTimeout == 85 )
-"83
-[e $ ! == -> =+ F8820 -> -> 1 `i `uc `i -> 85 `i 1161  ]
-[; ;main.c: 84: {
-"84
-{
-[; ;main.c: 86: TimeToSend = 1;
-"86
-[e = _TimeToSend -> -> 1 `i `uc ]
-[; ;main.c: 87: counterSleepTimeout = 0;
-"87
-[e = F8820 -> -> 0 `i `uc ]
-"88
-}
-[; ;main.c: 88: }
-[e $U 1162  ]
-"89
-[e :U 1161 ]
-[; ;main.c: 89: else
-[; ;main.c: 90: {
+[; ;main.c: 89: static volatile uint8_t counterSleepTimeout = 0;
+[; ;main.c: 90: if( ++counterSleepTimeout == 85 )
 "90
+[e $ ! == -> =+ F8821 -> -> 1 `i `uc `i -> 85 `i 1161  ]
+[; ;main.c: 91: {
+"91
 {
-[; ;main.c: 92: asm(" sleep");
-"92
-[; <"  sleep ;# ">
+[; ;main.c: 93: TimeToSend = 1;
 "93
-}
-[e :U 1162 ]
-[; ;main.c: 93: }
-[; ;main.c: 94: }
+[e = _TimeToSend -> -> 1 `i `uc ]
+[; ;main.c: 94: counterSleepTimeout = 0;
 "94
-[e :UE 1160 ]
+[e = F8821 -> -> 0 `i `uc ]
+"95
 }
+[; ;main.c: 95: }
+[e $U 1162  ]
 "96
-[v _RxDataDone `(v ~T0 @X0 1 ef3`*uc`uc`E8000 ]
+[e :U 1161 ]
+[; ;main.c: 96: else
+[; ;main.c: 97: {
 "97
 {
-[; ;main.c: 96: void RxDataDone(uint8_t* pData, uint8_t dataLength, OpStatus_t status)
-[; ;main.c: 97: {
+[; ;main.c: 98: asm(" sleep");
+"98
+[; <"  sleep ;# ">
+"99
+}
+[e :U 1162 ]
+[; ;main.c: 99: }
+[; ;main.c: 100: }
+"100
+[e :UE 1160 ]
+}
+"102
+[v _RxDataDone `(v ~T0 @X0 1 ef3`*uc`uc`E8000 ]
+"103
+{
+[; ;main.c: 102: void RxDataDone(uint8_t* pData, uint8_t dataLength, OpStatus_t status)
+[; ;main.c: 103: {
 [e :U _RxDataDone ]
-"96
+"102
 [v _pData `*uc ~T0 @X0 1 r1 ]
 [v _dataLength `uc ~T0 @X0 1 r2 ]
 [v _status `E8000 ~T0 @X0 1 r3 ]
-"97
+"103
 [f ]
-[; ;main.c: 98: }
-"98
+[; ;main.c: 104: portNumber = pData[0];
+"104
+[e = _portNumber *U + _pData * -> -> 0 `i `x -> -> # *U _pData `i `x ]
+[; ;main.c: 105: PORTCbits.RC5 = pData[1];
+"105
+[e = . . _PORTCbits 0 5 *U + _pData * -> -> 1 `i `x -> -> # *U _pData `i `x ]
+[; ;main.c: 106: }
+"106
 [e :UE 1163 ]
 }
-"100
+"108
 [v _RxJoinResponse `(v ~T0 @X0 1 ef1`uc ]
-"101
+"109
 {
-[; ;main.c: 100: void RxJoinResponse(bool status)
-[; ;main.c: 101: {
+[; ;main.c: 108: void RxJoinResponse(bool status)
+[; ;main.c: 109: {
 [e :U _RxJoinResponse ]
-"100
+"108
 [v _status `uc ~T0 @X0 1 r1 ]
-"101
+"109
 [f ]
-[; ;main.c: 102: PORTCbits.RC5 = 0;
-"102
+[; ;main.c: 110: PORTCbits.RC5 = 0;
+"110
 [e = . . _PORTCbits 0 5 -> -> 0 `i `uc ]
-[; ;main.c: 103: }
-"103
+[; ;main.c: 111: }
+"111
 [e :UE 1164 ]
 }
-"105
+"113
 [v _readAndSend `(v ~T0 @X0 1 ef ]
 {
-[; ;main.c: 105: void readAndSend(void){
+[; ;main.c: 113: void readAndSend(void){
 [e :U _readAndSend ]
 [f ]
-[; ;main.c: 106: PORTCbits.RC5 = 1;
-"106
-[e = . . _PORTCbits 0 5 -> -> 1 `i `uc ]
-[; ;main.c: 107: for(int j = 1; j<100; j++) _delay((unsigned long)((1)*(16000000/4000.0)));
-"107
+[; ;main.c: 114: PORTDbits.RD5 = 1;
+"114
+[e = . . _PORTDbits 0 5 -> -> 1 `i `uc ]
+[; ;main.c: 115: for(int j = 1; j<100; j++) _delay((unsigned long)((1)*(16000000/4000.0)));
+"115
 {
 [v _j `i ~T0 @X0 1 a ]
 [e = _j -> 1 `i ]
@@ -8721,379 +8727,379 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e $ < _j -> 100 `i 1166  ]
 [e :U 1167 ]
 }
-[; ;main.c: 108: payload[0] = ADC_Read(27);
-"108
+[; ;main.c: 116: payload[0] = ADC_Read(27);
+"116
 [e = *U + &U _payload * -> -> -> 0 `i `ui `ux -> -> # *U &U _payload `ui `ux ( _ADC_Read (1 -> -> 27 `i `uc ]
-[; ;main.c: 109: payload[1] = ADC_Read(26);
-"109
+[; ;main.c: 117: payload[1] = ADC_Read(26);
+"117
 [e = *U + &U _payload * -> -> -> 1 `i `ui `ux -> -> # *U &U _payload `ui `ux ( _ADC_Read (1 -> -> 26 `i `uc ]
-[; ;main.c: 112: LORAWAN_Send(UNCNF, 2, &payload, sizeof(payload));
-"112
-[e ( _LORAWAN_Send (4 , , , . `E8012 0 -> -> 2 `i `uc -> &U _payload `*v -> -> # _payload `ui `uc ]
-[; ;main.c: 113: PORTCbits.RC5 = 0;
-"113
-[e = . . _PORTCbits 0 5 -> -> 0 `i `uc ]
-[; ;main.c: 115: }
-"115
+[; ;main.c: 118: LORAWAN_Send(UNCNF, portNumber, &payload, sizeof(payload));
+"118
+[e ( _LORAWAN_Send (4 , , , . `E8012 0 _portNumber -> &U _payload `*v -> -> # _payload `ui `uc ]
+[; ;main.c: 119: PORTDbits.RD5 = 0;
+"119
+[e = . . _PORTDbits 0 5 -> -> 0 `i `uc ]
+[; ;main.c: 121: }
+"121
 [e :UE 1165 ]
 }
-"117
+"123
 [v _IO_pins_init `(v ~T0 @X0 1 ef ]
 {
-[; ;main.c: 117: void IO_pins_init(void){
+[; ;main.c: 123: void IO_pins_init(void){
 [e :U _IO_pins_init ]
 [f ]
-[; ;main.c: 119: TRISCbits.TRISC5 = 0;
-"119
-[e = . . _TRISCbits 0 5 -> -> 0 `i `uc ]
-[; ;main.c: 120: TRISDbits.TRISD5 = 0;
-"120
-[e = . . _TRISDbits 0 5 -> -> 0 `i `uc ]
-[; ;main.c: 121: TRISDbits.TRISD6 = 1;
-"121
-[e = . . _TRISDbits 0 6 -> -> 1 `i `uc ]
-[; ;main.c: 122: TRISDbits.TRISD7 = 1;
-"122
-[e = . . _TRISDbits 0 7 -> -> 1 `i `uc ]
-[; ;main.c: 124: ANSELCbits.ANSC5 = 0;
-"124
-[e = . . _ANSELCbits 0 4 -> -> 0 `i `uc ]
-[; ;main.c: 125: ANSELDbits.ANSD5 = 0;
+[; ;main.c: 125: TRISCbits.TRISC5 = 0;
 "125
-[e = . . _ANSELDbits 0 5 -> -> 0 `i `uc ]
-[; ;main.c: 126: ANSELDbits.ANSD6 = 1;
+[e = . . _TRISCbits 0 5 -> -> 0 `i `uc ]
+[; ;main.c: 126: TRISDbits.TRISD5 = 0;
 "126
-[e = . . _ANSELDbits 0 6 -> -> 1 `i `uc ]
-[; ;main.c: 127: ANSELDbits.ANSD7 = 1;
+[e = . . _TRISDbits 0 5 -> -> 0 `i `uc ]
+[; ;main.c: 127: TRISDbits.TRISD6 = 1;
 "127
-[e = . . _ANSELDbits 0 7 -> -> 1 `i `uc ]
-[; ;main.c: 128: }
+[e = . . _TRISDbits 0 6 -> -> 1 `i `uc ]
+[; ;main.c: 128: TRISDbits.TRISD7 = 1;
 "128
+[e = . . _TRISDbits 0 7 -> -> 1 `i `uc ]
+[; ;main.c: 130: ANSELCbits.ANSC5 = 0;
+"130
+[e = . . _ANSELCbits 0 4 -> -> 0 `i `uc ]
+[; ;main.c: 131: ANSELDbits.ANSD5 = 0;
+"131
+[e = . . _ANSELDbits 0 5 -> -> 0 `i `uc ]
+[; ;main.c: 132: ANSELDbits.ANSD6 = 1;
+"132
+[e = . . _ANSELDbits 0 6 -> -> 1 `i `uc ]
+[; ;main.c: 133: ANSELDbits.ANSD7 = 1;
+"133
+[e = . . _ANSELDbits 0 7 -> -> 1 `i `uc ]
+[; ;main.c: 134: }
+"134
 [e :UE 1169 ]
 }
-"129
+"135
 [v _ADC_SelChannel `(v ~T0 @X0 1 ef1`uc ]
 {
-[; ;main.c: 129: void ADC_SelChannel(uint8_t c){
+[; ;main.c: 135: void ADC_SelChannel(uint8_t c){
 [e :U _ADC_SelChannel ]
 [v _c `uc ~T0 @X0 1 r1 ]
 [f ]
-[; ;main.c: 130: ADCON0bits.CHS = c;
-"130
+[; ;main.c: 136: ADCON0bits.CHS = c;
+"136
 [e = . . _ADCON0bits 1 2 _c ]
-[; ;main.c: 131: return;
-"131
+[; ;main.c: 137: return;
+"137
 [e $UE 1170  ]
-[; ;main.c: 132: }
-"132
+[; ;main.c: 138: }
+"138
 [e :UE 1170 ]
 }
-"134
+"140
 [v _ADC_Read `(ui ~T0 @X0 1 ef1`uc ]
 {
-[; ;main.c: 134: uint16_t ADC_Read(uint8_t channel){
+[; ;main.c: 140: uint16_t ADC_Read(uint8_t channel){
 [e :U _ADC_Read ]
 [v _channel `uc ~T0 @X0 1 r1 ]
 [f ]
-"135
+"141
 [v _result `ui ~T0 @X0 1 a ]
-[; ;main.c: 135: uint16_t result = 0;
+[; ;main.c: 141: uint16_t result = 0;
 [e = _result -> -> 0 `i `ui ]
-[; ;main.c: 136: ADCON0bits.ADON = 1;
-"136
+[; ;main.c: 142: ADCON0bits.ADON = 1;
+"142
 [e = . . _ADCON0bits 1 0 -> -> 1 `i `uc ]
-[; ;main.c: 137: ADC_SelChannel(channel);
-"137
+[; ;main.c: 143: ADC_SelChannel(channel);
+"143
 [e ( _ADC_SelChannel (1 _channel ]
-[; ;main.c: 138: ADCON0bits.GO = 1;
-"138
+[; ;main.c: 144: ADCON0bits.GO = 1;
+"144
 [e = . . _ADCON0bits 2 1 -> -> 1 `i `uc ]
-[; ;main.c: 139: while(ADCON0bits.GO);
-"139
+[; ;main.c: 145: while(ADCON0bits.GO);
+"145
 [e $U 1172  ]
 [e :U 1173 ]
 [e :U 1172 ]
 [e $ != -> . . _ADCON0bits 2 1 `i -> -> -> 0 `i `Vuc `i 1173  ]
 [e :U 1174 ]
-[; ;main.c: 140: result = (ADRESH<<8) | ADRESL;
-"140
+[; ;main.c: 146: result = (ADRESH<<8) | ADRESL;
+"146
 [e = _result -> | << -> _ADRESH `i -> 8 `i -> _ADRESL `i `ui ]
-[; ;main.c: 141: ADCON0bits.ADON = 0;
-"141
+[; ;main.c: 147: ADCON0bits.ADON = 0;
+"147
 [e = . . _ADCON0bits 1 0 -> -> 0 `i `uc ]
-[; ;main.c: 142: return result;
-"142
+[; ;main.c: 148: return result;
+"148
 [e ) _result ]
 [e $UE 1171  ]
-[; ;main.c: 143: }
-"143
+[; ;main.c: 149: }
+"149
 [e :UE 1171 ]
 }
-"145
+"151
 [v _ADC_Init `(v ~T0 @X0 1 ef ]
 {
-[; ;main.c: 145: void ADC_Init(void){
+[; ;main.c: 151: void ADC_Init(void){
 [e :U _ADC_Init ]
 [f ]
-[; ;main.c: 146: ADCON0bits.GO = 0;
-"146
+[; ;main.c: 152: ADCON0bits.GO = 0;
+"152
 [e = . . _ADCON0bits 2 1 -> -> 0 `i `uc ]
-[; ;main.c: 147: ADCON2bits.ADFM = 1;
-"147
+[; ;main.c: 153: ADCON2bits.ADFM = 1;
+"153
 [e = . . _ADCON2bits 0 3 -> -> 1 `i `uc ]
-[; ;main.c: 148: ADCON2bits.ADCS = 3;
-"148
+[; ;main.c: 154: ADCON2bits.ADCS = 3;
+"154
 [e = . . _ADCON2bits 0 0 -> -> 3 `i `uc ]
-[; ;main.c: 149: return;
-"149
+[; ;main.c: 155: return;
+"155
 [e $UE 1175  ]
-[; ;main.c: 150: }
-"150
+[; ;main.c: 156: }
+"156
 [e :UE 1175 ]
 }
-"152
+"158
 [v _SysConfigSleep `(v ~T0 @X0 1 ef ]
-"153
+"159
 {
-[; ;main.c: 152: void SysConfigSleep(void)
-[; ;main.c: 153: {
+[; ;main.c: 158: void SysConfigSleep(void)
+[; ;main.c: 159: {
 [e :U _SysConfigSleep ]
 [f ]
-[; ;main.c: 155: UART2MD = 1;
-"155
-[e = _UART2MD -> -> 1 `i `b ]
-[; ;main.c: 156: UART1MD = 1;
-"156
-[e = _UART1MD -> -> 1 `i `b ]
-[; ;main.c: 157: TMR6MD = 1;
-"157
-[e = _TMR6MD -> -> 1 `i `b ]
-[; ;main.c: 158: TMR5MD = 1;
-"158
-[e = _TMR5MD -> -> 1 `i `b ]
-[; ;main.c: 159: TMR4MD = 1;
-"159
-[e = _TMR4MD -> -> 1 `i `b ]
-[; ;main.c: 160: TMR2MD = 1;
-"160
-[e = _TMR2MD -> -> 1 `i `b ]
-[; ;main.c: 161: MSSP1MD = 1;
+[; ;main.c: 161: UART2MD = 1;
 "161
-[e = _MSSP1MD -> -> 1 `i `b ]
-[; ;main.c: 162: CCP5MD = 1;
+[e = _UART2MD -> -> 1 `i `b ]
+[; ;main.c: 162: UART1MD = 1;
 "162
-[e = _CCP5MD -> -> 1 `i `b ]
-[; ;main.c: 163: CCP4MD = 1;
+[e = _UART1MD -> -> 1 `i `b ]
+[; ;main.c: 163: TMR6MD = 1;
 "163
-[e = _CCP4MD -> -> 1 `i `b ]
-[; ;main.c: 164: CCP3MD = 1;
+[e = _TMR6MD -> -> 1 `i `b ]
+[; ;main.c: 164: TMR5MD = 1;
 "164
-[e = _CCP3MD -> -> 1 `i `b ]
-[; ;main.c: 165: CCP2MD = 1;
+[e = _TMR5MD -> -> 1 `i `b ]
+[; ;main.c: 165: TMR4MD = 1;
 "165
-[e = _CCP2MD -> -> 1 `i `b ]
-[; ;main.c: 166: CCP1MD = 1;
+[e = _TMR4MD -> -> 1 `i `b ]
+[; ;main.c: 166: TMR2MD = 1;
 "166
-[e = _CCP1MD -> -> 1 `i `b ]
-[; ;main.c: 167: CTMUMD = 1;
+[e = _TMR2MD -> -> 1 `i `b ]
+[; ;main.c: 167: MSSP1MD = 1;
 "167
-[e = _CTMUMD -> -> 1 `i `b ]
-[; ;main.c: 168: CMP2MD = 1;
+[e = _MSSP1MD -> -> 1 `i `b ]
+[; ;main.c: 168: CCP5MD = 1;
 "168
-[e = _CMP2MD -> -> 1 `i `b ]
-[; ;main.c: 169: CMP1MD = 1;
+[e = _CCP5MD -> -> 1 `i `b ]
+[; ;main.c: 169: CCP4MD = 1;
 "169
-[e = _CMP1MD -> -> 1 `i `b ]
-[; ;main.c: 172: IDLEN = 0;
+[e = _CCP4MD -> -> 1 `i `b ]
+[; ;main.c: 170: CCP3MD = 1;
+"170
+[e = _CCP3MD -> -> 1 `i `b ]
+[; ;main.c: 171: CCP2MD = 1;
+"171
+[e = _CCP2MD -> -> 1 `i `b ]
+[; ;main.c: 172: CCP1MD = 1;
 "172
+[e = _CCP1MD -> -> 1 `i `b ]
+[; ;main.c: 173: CTMUMD = 1;
+"173
+[e = _CTMUMD -> -> 1 `i `b ]
+[; ;main.c: 174: CMP2MD = 1;
+"174
+[e = _CMP2MD -> -> 1 `i `b ]
+[; ;main.c: 175: CMP1MD = 1;
+"175
+[e = _CMP1MD -> -> 1 `i `b ]
+[; ;main.c: 178: IDLEN = 0;
+"178
 [e = _IDLEN -> -> 0 `i `b ]
-[; ;main.c: 176: TRISA = 0x00;
-"176
-[e = _TRISA -> -> 0 `i `uc ]
-[; ;main.c: 177: LATA = 0x00;
-"177
-[e = _LATA -> -> 0 `i `uc ]
-[; ;main.c: 180: TRISBbits.RB4 = 0;
-"180
-[e = . . _TRISBbits 1 4 -> -> 0 `i `uc ]
-[; ;main.c: 181: TRISBbits.RB5 = 0;
-"181
-[e = . . _TRISBbits 1 5 -> -> 0 `i `uc ]
-[; ;main.c: 182: TRISBbits.RB6 = 0;
+[; ;main.c: 182: TRISA = 0x00;
 "182
-[e = . . _TRISBbits 1 6 -> -> 0 `i `uc ]
-[; ;main.c: 183: TRISBbits.RB7 = 0;
+[e = _TRISA -> -> 0 `i `uc ]
+[; ;main.c: 183: LATA = 0x00;
 "183
-[e = . . _TRISBbits 1 7 -> -> 0 `i `uc ]
-[; ;main.c: 184: LATBbits.LATB4 = 0;
-"184
-[e = . . _LATBbits 0 4 -> -> 0 `i `uc ]
-[; ;main.c: 185: LATBbits.LATB5 = 0;
-"185
-[e = . . _LATBbits 0 5 -> -> 0 `i `uc ]
-[; ;main.c: 186: LATBbits.LATB6 = 0;
+[e = _LATA -> -> 0 `i `uc ]
+[; ;main.c: 186: TRISBbits.RB4 = 0;
 "186
-[e = . . _LATBbits 0 6 -> -> 0 `i `uc ]
-[; ;main.c: 187: LATBbits.LATB7 = 0;
+[e = . . _TRISBbits 1 4 -> -> 0 `i `uc ]
+[; ;main.c: 187: TRISBbits.RB5 = 0;
 "187
-[e = . . _LATBbits 0 7 -> -> 0 `i `uc ]
-[; ;main.c: 190: TRISCbits.RC0 = 0;
+[e = . . _TRISBbits 1 5 -> -> 0 `i `uc ]
+[; ;main.c: 188: TRISBbits.RB6 = 0;
+"188
+[e = . . _TRISBbits 1 6 -> -> 0 `i `uc ]
+[; ;main.c: 189: TRISBbits.RB7 = 0;
+"189
+[e = . . _TRISBbits 1 7 -> -> 0 `i `uc ]
+[; ;main.c: 190: LATBbits.LATB4 = 0;
 "190
-[e = . . _TRISCbits 1 0 -> -> 0 `i `uc ]
-[; ;main.c: 191: TRISCbits.RC1 = 0;
+[e = . . _LATBbits 0 4 -> -> 0 `i `uc ]
+[; ;main.c: 191: LATBbits.LATB5 = 0;
 "191
-[e = . . _TRISCbits 1 1 -> -> 0 `i `uc ]
-[; ;main.c: 192: TRISCbits.RC3 = 0;
+[e = . . _LATBbits 0 5 -> -> 0 `i `uc ]
+[; ;main.c: 192: LATBbits.LATB6 = 0;
 "192
-[e = . . _TRISCbits 1 3 -> -> 0 `i `uc ]
-[; ;main.c: 193: TRISCbits.RC4 = 0;
+[e = . . _LATBbits 0 6 -> -> 0 `i `uc ]
+[; ;main.c: 193: LATBbits.LATB7 = 0;
 "193
-[e = . . _TRISCbits 1 4 -> -> 0 `i `uc ]
-[; ;main.c: 195: TRISCbits.RC6 = 0;
-"195
-[e = . . _TRISCbits 1 6 -> -> 0 `i `uc ]
-[; ;main.c: 196: TRISCbits.RC7 = 0;
+[e = . . _LATBbits 0 7 -> -> 0 `i `uc ]
+[; ;main.c: 196: TRISCbits.RC0 = 0;
 "196
-[e = . . _TRISCbits 1 7 -> -> 0 `i `uc ]
-[; ;main.c: 197: LATCbits.LATC0 = 0;
+[e = . . _TRISCbits 1 0 -> -> 0 `i `uc ]
+[; ;main.c: 197: TRISCbits.RC1 = 0;
 "197
-[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
-[; ;main.c: 198: LATCbits.LATC1 = 0;
+[e = . . _TRISCbits 1 1 -> -> 0 `i `uc ]
+[; ;main.c: 198: TRISCbits.RC3 = 0;
 "198
-[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
-[; ;main.c: 199: LATCbits.LATC3 = 0;
+[e = . . _TRISCbits 1 3 -> -> 0 `i `uc ]
+[; ;main.c: 199: TRISCbits.RC4 = 0;
 "199
-[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
-[; ;main.c: 200: LATCbits.LATC4 = 0;
-"200
-[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
-[; ;main.c: 202: LATCbits.LATC6 = 0;
+[e = . . _TRISCbits 1 4 -> -> 0 `i `uc ]
+[; ;main.c: 201: TRISCbits.RC6 = 0;
+"201
+[e = . . _TRISCbits 1 6 -> -> 0 `i `uc ]
+[; ;main.c: 202: TRISCbits.RC7 = 0;
 "202
-[e = . . _LATCbits 0 6 -> -> 0 `i `uc ]
-[; ;main.c: 203: LATCbits.LATC7 = 0;
+[e = . . _TRISCbits 1 7 -> -> 0 `i `uc ]
+[; ;main.c: 203: LATCbits.LATC0 = 0;
 "203
-[e = . . _LATCbits 0 7 -> -> 0 `i `uc ]
-[; ;main.c: 206: TRISDbits.RD0 = 0;
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+[; ;main.c: 204: LATCbits.LATC1 = 0;
+"204
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+[; ;main.c: 205: LATCbits.LATC3 = 0;
+"205
+[e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
+[; ;main.c: 206: LATCbits.LATC4 = 0;
 "206
-[e = . . _TRISDbits 1 0 -> -> 0 `i `uc ]
-[; ;main.c: 207: TRISDbits.RD1 = 0;
-"207
-[e = . . _TRISDbits 1 1 -> -> 0 `i `uc ]
-[; ;main.c: 208: TRISDbits.RD2 = 0;
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+[; ;main.c: 208: LATCbits.LATC6 = 0;
 "208
-[e = . . _TRISDbits 1 2 -> -> 0 `i `uc ]
-[; ;main.c: 209: TRISDbits.RD4 = 0;
+[e = . . _LATCbits 0 6 -> -> 0 `i `uc ]
+[; ;main.c: 209: LATCbits.LATC7 = 0;
 "209
-[e = . . _TRISDbits 1 4 -> -> 0 `i `uc ]
-[; ;main.c: 210: TRISDbits.RD5 = 0;
-"210
-[e = . . _TRISDbits 1 5 -> -> 0 `i `uc ]
-[; ;main.c: 211: TRISDbits.RD7 = 0;
-"211
-[e = . . _TRISDbits 1 7 -> -> 0 `i `uc ]
-[; ;main.c: 212: LATDbits.LATD0 = 0;
+[e = . . _LATCbits 0 7 -> -> 0 `i `uc ]
+[; ;main.c: 212: TRISDbits.RD0 = 0;
 "212
-[e = . . _LATDbits 0 0 -> -> 0 `i `uc ]
-[; ;main.c: 213: LATDbits.LATD1 = 0;
+[e = . . _TRISDbits 1 0 -> -> 0 `i `uc ]
+[; ;main.c: 213: TRISDbits.RD1 = 0;
 "213
-[e = . . _LATDbits 0 1 -> -> 0 `i `uc ]
-[; ;main.c: 214: LATDbits.LATD2 = 0;
+[e = . . _TRISDbits 1 1 -> -> 0 `i `uc ]
+[; ;main.c: 214: TRISDbits.RD2 = 0;
 "214
-[e = . . _LATDbits 0 2 -> -> 0 `i `uc ]
-[; ;main.c: 215: LATDbits.LATD4 = 0;
+[e = . . _TRISDbits 1 2 -> -> 0 `i `uc ]
+[; ;main.c: 215: TRISDbits.RD4 = 0;
 "215
-[e = . . _LATDbits 0 4 -> -> 0 `i `uc ]
-[; ;main.c: 220: TRISEbits.RE0 = 0;
+[e = . . _TRISDbits 1 4 -> -> 0 `i `uc ]
+[; ;main.c: 216: TRISDbits.RD5 = 0;
+"216
+[e = . . _TRISDbits 1 5 -> -> 0 `i `uc ]
+[; ;main.c: 217: TRISDbits.RD7 = 0;
+"217
+[e = . . _TRISDbits 1 7 -> -> 0 `i `uc ]
+[; ;main.c: 218: LATDbits.LATD0 = 0;
+"218
+[e = . . _LATDbits 0 0 -> -> 0 `i `uc ]
+[; ;main.c: 219: LATDbits.LATD1 = 0;
+"219
+[e = . . _LATDbits 0 1 -> -> 0 `i `uc ]
+[; ;main.c: 220: LATDbits.LATD2 = 0;
 "220
-[e = . . _TRISEbits 1 0 -> -> 0 `i `uc ]
-[; ;main.c: 221: TRISEbits.RE1 = 0;
+[e = . . _LATDbits 0 2 -> -> 0 `i `uc ]
+[; ;main.c: 221: LATDbits.LATD4 = 0;
 "221
-[e = . . _TRISEbits 1 1 -> -> 0 `i `uc ]
-[; ;main.c: 222: TRISEbits.RE2 = 0;
-"222
-[e = . . _TRISEbits 1 2 -> -> 0 `i `uc ]
-[; ;main.c: 223: LATEbits.LATE0 = 0;
-"223
-[e = . . _LATEbits 0 0 -> -> 0 `i `uc ]
-[; ;main.c: 224: LATEbits.LATE1 = 0;
-"224
-[e = . . _LATEbits 0 1 -> -> 0 `i `uc ]
-[; ;main.c: 225: LATEbits.LATE2 = 0;
-"225
-[e = . . _LATEbits 0 2 -> -> 0 `i `uc ]
-[; ;main.c: 227: }
+[e = . . _LATDbits 0 4 -> -> 0 `i `uc ]
+[; ;main.c: 226: TRISEbits.RE0 = 0;
+"226
+[e = . . _TRISEbits 1 0 -> -> 0 `i `uc ]
+[; ;main.c: 227: TRISEbits.RE1 = 0;
 "227
+[e = . . _TRISEbits 1 1 -> -> 0 `i `uc ]
+[; ;main.c: 228: TRISEbits.RE2 = 0;
+"228
+[e = . . _TRISEbits 1 2 -> -> 0 `i `uc ]
+[; ;main.c: 229: LATEbits.LATE0 = 0;
+"229
+[e = . . _LATEbits 0 0 -> -> 0 `i `uc ]
+[; ;main.c: 230: LATEbits.LATE1 = 0;
+"230
+[e = . . _LATEbits 0 1 -> -> 0 `i `uc ]
+[; ;main.c: 231: LATEbits.LATE2 = 0;
+"231
+[e = . . _LATEbits 0 2 -> -> 0 `i `uc ]
+[; ;main.c: 233: }
+"233
 [e :UE 1176 ]
 }
-"229
+"235
 [v _LoRaSleep `(v ~T0 @X0 1 ef ]
-"230
+"236
 {
-[; ;main.c: 229: void LoRaSleep (void)
-[; ;main.c: 230: {
+[; ;main.c: 235: void LoRaSleep (void)
+[; ;main.c: 236: {
 [e :U _LoRaSleep ]
 [f ]
-[; ;main.c: 232: SSP2CON1 = 0x00;
-"232
+[; ;main.c: 238: SSP2CON1 = 0x00;
+"238
 [e = _SSP2CON1 -> -> 0 `i `uc ]
-[; ;main.c: 235: MSSP2MD = 1;
-"235
-[e = _MSSP2MD -> -> 1 `i `b ]
-[; ;main.c: 239: ANSD3 = 0;
-"239
-[e = _ANSD3 -> -> 0 `i `b ]
-[; ;main.c: 240: TRISD3 = 0;
-"240
-[e = _TRISD3 -> -> 0 `i `b ]
-[; ;main.c: 241: LATD3 = 1;
+[; ;main.c: 241: MSSP2MD = 1;
 "241
-[e = _LATD3 -> -> 1 `i `b ]
-[; ;main.c: 244: ANSD1 = 0;
-"244
-[e = _ANSD1 -> -> 0 `i `b ]
-[; ;main.c: 245: TRISD1 = 0;
+[e = _MSSP2MD -> -> 1 `i `b ]
+[; ;main.c: 245: ANSD3 = 0;
 "245
-[e = _TRISD1 -> -> 0 `i `b ]
-[; ;main.c: 246: LATD1 = 0;
+[e = _ANSD3 -> -> 0 `i `b ]
+[; ;main.c: 246: TRISD3 = 0;
 "246
-[e = _LATD1 -> -> 0 `i `b ]
-[; ;main.c: 249: ANSD4 = 0;
-"249
-[e = _ANSD4 -> -> 0 `i `b ]
-[; ;main.c: 250: TRISD4 = 0;
+[e = _TRISD3 -> -> 0 `i `b ]
+[; ;main.c: 247: LATD3 = 1;
+"247
+[e = _LATD3 -> -> 1 `i `b ]
+[; ;main.c: 250: ANSD1 = 0;
 "250
-[e = _TRISD4 -> -> 0 `i `b ]
-[; ;main.c: 251: LATD4 = 0;
+[e = _ANSD1 -> -> 0 `i `b ]
+[; ;main.c: 251: TRISD1 = 0;
 "251
-[e = _LATD4 -> -> 0 `i `b ]
-[; ;main.c: 254: ANSD0 = 0;
-"254
-[e = _ANSD0 -> -> 0 `i `b ]
-[; ;main.c: 255: TRISD0 = 0;
+[e = _TRISD1 -> -> 0 `i `b ]
+[; ;main.c: 252: LATD1 = 0;
+"252
+[e = _LATD1 -> -> 0 `i `b ]
+[; ;main.c: 255: ANSD4 = 0;
 "255
-[e = _TRISD0 -> -> 0 `i `b ]
-[; ;main.c: 256: LATD0 = 0;
+[e = _ANSD4 -> -> 0 `i `b ]
+[; ;main.c: 256: TRISD4 = 0;
 "256
-[e = _LATD0 -> -> 0 `i `b ]
-[; ;main.c: 257: }
+[e = _TRISD4 -> -> 0 `i `b ]
+[; ;main.c: 257: LATD4 = 0;
 "257
-[e :UE 1177 ]
-}
-"259
-[v _LoRaWakeUp `(v ~T0 @X0 1 ef ]
+[e = _LATD4 -> -> 0 `i `b ]
+[; ;main.c: 260: ANSD0 = 0;
 "260
-{
-[; ;main.c: 259: void LoRaWakeUp(void)
-[; ;main.c: 260: {
-[e :U _LoRaWakeUp ]
-[f ]
-[; ;main.c: 261: MSSP2MD = 0;
+[e = _ANSD0 -> -> 0 `i `b ]
+[; ;main.c: 261: TRISD0 = 0;
 "261
-[e = _MSSP2MD -> -> 0 `i `b ]
-[; ;main.c: 262: SPI2_Initialize();
+[e = _TRISD0 -> -> 0 `i `b ]
+[; ;main.c: 262: LATD0 = 0;
 "262
-[e ( _SPI2_Initialize ..  ]
+[e = _LATD0 -> -> 0 `i `b ]
 [; ;main.c: 263: }
 "263
+[e :UE 1177 ]
+}
+"265
+[v _LoRaWakeUp `(v ~T0 @X0 1 ef ]
+"266
+{
+[; ;main.c: 265: void LoRaWakeUp(void)
+[; ;main.c: 266: {
+[e :U _LoRaWakeUp ]
+[f ]
+[; ;main.c: 267: MSSP2MD = 0;
+"267
+[e = _MSSP2MD -> -> 0 `i `b ]
+[; ;main.c: 268: SPI2_Initialize();
+"268
+[e ( _SPI2_Initialize ..  ]
+[; ;main.c: 269: }
+"269
 [e :UE 1178 ]
 }

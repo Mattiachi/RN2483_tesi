@@ -40,6 +40,7 @@ void LoRaSleep(void);
 void LoRaWakeUp(void);
 
 uint8_t TimeToSend;
+uint8_t portNumber = 1;
 
 void main(void)
 {
@@ -67,8 +68,7 @@ void main(void)
     
     while (1)
     {   
-        LORAWAN_Mainloop();
-        LED_GREEN = 1;      
+        LORAWAN_Mainloop();      
         
         if(TimeToSend){
             LoRaWakeUp();
@@ -79,7 +79,6 @@ void main(void)
         
         if(LORAWAN_GetState() == IDLE){   // it's not transmitting nor receiving
             LoRaSleep();
-            LED_GREEN = 0;
             SLEEP();
         }
     }
@@ -102,6 +101,9 @@ void handle16sInterrupt() {
 
 void RxDataDone(uint8_t* pData, uint8_t dataLength, OpStatus_t status) 
 {
+    //This is a prototype for downlink. Any received data is stored in a buffer pointed by *pData with a lenght of dataLength bites
+    portNumber = pData[0];
+    LED_ORANGE = pData[1];
 }
 
 void RxJoinResponse(bool status)
@@ -110,12 +112,12 @@ void RxJoinResponse(bool status)
 }
 
 void readAndSend(void){
-    LED_ORANGE = 1;
+    LED_GREEN = 1;
     for(int j = 1; j<100; j++) __delay_ms(1);
     payload[0] = ADC_Read(TEMP);
     payload[1] = ADC_Read(LIGHT);
-    LORAWAN_Send(UNCNF, 2, &payload, sizeof(payload)); //4 is the number of bytes sent
-    LED_ORANGE = 0;
+    LORAWAN_Send(UNCNF, portNumber, &payload, sizeof(payload)); //4 is the number of bytes sent
+    LED_GREEN = 0;
     
 }
 

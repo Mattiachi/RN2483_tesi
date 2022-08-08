@@ -10404,7 +10404,7 @@ void SYSTEM_Initialize(void);
 # 93
 void OSCILLATOR_Initialize(void);
 
-# 14 "main.c"
+# 24 "main.c"
 void handle16sInterrupt();
 void IO_pins_init(void);
 void ADC_SelChannel(uint8_t c);
@@ -10424,6 +10424,7 @@ void LoRaSleep(void);
 void LoRaWakeUp(void);
 
 uint8_t TimeToSend;
+uint8_t portNumber = 1;
 
 void main(void)
 {
@@ -10452,7 +10453,6 @@ TimeToSend = 1;
 while (1)
 {
 LORAWAN_Mainloop();
-PORTDbits.RD5 = 1;
 
 if(TimeToSend){
 LoRaWakeUp();
@@ -10463,15 +10463,12 @@ TimeToSend = 0;
 
 if(LORAWAN_GetState() == IDLE){
 LoRaSleep();
-PORTDbits.RD5 = 0;
 asm(" sleep");
 }
 }
 }
 
 void handle16sInterrupt() {
-
-
 
 static volatile uint8_t counterSleepTimeout = 0;
 if( ++counterSleepTimeout == 85 )
@@ -10482,13 +10479,14 @@ counterSleepTimeout = 0;
 }
 else
 {
-
 asm(" sleep");
 }
 }
 
 void RxDataDone(uint8_t* pData, uint8_t dataLength, OpStatus_t status)
 {
+portNumber = pData[0];
+PORTCbits.RC5 = pData[1];
 }
 
 void RxJoinResponse(bool status)
@@ -10497,14 +10495,12 @@ PORTCbits.RC5 = 0;
 }
 
 void readAndSend(void){
-PORTCbits.RC5 = 1;
+PORTDbits.RD5 = 1;
 for(int j = 1; j<100; j++) _delay((unsigned long)((1)*(16000000/4000.0)));
 payload[0] = ADC_Read(27);
 payload[1] = ADC_Read(26);
-
-
-LORAWAN_Send(UNCNF, 2, &payload, sizeof(payload));
-PORTCbits.RC5 = 0;
+LORAWAN_Send(UNCNF, portNumber, &payload, sizeof(payload));
+PORTDbits.RD5 = 0;
 
 }
 
