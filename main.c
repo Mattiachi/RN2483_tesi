@@ -114,8 +114,6 @@ void readAndSend(void){
     for(int j = 1; j<100; j++) __delay_ms(1);
     payload[0] = ADC_Read(TEMP);
     payload[1] = ADC_Read(LIGHT);
-    //payload[0] = 0x00F0;
-    //payload[1] = 0x00FF;
     LORAWAN_Send(UNCNF, 2, &payload, sizeof(payload)); //4 is the number of bytes sent
     LED_ORANGE = 0;
     
