@@ -81,8 +81,9 @@ void main(void)
             LoRaSleep();
             SLEEP();
         }
-    }
-}
+        
+    } //end of while(1)
+} // end of main()
 
 void handle16sInterrupt() {
     
