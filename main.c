@@ -16,7 +16,7 @@
 
 #define LED_GREEN PORTDbits.RD5
 #define LED_ORANGE PORTCbits.RC5
-#define ONE_HOUR_TIMEOUT_COUNTS         85// set to 225 for 1 hour sleep
+#define ONE_HOUR_TIMEOUT_COUNTS         75// set to 225 for 1 hour sleep
 #define TEMP 27    //is the ADC channel of the pin 
 #define LIGHT 26
 
@@ -40,13 +40,13 @@ void LoRaSleep(void);
 void LoRaWakeUp(void);
 
 uint8_t TimeToSend;
-uint8_t portNumber = 1;
+uint8_t portNumber = 2;
 
 void main(void)
 {
 
     SYSTEM_Initialize();
-    // T3CONbits.T3CKPS = 0;     // if uncommented, the timer3 interrupt is requested after every 2 seconds
+    //T3CONbits.T3CKPS = 0;     // if uncommented, the timer3 interrupt is requested after every 2 seconds
     // Enable the Global Interrupts
     LED_ORANGE = 1;
     
@@ -63,7 +63,7 @@ void main(void)
     LORAWAN_SetDeviceAddress(devAddr);
     LORAWAN_Join(ABP);
     // Application main loop
-       
+    
     TimeToSend = 1;
     
     while (1)
@@ -103,8 +103,10 @@ void handle16sInterrupt() {
 void RxDataDone(uint8_t* pData, uint8_t dataLength, OpStatus_t status) 
 {
     //This is a prototype for downlink. Any received data is stored in a buffer pointed by *pData with a lenght of dataLength bites
-    portNumber = pData[0];
-    LED_ORANGE = pData[1];
+//    if(status == MAC_OK){
+//            portNumber = pData[0];
+//            LED_ORANGE = pData[1];
+//    }
 }
 
 void RxJoinResponse(bool status)
