@@ -10404,7 +10404,7 @@ void SYSTEM_Initialize(void);
 # 93
 void OSCILLATOR_Initialize(void);
 
-# 24 "main.c"
+# 26 "main.c"
 void handle16sInterrupt();
 void IO_pins_init(void);
 void ADC_SelChannel(uint8_t c);

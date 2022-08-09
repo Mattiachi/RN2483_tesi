@@ -262,7 +262,7 @@ FRAME_TYPE_DATA_CONFIRMED_DOWN 5
 FRAME_TYPE_RFU 6
 FRAME_TYPE_PROPRIETARY 7
 ]
-"59 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"61 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
 [e E8000 . `uc
 MAC_NOT_OK 0
 MAC_OK 1
@@ -271,7 +271,7 @@ RADIO_OK 3
 INVALID_BUFFER_LEN 4
 MCAST_RE_KEYING_NEEDED 5
 ]
-"63
+"65
 [e E8008 . `uc
 OTAA 0
 ABP 1
@@ -291,7 +291,7 @@ INVALID_CLASS 10
 MCAST_PARAM_ERROR 11
 MCAST_MSG_ERROR 12
 ]
-"79
+"81
 [e E8243 . `uc
 IDLE 0
 TRANSMISSION_OCCURRING 1
@@ -304,7 +304,7 @@ ABP_DELAY 7
 CLASS_C_RX2_1_OPEN 8
 CLASS_C_RX2_2_OPEN 9
 ]
-"124
+"126
 [e E8012 . `uc
 UNCNF 0
 CNF 1
@@ -345,29 +345,29 @@ CNF 1
 [v ___flmul __flmul `(d  1 e 3 0 ]
 "15 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\Umul32.c
 [v ___lmul __lmul `(ul  1 e 4 0 ]
-"46 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"48 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
 [v _main main `(v  1 e 1 0 ]
-"87
+"89
 [v _handle16sInterrupt handle16sInterrupt `(v  1 e 1 0 ]
-"102
+"104
 [v _RxDataDone RxDataDone `(v  1 e 1 0 ]
-"115
+"117
 [v _RxJoinResponse RxJoinResponse `(v  1 e 1 0 ]
-"120
+"122
 [v _readAndSend readAndSend `(v  1 e 1 0 ]
-"128
+"130
 [v _IO_pins_init IO_pins_init `(v  1 e 1 0 ]
-"140
+"142
 [v _ADC_SelChannel ADC_SelChannel `(v  1 e 1 0 ]
-"145
+"147
 [v _ADC_Read ADC_Read `(ui  1 e 2 0 ]
-"156
+"158
 [v _ADC_Init ADC_Init `(v  1 e 1 0 ]
-"163
+"165
 [v _SysConfigSleep SysConfigSleep `(v  1 e 1 0 ]
-"240
+"242
 [v _LoRaSleep LoRaSleep `(v  1 e 1 0 ]
-"270
+"272
 [v _LoRaWakeUp LoRaWakeUp `(v  1 e 1 0 ]
 "45 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/ext_int.c
 [v _INT1_ISR INT1_ISR `(v  1 e 1 0 ]
@@ -1720,15 +1720,15 @@ CNF 1
 [v _UART2MD UART2MD `VEb  1 e 0 @31231 ]
 "3 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\rand.c
 [v _randx randx `l  1 s 4 randx ]
-"33 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"35 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
 [v _nwkSKey nwkSKey `[16]uc  1 e 16 0 ]
-"34
-[v _appSKey appSKey `[16]uc  1 e 16 0 ]
 "36
+[v _appSKey appSKey `[16]uc  1 e 16 0 ]
+"38
 [v _payload payload `[2]ui  1 e 4 0 ]
-"42
-[v _TimeToSend TimeToSend `uc  1 e 1 0 ]
 "44
+[v _TimeToSend TimeToSend `uc  1 e 1 0 ]
+"46
 [v _ONE_HOUR_TIMEOUT_COUNTS ONE_HOUR_TIMEOUT_COUNTS `uc  1 e 1 0 ]
 "38 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/ext_int.c
 [v _INT1_InterruptHandler INT1_InterruptHandler `*.37(v  1 e 2 0 ]
@@ -1867,42 +1867,42 @@ CNF 1
 [v _timer3ReloadVal timer3ReloadVal `VEui  1 e 2 0 ]
 "57
 [v _TMR3_InterruptHandler TMR3_InterruptHandler `*.37(v  1 e 2 0 ]
-"46 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"48 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"85
+"87
 } 0
-"120
+"122
 [v _readAndSend readAndSend `(v  1 e 1 0 ]
 {
-"121
+"123
 [v readAndSend@j j `i  1 a 2 126 ]
-"126
+"128
 } 0
-"145
+"147
 [v _ADC_Read ADC_Read `(ui  1 e 2 0 ]
 {
 [v ADC_Read@channel channel `uc  1 a 1 wreg ]
-"146
+"148
 [v ADC_Read@result result `ui  1 a 2 11 ]
-"145
-[v ADC_Read@channel channel `uc  1 a 1 wreg ]
 "147
+[v ADC_Read@channel channel `uc  1 a 1 wreg ]
+"149
 [v ADC_Read@channel channel `uc  1 a 1 10 ]
-"154
+"156
 } 0
-"140
+"142
 [v _ADC_SelChannel ADC_SelChannel `(v  1 e 1 0 ]
 {
 [v ADC_SelChannel@c c `uc  1 a 1 wreg ]
 [v ADC_SelChannel@c c `uc  1 a 1 wreg ]
 [v ADC_SelChannel@c c `uc  1 a 1 5 ]
-"143
+"145
 } 0
-"163
+"165
 [v _SysConfigSleep SysConfigSleep `(v  1 e 1 0 ]
 {
-"238
+"240
 } 0
 "111 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
@@ -2030,20 +2030,20 @@ CNF 1
 [v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.2v  1 p 2 4 ]
 "156
 } 0
-"270 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"272 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
 [v _LoRaWakeUp LoRaWakeUp `(v  1 e 1 0 ]
 {
-"274
+"276
 } 0
 "63 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/spi2.c
 [v _SPI2_Initialize SPI2_Initialize `(v  1 e 1 0 ]
 {
 "75
 } 0
-"240 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"242 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
 [v _LoRaSleep LoRaSleep `(v  1 e 1 0 ]
 {
-"268
+"270
 } 0
 "379 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _LORAWAN_SetNetworkSessionKey LORAWAN_SetNetworkSessionKey `(v  1 e 1 0 ]
@@ -2369,10 +2369,10 @@ CNF 1
 {
 "1113
 } 0
-"115 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"117 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
 [v _RxJoinResponse RxJoinResponse `(v  1 e 1 0 ]
 {
-"118
+"120
 } 0
 "1575 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _MacExecuteCommands MacExecuteCommands `(*.39uc  1 s 2 MacExecuteCommands ]
@@ -2917,13 +2917,13 @@ CNF 1
 {
 "932
 } 0
-"102 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"104 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
 [v _RxDataDone RxDataDone `(v  1 e 1 0 ]
 {
 [v RxDataDone@pData pData `*.39uc  1 p 2 7 ]
 [v RxDataDone@dataLength dataLength `uc  1 p 1 9 ]
 [v RxDataDone@status status `E8000  1 p 1 10 ]
-"113
+"115
 } 0
 "436 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _LORAWAN_SetCurrentDataRate LORAWAN_SetCurrentDataRate `(E7957  1 e 1 0 ]
@@ -3729,15 +3729,15 @@ CNF 1
 {
 "2236
 } 0
-"128 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"130 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
 [v _IO_pins_init IO_pins_init `(v  1 e 1 0 ]
 {
-"139
+"141
 } 0
-"156
+"158
 [v _ADC_Init ADC_Init `(v  1 e 1 0 ]
 {
-"161
+"163
 } 0
 "57 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
@@ -3759,12 +3759,12 @@ CNF 1
 {
 "190
 } 0
-"87 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"89 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
 [v _handle16sInterrupt handle16sInterrupt `(v  1 e 1 0 ]
 {
-"89
+"91
 [v handle16sInterrupt@counterSleepTimeout counterSleepTimeout `VEuc  1 s 1 counterSleepTimeout ]
-"100
+"102
 } 0
 "159 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr1.c
 [v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
