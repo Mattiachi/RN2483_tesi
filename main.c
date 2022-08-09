@@ -5,6 +5,8 @@
  * 
  * main.c
  * 
+ *  WARNING:       Use only tested compilers, otherwise it will probably not work
+ * 
  * This program enstablish an ABP LoRaWAN communication once every hour sending 
  * out temperature and light telemetry to the ChirpStack server on port 2.
  * When the MCU is not sending it's sleeping.
@@ -16,18 +18,18 @@
 
 #define LED_GREEN PORTDbits.RD5
 #define LED_ORANGE PORTCbits.RC5
-#define ONE_HOUR_TIMEOUT_COUNTS         75// set to 225 for 1 hour sleep
 #define TEMP 27    //is the ADC channel of the pin 
 #define LIGHT 26
+#define DOWNLINK_PORT   30      // Must match with the port from chirpstack
 
 
 void handle16sInterrupt();
-void IO_pins_init(void);
-void ADC_SelChannel(uint8_t c);
+void IO_pins_init(void);                
+void ADC_SelChannel(uint8_t c);         
 uint16_t ADC_Read(uint8_t channel);
 void ADC_Init(void);
-void SysConfigSleep(void);
-void readAndSend(void);
+void SysConfigSleep(void);              
+void readAndSend(void);                 
 
 // LoRaWAN stuff
 uint8_t nwkSKey[16] = {0x75, 0xE0, 0x66, 0x1A, 0xA0, 0xBC, 0x21, 0xE4, 0x4B, 0x57, 0x21, 0xB0, 0xD6, 0x30, 0xF7, 0xB2};
@@ -41,38 +43,37 @@ void LoRaWakeUp(void);
 
 uint8_t TimeToSend;
 uint8_t portNumber = 2;
+uint8_t ONE_HOUR_TIMEOUT_COUNTS = 4;        // Set to 225 for a hour countdown
 
 void main(void)
 {
-
-    SYSTEM_Initialize();
-    //T3CONbits.T3CKPS = 0;     // if uncommented, the timer3 interrupt is requested after every 2 seconds
-    // Enable the Global Interrupts
-    LED_ORANGE = 1;
+    SYSTEM_Initialize();        // Function called by MCC to initialize timers, interrupts, oscillators and SPI
+    LED_ORANGE = 1;             // The orange led is turned off from the callback function "RxJoinResponse" indicating the LoRaWAN stack was initialized properly
     
+     // Enable the Global & Peripheral Interrupts
     INTERRUPT_GlobalInterruptEnable();
     INTERRUPT_PeripheralInterruptEnable();
-    TMR3_SetInterruptHandler(handle16sInterrupt);
-    SysConfigSleep();
-    ADC_Init();
-    IO_pins_init();
+    TMR3_SetInterruptHandler(handle16sInterrupt);   //Attaching the function "handle16sInterrupt" as a callback of timer3 interrupt
+    SysConfigSleep();                               // Turns off all peripherals and pins not needed during sleep to minimize consumes
+    ADC_Init();                         
+    IO_pins_init();                                 // Initializes the leds and analog pins
     
     LORAWAN_Init(RxDataDone, RxJoinResponse);
     LORAWAN_SetNetworkSessionKey(nwkSKey);
     LORAWAN_SetApplicationSessionKey(appSKey);
     LORAWAN_SetDeviceAddress(devAddr);
     LORAWAN_Join(ABP);
-    // Application main loop
     
+    // Application main loop
     TimeToSend = 1;
     
     while (1)
     {   
-        LORAWAN_Mainloop();      
+        LORAWAN_Mainloop();         // Has to be called once per loop (runs system timers and check DIO pins)
         
         if(TimeToSend){
             LoRaWakeUp();
-            readAndSend();  // While transmitting orange led is lit
+            readAndSend(); 
             TimeToSend = 0;
             
         }
@@ -103,10 +104,14 @@ void handle16sInterrupt() {
 void RxDataDone(uint8_t* pData, uint8_t dataLength, OpStatus_t status) 
 {
     //This is a prototype for downlink. Any received data is stored in a buffer pointed by *pData with a lenght of dataLength bites
-//    if(status == MAC_OK){
-//            portNumber = pData[0];
-//            LED_ORANGE = pData[1];
-//    }
+    // pData[0] is the fport used from the gateway in downlink
+    
+    if(pData[0]==DOWNLINK_PORT){
+        LORAWAN_SetCurrentDataRate(pData[1]);
+        LED_ORANGE = pData[2];
+        LED_GREEN = pData[3];
+        ONE_HOUR_TIMEOUT_COUNTS = pData[4];
+    }
 }
 
 void RxJoinResponse(bool status)
@@ -115,12 +120,10 @@ void RxJoinResponse(bool status)
 }
 
 void readAndSend(void){
-    LED_GREEN = 1;
     for(int j = 1; j<100; j++) __delay_ms(1);
     payload[0] = ADC_Read(TEMP);
     payload[1] = ADC_Read(LIGHT);
     LORAWAN_Send(UNCNF, portNumber, &payload, sizeof(payload)); //4 is the number of bytes sent
-    LED_GREEN = 0;
     
 }
 

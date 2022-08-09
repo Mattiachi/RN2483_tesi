@@ -10425,14 +10425,13 @@ void LoRaWakeUp(void);
 
 uint8_t TimeToSend;
 uint8_t portNumber = 2;
+uint8_t ONE_HOUR_TIMEOUT_COUNTS = 4;
 
 void main(void)
 {
-
 SYSTEM_Initialize();
-
-
 PORTCbits.RC5 = 1;
+
 
 (INTCONbits.GIE = 1);
 (INTCONbits.PEIE = 1);
@@ -10472,7 +10471,7 @@ asm(" sleep");
 void handle16sInterrupt() {
 
 static volatile uint8_t counterSleepTimeout = 0;
-if( ++counterSleepTimeout == 75 )
+if( ++counterSleepTimeout == ONE_HOUR_TIMEOUT_COUNTS )
 {
 
 TimeToSend = 1;
@@ -10487,7 +10486,14 @@ asm(" sleep");
 void RxDataDone(uint8_t* pData, uint8_t dataLength, OpStatus_t status)
 {
 
-# 110
+
+
+if(pData[0]==30){
+LORAWAN_SetCurrentDataRate(pData[1]);
+PORTCbits.RC5 = pData[2];
+PORTDbits.RD5 = pData[3];
+ONE_HOUR_TIMEOUT_COUNTS = pData[4];
+}
 }
 
 void RxJoinResponse(bool status)
@@ -10496,12 +10502,10 @@ PORTCbits.RC5 = 0;
 }
 
 void readAndSend(void){
-PORTDbits.RD5 = 1;
 for(int j = 1; j<100; j++) _delay((unsigned long)((1)*(16000000/4000.0)));
 payload[0] = ADC_Read(27);
 payload[1] = ADC_Read(26);
 LORAWAN_Send(UNCNF, portNumber, &payload, sizeof(payload));
-PORTDbits.RD5 = 0;
 
 }
 

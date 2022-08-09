@@ -262,7 +262,7 @@ FRAME_TYPE_DATA_CONFIRMED_DOWN 5
 FRAME_TYPE_RFU 6
 FRAME_TYPE_PROPRIETARY 7
 ]
-"60 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"59 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
 [e E8000 . `uc
 MAC_NOT_OK 0
 MAC_OK 1
@@ -271,7 +271,7 @@ RADIO_OK 3
 INVALID_BUFFER_LEN 4
 MCAST_RE_KEYING_NEEDED 5
 ]
-"64
+"63
 [e E8008 . `uc
 OTAA 0
 ABP 1
@@ -291,7 +291,7 @@ INVALID_CLASS 10
 MCAST_PARAM_ERROR 11
 MCAST_MSG_ERROR 12
 ]
-"80
+"79
 [e E8243 . `uc
 IDLE 0
 TRANSMISSION_OCCURRING 1
@@ -304,7 +304,7 @@ ABP_DELAY 7
 CLASS_C_RX2_1_OPEN 8
 CLASS_C_RX2_2_OPEN 9
 ]
-"122
+"124
 [e E8012 . `uc
 UNCNF 0
 CNF 1
@@ -345,29 +345,29 @@ CNF 1
 [v ___flmul __flmul `(d  1 e 3 0 ]
 "15 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\Umul32.c
 [v ___lmul __lmul `(ul  1 e 4 0 ]
-"45 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"46 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
 [v _main main `(v  1 e 1 0 ]
-"88
+"87
 [v _handle16sInterrupt handle16sInterrupt `(v  1 e 1 0 ]
-"103
+"102
 [v _RxDataDone RxDataDone `(v  1 e 1 0 ]
-"112
+"115
 [v _RxJoinResponse RxJoinResponse `(v  1 e 1 0 ]
-"117
+"120
 [v _readAndSend readAndSend `(v  1 e 1 0 ]
-"127
+"128
 [v _IO_pins_init IO_pins_init `(v  1 e 1 0 ]
-"139
+"140
 [v _ADC_SelChannel ADC_SelChannel `(v  1 e 1 0 ]
-"144
+"145
 [v _ADC_Read ADC_Read `(ui  1 e 2 0 ]
-"155
+"156
 [v _ADC_Init ADC_Init `(v  1 e 1 0 ]
-"162
+"163
 [v _SysConfigSleep SysConfigSleep `(v  1 e 1 0 ]
-"239
+"240
 [v _LoRaSleep LoRaSleep `(v  1 e 1 0 ]
-"269
+"270
 [v _LoRaWakeUp LoRaWakeUp `(v  1 e 1 0 ]
 "45 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/ext_int.c
 [v _INT1_ISR INT1_ISR `(v  1 e 1 0 ]
@@ -423,6 +423,8 @@ CNF 1
 [v _LORAWAN_SetNetworkSessionKey LORAWAN_SetNetworkSessionKey `(v  1 e 1 0 ]
 "394
 [v _LORAWAN_SetApplicationSessionKey LORAWAN_SetApplicationSessionKey `(v  1 e 1 0 ]
+"436
+[v _LORAWAN_SetCurrentDataRate LORAWAN_SetCurrentDataRate `(E7957  1 e 1 0 ]
 "755
 [v _LORAWAN_LinkCheckConfigure LORAWAN_LinkCheckConfigure `(v  1 e 1 0 ]
 "796
@@ -794,7 +796,7 @@ CNF 1
 [v _ANSELB ANSELB `VEuc  1 e 1 @3897 ]
 "142
 [v _ANSELC ANSELC `VEuc  1 e 1 @3898 ]
-[s S4593 . 1 `uc 1 . 1 0 :2:0 
+[s S4594 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 ANSC2 1 0 :1:2 
 `uc 1 ANSC3 1 0 :1:3 
 `uc 1 ANSC4 1 0 :1:4 
@@ -803,11 +805,11 @@ CNF 1
 `uc 1 ANSC7 1 0 :1:7 
 ]
 "158
-[u S4601 . 1 `S4593 1 . 1 0 ]
-[v _ANSELCbits ANSELCbits `VES4601  1 e 1 @3898 ]
+[u S4602 . 1 `S4594 1 . 1 0 ]
+[v _ANSELCbits ANSELCbits `VES4602  1 e 1 @3898 ]
 "192
 [v _ANSELD ANSELD `VEuc  1 e 1 @3899 ]
-[s S4612 . 1 `uc 1 ANSD0 1 0 :1:0 
+[s S4613 . 1 `uc 1 ANSD0 1 0 :1:0 
 `uc 1 ANSD1 1 0 :1:1 
 `uc 1 ANSD2 1 0 :1:2 
 `uc 1 ANSD3 1 0 :1:3 
@@ -817,8 +819,8 @@ CNF 1
 `uc 1 ANSD7 1 0 :1:7 
 ]
 "209
-[u S4621 . 1 `S4612 1 . 1 0 ]
-[v _ANSELDbits ANSELDbits `VES4621  1 e 1 @3899 ]
+[u S4622 . 1 `S4613 1 . 1 0 ]
+[v _ANSELDbits ANSELDbits `VES4622  1 e 1 @3899 ]
 "253
 [v _ANSELE ANSELE `VEuc  1 e 1 @3900 ]
 "2688
@@ -1118,7 +1120,7 @@ CNF 1
 ]
 [u S4213 . 1 `S4153 1 . 1 0 `S4162 1 . 1 0 `S4171 1 . 1 0 `S4180 1 . 1 0 `S4189 1 . 1 0 `S4198 1 . 1 0 `S4207 1 . 1 0 `S4210 1 . 1 0 ]
 [v _PORTCbits PORTCbits `VES4213  1 e 1 @3970 ]
-[s S4395 . 1 `uc 1 RD0 1 0 :1:0 
+[s S4396 . 1 `uc 1 RD0 1 0 :1:0 
 `uc 1 RD1 1 0 :1:1 
 `uc 1 RD2 1 0 :1:2 
 `uc 1 RD3 1 0 :1:3 
@@ -1128,7 +1130,7 @@ CNF 1
 `uc 1 RD7 1 0 :1:7 
 ]
 "7297
-[s S4404 . 1 `uc 1 . 1 0 :2:0 
+[s S4405 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 P2B 1 0 :1:2 
 `uc 1 P2C 1 0 :1:3 
 `uc 1 P2D 1 0 :1:4 
@@ -1136,16 +1138,16 @@ CNF 1
 `uc 1 P1C 1 0 :1:6 
 `uc 1 P1D 1 0 :1:7 
 ]
-[s S4412 . 1 `uc 1 . 1 0 :1:0 
+[s S4413 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 CCP4 1 0 :1:1 
 `uc 1 . 1 0 :4:2 
 `uc 1 TX2 1 0 :1:6 
 `uc 1 RX2 1 0 :1:7 
 ]
-[s S4418 . 1 `uc 1 . 1 0 :3:0 
+[s S4419 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 NOT_SS2 1 0 :1:3 
 ]
-[s S4421 . 1 `uc 1 SCK2 1 0 :1:0 
+[s S4422 . 1 `uc 1 SCK2 1 0 :1:0 
 `uc 1 SDI2 1 0 :1:1 
 `uc 1 . 1 0 :1:2 
 `uc 1 nSS2 1 0 :1:3 
@@ -1154,12 +1156,12 @@ CNF 1
 `uc 1 CK2 1 0 :1:6 
 `uc 1 DT2 1 0 :1:7 
 ]
-[s S4430 . 1 `uc 1 SCL2 1 0 :1:0 
+[s S4431 . 1 `uc 1 SCL2 1 0 :1:0 
 `uc 1 SDA2 1 0 :1:1 
 `uc 1 . 1 0 :1:2 
 `uc 1 SS2 1 0 :1:3 
 ]
-[s S4435 . 1 `uc 1 AN20 1 0 :1:0 
+[s S4436 . 1 `uc 1 AN20 1 0 :1:0 
 `uc 1 AN21 1 0 :1:1 
 `uc 1 AN22 1 0 :1:2 
 `uc 1 AN23 1 0 :1:3 
@@ -1168,13 +1170,13 @@ CNF 1
 `uc 1 AN26 1 0 :1:6 
 `uc 1 AN27 1 0 :1:7 
 ]
-[u S4444 . 1 `S4395 1 . 1 0 `S4404 1 . 1 0 `S4412 1 . 1 0 `S4418 1 . 1 0 `S4421 1 . 1 0 `S4430 1 . 1 0 `S4435 1 . 1 0 ]
-[v _PORTDbits PORTDbits `VES4444  1 e 1 @3971 ]
+[u S4445 . 1 `S4396 1 . 1 0 `S4405 1 . 1 0 `S4413 1 . 1 0 `S4419 1 . 1 0 `S4422 1 . 1 0 `S4431 1 . 1 0 `S4436 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES4445  1 e 1 @3971 ]
 "7668
 [v _LATA LATA `VEuc  1 e 1 @3977 ]
 "7800
 [v _LATB LATB `VEuc  1 e 1 @3978 ]
-[s S4791 . 1 `uc 1 LATB0 1 0 :1:0 
+[s S4792 . 1 `uc 1 LATB0 1 0 :1:0 
 `uc 1 LATB1 1 0 :1:1 
 `uc 1 LATB2 1 0 :1:2 
 `uc 1 LATB3 1 0 :1:3 
@@ -1184,34 +1186,34 @@ CNF 1
 `uc 1 LATB7 1 0 :1:7 
 ]
 "7848
-[s S4800 . 1 `uc 1 LB0 1 0 :1:0 
+[s S4801 . 1 `uc 1 LB0 1 0 :1:0 
 ]
-[s S4802 . 1 `uc 1 . 1 0 :1:0 
+[s S4803 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 LB1 1 0 :1:1 
 ]
-[s S4805 . 1 `uc 1 . 1 0 :2:0 
+[s S4806 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 LB2 1 0 :1:2 
 ]
-[s S4808 . 1 `uc 1 . 1 0 :3:0 
+[s S4809 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 LB3 1 0 :1:3 
 ]
-[s S4811 . 1 `uc 1 . 1 0 :4:0 
+[s S4812 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 LB4 1 0 :1:4 
 ]
-[s S4814 . 1 `uc 1 . 1 0 :5:0 
+[s S4815 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 LB5 1 0 :1:5 
 ]
-[s S4817 . 1 `uc 1 . 1 0 :6:0 
+[s S4818 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 LB6 1 0 :1:6 
 ]
-[s S4820 . 1 `uc 1 . 1 0 :7:0 
+[s S4821 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 LB7 1 0 :1:7 
 ]
-[u S4823 . 1 `S4791 1 . 1 0 `S4800 1 . 1 0 `S4802 1 . 1 0 `S4805 1 . 1 0 `S4808 1 . 1 0 `S4811 1 . 1 0 `S4814 1 . 1 0 `S4817 1 . 1 0 `S4820 1 . 1 0 ]
-[v _LATBbits LATBbits `VES4823  1 e 1 @3978 ]
+[u S4824 . 1 `S4792 1 . 1 0 `S4801 1 . 1 0 `S4803 1 . 1 0 `S4806 1 . 1 0 `S4809 1 . 1 0 `S4812 1 . 1 0 `S4815 1 . 1 0 `S4818 1 . 1 0 `S4821 1 . 1 0 ]
+[v _LATBbits LATBbits `VES4824  1 e 1 @3978 ]
 "7932
 [v _LATC LATC `VEuc  1 e 1 @3979 ]
-[s S4866 . 1 `uc 1 LATC0 1 0 :1:0 
+[s S4867 . 1 `uc 1 LATC0 1 0 :1:0 
 `uc 1 LATC1 1 0 :1:1 
 `uc 1 LATC2 1 0 :1:2 
 `uc 1 LATC3 1 0 :1:3 
@@ -1221,34 +1223,34 @@ CNF 1
 `uc 1 LATC7 1 0 :1:7 
 ]
 "7980
-[s S4875 . 1 `uc 1 LC0 1 0 :1:0 
+[s S4876 . 1 `uc 1 LC0 1 0 :1:0 
 ]
-[s S4877 . 1 `uc 1 . 1 0 :1:0 
+[s S4878 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 LC1 1 0 :1:1 
 ]
-[s S4880 . 1 `uc 1 . 1 0 :2:0 
+[s S4881 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 LC2 1 0 :1:2 
 ]
-[s S4883 . 1 `uc 1 . 1 0 :3:0 
+[s S4884 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 LC3 1 0 :1:3 
 ]
-[s S4886 . 1 `uc 1 . 1 0 :4:0 
+[s S4887 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 LC4 1 0 :1:4 
 ]
-[s S4889 . 1 `uc 1 . 1 0 :5:0 
+[s S4890 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 LC5 1 0 :1:5 
 ]
-[s S4892 . 1 `uc 1 . 1 0 :6:0 
+[s S4893 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 LC6 1 0 :1:6 
 ]
-[s S4895 . 1 `uc 1 . 1 0 :7:0 
+[s S4896 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 LC7 1 0 :1:7 
 ]
-[u S4898 . 1 `S4866 1 . 1 0 `S4875 1 . 1 0 `S4877 1 . 1 0 `S4880 1 . 1 0 `S4883 1 . 1 0 `S4886 1 . 1 0 `S4889 1 . 1 0 `S4892 1 . 1 0 `S4895 1 . 1 0 ]
-[v _LATCbits LATCbits `VES4898  1 e 1 @3979 ]
+[u S4899 . 1 `S4867 1 . 1 0 `S4876 1 . 1 0 `S4878 1 . 1 0 `S4881 1 . 1 0 `S4884 1 . 1 0 `S4887 1 . 1 0 `S4890 1 . 1 0 `S4893 1 . 1 0 `S4896 1 . 1 0 ]
+[v _LATCbits LATCbits `VES4899  1 e 1 @3979 ]
 "8064
 [v _LATD LATD `VEuc  1 e 1 @3980 ]
-[s S4941 . 1 `uc 1 LATD0 1 0 :1:0 
+[s S4942 . 1 `uc 1 LATD0 1 0 :1:0 
 `uc 1 LATD1 1 0 :1:1 
 `uc 1 LATD2 1 0 :1:2 
 `uc 1 LATD3 1 0 :1:3 
@@ -1258,53 +1260,53 @@ CNF 1
 `uc 1 LATD7 1 0 :1:7 
 ]
 "8112
-[s S4950 . 1 `uc 1 LD0 1 0 :1:0 
+[s S4951 . 1 `uc 1 LD0 1 0 :1:0 
 ]
-[s S4952 . 1 `uc 1 . 1 0 :1:0 
+[s S4953 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 LD1 1 0 :1:1 
 ]
-[s S4955 . 1 `uc 1 . 1 0 :2:0 
+[s S4956 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 LD2 1 0 :1:2 
 ]
-[s S4958 . 1 `uc 1 . 1 0 :3:0 
+[s S4959 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 LD3 1 0 :1:3 
 ]
-[s S4961 . 1 `uc 1 . 1 0 :4:0 
+[s S4962 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 LD4 1 0 :1:4 
 ]
-[s S4964 . 1 `uc 1 . 1 0 :5:0 
+[s S4965 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 LD5 1 0 :1:5 
 ]
-[s S4967 . 1 `uc 1 . 1 0 :6:0 
+[s S4968 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 LD6 1 0 :1:6 
 ]
-[s S4970 . 1 `uc 1 . 1 0 :7:0 
+[s S4971 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 LD7 1 0 :1:7 
 ]
-[u S4973 . 1 `S4941 1 . 1 0 `S4950 1 . 1 0 `S4952 1 . 1 0 `S4955 1 . 1 0 `S4958 1 . 1 0 `S4961 1 . 1 0 `S4964 1 . 1 0 `S4967 1 . 1 0 `S4970 1 . 1 0 ]
-[v _LATDbits LATDbits `VES4973  1 e 1 @3980 ]
+[u S4974 . 1 `S4942 1 . 1 0 `S4951 1 . 1 0 `S4953 1 . 1 0 `S4956 1 . 1 0 `S4959 1 . 1 0 `S4962 1 . 1 0 `S4965 1 . 1 0 `S4968 1 . 1 0 `S4971 1 . 1 0 ]
+[v _LATDbits LATDbits `VES4974  1 e 1 @3980 ]
 "8196
 [v _LATE LATE `VEuc  1 e 1 @3981 ]
-[s S5040 . 1 `uc 1 LATE0 1 0 :1:0 
+[s S5041 . 1 `uc 1 LATE0 1 0 :1:0 
 `uc 1 LATE1 1 0 :1:1 
 `uc 1 LATE2 1 0 :1:2 
 ]
 "8219
-[s S5044 . 1 `uc 1 LE0 1 0 :1:0 
+[s S5045 . 1 `uc 1 LE0 1 0 :1:0 
 ]
-[s S5046 . 1 `uc 1 . 1 0 :1:0 
+[s S5047 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 LE1 1 0 :1:1 
 ]
-[s S5049 . 1 `uc 1 . 1 0 :2:0 
+[s S5050 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 LE2 1 0 :1:2 
 ]
-[u S5052 . 1 `S5040 1 . 1 0 `S5044 1 . 1 0 `S5046 1 . 1 0 `S5049 1 . 1 0 ]
-[v _LATEbits LATEbits `VES5052  1 e 1 @3981 ]
+[u S5053 . 1 `S5041 1 . 1 0 `S5045 1 . 1 0 `S5047 1 . 1 0 `S5050 1 . 1 0 ]
+[v _LATEbits LATEbits `VES5053  1 e 1 @3981 ]
 "8253
 [v _TRISA TRISA `VEuc  1 e 1 @3986 ]
 "8474
 [v _TRISB TRISB `VEuc  1 e 1 @3987 ]
-[s S4751 . 1 `uc 1 TRISB0 1 0 :1:0 
+[s S4752 . 1 `uc 1 TRISB0 1 0 :1:0 
 `uc 1 TRISB1 1 0 :1:1 
 `uc 1 TRISB2 1 0 :1:2 
 `uc 1 TRISB3 1 0 :1:3 
@@ -1314,11 +1316,11 @@ CNF 1
 `uc 1 TRISB7 1 0 :1:7 
 ]
 "8506
-[u S4769 . 1 `S4751 1 . 1 0 `S760 1 . 1 0 ]
-[v _TRISBbits TRISBbits `VES4769  1 e 1 @3987 ]
+[u S4770 . 1 `S4752 1 . 1 0 `S760 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES4770  1 e 1 @3987 ]
 "8695
 [v _TRISC TRISC `VEuc  1 e 1 @3988 ]
-[s S4513 . 1 `uc 1 TRISC0 1 0 :1:0 
+[s S4514 . 1 `uc 1 TRISC0 1 0 :1:0 
 `uc 1 TRISC1 1 0 :1:1 
 `uc 1 TRISC2 1 0 :1:2 
 `uc 1 TRISC3 1 0 :1:3 
@@ -1328,11 +1330,11 @@ CNF 1
 `uc 1 TRISC7 1 0 :1:7 
 ]
 "8727
-[u S4531 . 1 `S4513 1 . 1 0 `S4153 1 . 1 0 ]
-[v _TRISCbits TRISCbits `VES4531  1 e 1 @3988 ]
+[u S4532 . 1 `S4514 1 . 1 0 `S4153 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES4532  1 e 1 @3988 ]
 "8916
 [v _TRISD TRISD `VEuc  1 e 1 @3989 ]
-[s S4553 . 1 `uc 1 TRISD0 1 0 :1:0 
+[s S4554 . 1 `uc 1 TRISD0 1 0 :1:0 
 `uc 1 TRISD1 1 0 :1:1 
 `uc 1 TRISD2 1 0 :1:2 
 `uc 1 TRISD3 1 0 :1:3 
@@ -1342,23 +1344,23 @@ CNF 1
 `uc 1 TRISD7 1 0 :1:7 
 ]
 "8948
-[u S4571 . 1 `S4553 1 . 1 0 `S4395 1 . 1 0 ]
-[v _TRISDbits TRISDbits `VES4571  1 e 1 @3989 ]
+[u S4572 . 1 `S4554 1 . 1 0 `S4396 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES4572  1 e 1 @3989 ]
 "9137
 [v _TRISE TRISE `VEuc  1 e 1 @3990 ]
-[s S5016 . 1 `uc 1 TRISE0 1 0 :1:0 
+[s S5017 . 1 `uc 1 TRISE0 1 0 :1:0 
 `uc 1 TRISE1 1 0 :1:1 
 `uc 1 TRISE2 1 0 :1:2 
 `uc 1 . 1 0 :4:3 
 `uc 1 WPUE3 1 0 :1:7 
 ]
 "9161
-[s S5022 . 1 `uc 1 RE0 1 0 :1:0 
+[s S5023 . 1 `uc 1 RE0 1 0 :1:0 
 `uc 1 RE1 1 0 :1:1 
 `uc 1 RE2 1 0 :1:2 
 ]
-[u S5026 . 1 `S5016 1 . 1 0 `S5022 1 . 1 0 ]
-[v _TRISEbits TRISEbits `VES5026  1 e 1 @3990 ]
+[u S5027 . 1 `S5017 1 . 1 0 `S5023 1 . 1 0 ]
+[v _TRISEbits TRISEbits `VES5027  1 e 1 @3990 ]
 "9252
 [v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
 [s S2313 . 1 `uc 1 TMR1IE 1 0 :1:0 
@@ -1467,30 +1469,30 @@ CNF 1
 [v _TMR3H TMR3H `VEuc  1 e 1 @4019 ]
 "11871
 [v _T3GCON T3GCON `VEuc  1 e 1 @4020 ]
-[s S4705 . 1 `uc 1 ADCS 1 0 :3:0 
+[s S4706 . 1 `uc 1 ADCS 1 0 :3:0 
 `uc 1 ACQT 1 0 :3:3 
 `uc 1 . 1 0 :1:6 
 `uc 1 ADFM 1 0 :1:7 
 ]
 "13815
-[s S4710 . 1 `uc 1 ADCS0 1 0 :1:0 
+[s S4711 . 1 `uc 1 ADCS0 1 0 :1:0 
 `uc 1 ADCS1 1 0 :1:1 
 `uc 1 ADCS2 1 0 :1:2 
 `uc 1 ACQT0 1 0 :1:3 
 `uc 1 ACQT1 1 0 :1:4 
 `uc 1 ACQT2 1 0 :1:5 
 ]
-[u S4717 . 1 `S4705 1 . 1 0 `S4710 1 . 1 0 ]
-[v _ADCON2bits ADCON2bits `VES4717  1 e 1 @4032 ]
-[s S4633 . 1 `uc 1 . 1 0 :1:0 
+[u S4718 . 1 `S4706 1 . 1 0 `S4711 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES4718  1 e 1 @4032 ]
+[s S4634 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 GO_NOT_DONE 1 0 :1:1 
 ]
 "13976
-[s S4636 . 1 `uc 1 ADON 1 0 :1:0 
+[s S4637 . 1 `uc 1 ADON 1 0 :1:0 
 `uc 1 GO_nDONE 1 0 :1:1 
 `uc 1 CHS 1 0 :5:2 
 ]
-[s S4640 . 1 `uc 1 . 1 0 :1:0 
+[s S4641 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 GO 1 0 :1:1 
 `uc 1 CHS0 1 0 :1:2 
 `uc 1 CHS1 1 0 :1:3 
@@ -1498,23 +1500,23 @@ CNF 1
 `uc 1 CHS3 1 0 :1:5 
 `uc 1 CHS4 1 0 :1:6 
 ]
-[s S4648 . 1 `uc 1 . 1 0 :1:0 
+[s S4649 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 DONE 1 0 :1:1 
 ]
-[s S4651 . 1 `uc 1 . 1 0 :1:0 
+[s S4652 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 NOT_DONE 1 0 :1:1 
 ]
-[s S4654 . 1 `uc 1 . 1 0 :1:0 
+[s S4655 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 nDONE 1 0 :1:1 
 ]
-[s S4657 . 1 `uc 1 . 1 0 :1:0 
+[s S4658 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 GO_DONE 1 0 :1:1 
 ]
-[s S4660 . 1 `uc 1 . 1 0 :1:0 
+[s S4661 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 GODONE 1 0 :1:1 
 ]
-[u S4663 . 1 `S4633 1 . 1 0 `S4636 1 . 1 0 `S4640 1 . 1 0 `S4648 1 . 1 0 `S4651 1 . 1 0 `S4654 1 . 1 0 `S4657 1 . 1 0 `S4660 1 . 1 0 ]
-[v _ADCON0bits ADCON0bits `VES4663  1 e 1 @4034 ]
+[u S4664 . 1 `S4634 1 . 1 0 `S4637 1 . 1 0 `S4641 1 . 1 0 `S4649 1 . 1 0 `S4652 1 . 1 0 `S4655 1 . 1 0 `S4658 1 . 1 0 `S4661 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES4664  1 e 1 @4034 ]
 "14061
 [v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
 "14080
@@ -1726,6 +1728,8 @@ CNF 1
 [v _payload payload `[2]ui  1 e 4 0 ]
 "42
 [v _TimeToSend TimeToSend `uc  1 e 1 0 ]
+"44
+[v _ONE_HOUR_TIMEOUT_COUNTS ONE_HOUR_TIMEOUT_COUNTS `uc  1 e 1 0 ]
 "38 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/ext_int.c
 [v _INT1_InterruptHandler INT1_InterruptHandler `*.37(v  1 e 2 0 ]
 "39
@@ -1863,42 +1867,42 @@ CNF 1
 [v _timer3ReloadVal timer3ReloadVal `VEui  1 e 2 0 ]
 "57
 [v _TMR3_InterruptHandler TMR3_InterruptHandler `*.37(v  1 e 2 0 ]
-"45 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"46 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"86
+"85
 } 0
-"117
+"120
 [v _readAndSend readAndSend `(v  1 e 1 0 ]
 {
-"119
+"121
 [v readAndSend@j j `i  1 a 2 126 ]
-"125
+"126
 } 0
-"144
+"145
 [v _ADC_Read ADC_Read `(ui  1 e 2 0 ]
 {
 [v ADC_Read@channel channel `uc  1 a 1 wreg ]
-"145
-[v ADC_Read@result result `ui  1 a 2 11 ]
-"144
-[v ADC_Read@channel channel `uc  1 a 1 wreg ]
 "146
+[v ADC_Read@result result `ui  1 a 2 11 ]
+"145
+[v ADC_Read@channel channel `uc  1 a 1 wreg ]
+"147
 [v ADC_Read@channel channel `uc  1 a 1 10 ]
-"153
+"154
 } 0
-"139
+"140
 [v _ADC_SelChannel ADC_SelChannel `(v  1 e 1 0 ]
 {
 [v ADC_SelChannel@c c `uc  1 a 1 wreg ]
 [v ADC_SelChannel@c c `uc  1 a 1 wreg ]
 [v ADC_SelChannel@c c `uc  1 a 1 5 ]
-"142
+"143
 } 0
-"162
+"163
 [v _SysConfigSleep SysConfigSleep `(v  1 e 1 0 ]
 {
-"237
+"238
 } 0
 "111 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
@@ -2026,20 +2030,20 @@ CNF 1
 [v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.2v  1 p 2 4 ]
 "156
 } 0
-"269 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"270 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
 [v _LoRaWakeUp LoRaWakeUp `(v  1 e 1 0 ]
 {
-"273
+"274
 } 0
 "63 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/spi2.c
 [v _SPI2_Initialize SPI2_Initialize `(v  1 e 1 0 ]
 {
 "75
 } 0
-"239 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"240 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
 [v _LoRaSleep LoRaSleep `(v  1 e 1 0 ]
 {
-"267
+"268
 } 0
 "379 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _LORAWAN_SetNetworkSessionKey LORAWAN_SetNetworkSessionKey `(v  1 e 1 0 ]
@@ -2265,7 +2269,7 @@ CNF 1
 [u S3268 . 1 `uc 1 value 1 0 `S3262 1 . 1 0 ]
 [s S3271 . 23 `S1884 1 mhdr 1 0 `S1391 1 devAddr 4 1 `S3268 1 fCtrl 1 5 `ui 1 fCnt 2 6 `[15]uc 1 MacCommands 15 8 ]
 [u S3277 . 23 `[23]uc 1 fHdrCounter 23 0 `S3271 1 members 23 0 ]
-[v LORAWAN_RxDone@hdr hdr `*.39S3277  1 a 2 123 ]
+[v LORAWAN_RxDone@hdr hdr `*.39S3277  1 a 2 18 ]
 "1171
 [s S1863 . 1 `uc 1 rx2DataRate 1 0 :4:0 
 `uc 1 rx1DROffset 1 0 :3:4 
@@ -2274,28 +2278,28 @@ CNF 1
 [u S1867 . 1 `uc 1 value 1 0 `S1863 1 bits 1 0 ]
 [s S1887 . 29 `S1884 1 mhdr 1 0 `[3]uc 1 appNonce 3 1 `[3]uc 1 networkId 3 4 `S1391 1 deviceAddress 4 7 `S1867 1 DLSettings 1 11 `uc 1 rxDelay 1 12 `[16]uc 1 cfList 16 13 ]
 [u S1895 . 29 `[29]uc 1 joinAcceptCounter 29 0 `S1887 1 members 29 0 ]
-[v LORAWAN_RxDone@joinAccept joinAccept `*.39S1895  1 a 2 120 ]
+[v LORAWAN_RxDone@joinAccept joinAccept `*.39S1895  1 a 2 15 ]
 "1123
-[v LORAWAN_RxDone@computedMic computedMic `ul  1 a 4 116 ]
-[v LORAWAN_RxDone@extractedMic extractedMic `ul  1 a 4 108 ]
+[v LORAWAN_RxDone@computedMic computedMic `ul  1 a 4 11 ]
+[v LORAWAN_RxDone@extractedMic extractedMic `ul  1 a 4 3 ]
 "1127
-[v LORAWAN_RxDone@packet packet `*.39uc  1 a 2 114 ]
+[v LORAWAN_RxDone@packet packet `*.39uc  1 a 2 9 ]
 "1126
-[v LORAWAN_RxDone@frmPayloadLength frmPayloadLength `uc  1 a 1 122 ]
+[v LORAWAN_RxDone@frmPayloadLength frmPayloadLength `uc  1 a 1 17 ]
 "1128
-[v LORAWAN_RxDone@temp temp `uc  1 a 1 113 ]
+[v LORAWAN_RxDone@temp temp `uc  1 a 1 8 ]
 "1125
-[v LORAWAN_RxDone@bufferIndex bufferIndex `uc  1 a 1 112 ]
+[v LORAWAN_RxDone@bufferIndex bufferIndex `uc  1 a 1 7 ]
 [s S1880 . 1 `uc 1 major 1 0 :2:0 
 `uc 1 rfu 1 0 :3:2 
 `uc 1 mType 1 0 :3:5 
 ]
 "1124
 [u S1884 . 1 `uc 1 value 1 0 `S1880 1 bits 1 0 ]
-[v LORAWAN_RxDone@mhdr mhdr `S1884  1 a 1 107 ]
+[v LORAWAN_RxDone@mhdr mhdr `S1884  1 a 1 2 ]
 "1125
-[v LORAWAN_RxDone@channelIndex channelIndex `uc  1 a 1 106 ]
-[v LORAWAN_RxDone@fPort fPort `uc  1 a 1 105 ]
+[v LORAWAN_RxDone@channelIndex channelIndex `uc  1 a 1 1 ]
+[v LORAWAN_RxDone@fPort fPort `uc  1 a 1 0 ]
 "1121
 [v LORAWAN_RxDone@buffer buffer `*.39uc  1 p 2 102 ]
 [v LORAWAN_RxDone@bufferLength bufferLength `uc  1 p 1 104 ]
@@ -2365,10 +2369,10 @@ CNF 1
 {
 "1113
 } 0
-"112 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"115 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
 [v _RxJoinResponse RxJoinResponse `(v  1 e 1 0 ]
 {
-"115
+"118
 } 0
 "1575 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _MacExecuteCommands MacExecuteCommands `(*.39uc  1 s 2 MacExecuteCommands ]
@@ -2568,18 +2572,6 @@ CNF 1
 [v ValidateTxPower@txPowerNew txPowerNew `uc  1 a 1 5 ]
 "592
 } 0
-"570
-[v _ValidateDataRate ValidateDataRate `(E8016  1 e 1 0 ]
-{
-[v ValidateDataRate@dataRate dataRate `uc  1 a 1 wreg ]
-"572
-[v ValidateDataRate@result result `E8016  1 a 1 5 ]
-"570
-[v ValidateDataRate@dataRate dataRate `uc  1 a 1 wreg ]
-"572
-[v ValidateDataRate@dataRate dataRate `uc  1 a 1 4 ]
-"580
-} 0
 "1137
 [v _ValidateChannelMaskCntl ValidateChannelMaskCntl `(E8016  1 s 1 ValidateChannelMaskCntl ]
 {
@@ -2609,15 +2601,6 @@ CNF 1
 "1031
 [v UpdateTxPower@txPowerNew txPowerNew `uc  1 a 1 4 ]
 "1032
-} 0
-"1024
-[v _UpdateCurrentDataRate UpdateCurrentDataRate `(v  1 e 1 0 ]
-{
-[v UpdateCurrentDataRate@valueNew valueNew `uc  1 a 1 wreg ]
-[v UpdateCurrentDataRate@valueNew valueNew `uc  1 a 1 wreg ]
-"1026
-[v UpdateCurrentDataRate@valueNew valueNew `uc  1 a 1 4 ]
-"1027
 } 0
 "1149 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
 [v _EnableChannels EnableChannels `(v  1 s 1 EnableChannels ]
@@ -2934,15 +2917,45 @@ CNF 1
 {
 "932
 } 0
-"103 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"102 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
 [v _RxDataDone RxDataDone `(v  1 e 1 0 ]
 {
-[v RxDataDone@pData pData `*.39uc  1 p 2 4 ]
-[v RxDataDone@dataLength dataLength `uc  1 p 1 6 ]
-[v RxDataDone@status status `E8000  1 p 1 7 ]
-"110
+[v RxDataDone@pData pData `*.39uc  1 p 2 7 ]
+[v RxDataDone@dataLength dataLength `uc  1 p 1 9 ]
+[v RxDataDone@status status `E8000  1 p 1 10 ]
+"113
 } 0
-"1097 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+"436 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+[v _LORAWAN_SetCurrentDataRate LORAWAN_SetCurrentDataRate `(E7957  1 e 1 0 ]
+{
+[v LORAWAN_SetCurrentDataRate@valueNew valueNew `uc  1 a 1 wreg ]
+[v LORAWAN_SetCurrentDataRate@valueNew valueNew `uc  1 a 1 wreg ]
+"440
+[v LORAWAN_SetCurrentDataRate@valueNew valueNew `uc  1 a 1 6 ]
+"449
+} 0
+"570 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
+[v _ValidateDataRate ValidateDataRate `(E8016  1 e 1 0 ]
+{
+[v ValidateDataRate@dataRate dataRate `uc  1 a 1 wreg ]
+"572
+[v ValidateDataRate@result result `E8016  1 a 1 5 ]
+"570
+[v ValidateDataRate@dataRate dataRate `uc  1 a 1 wreg ]
+"572
+[v ValidateDataRate@dataRate dataRate `uc  1 a 1 4 ]
+"580
+} 0
+"1024 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+[v _UpdateCurrentDataRate UpdateCurrentDataRate `(v  1 e 1 0 ]
+{
+[v UpdateCurrentDataRate@valueNew valueNew `uc  1 a 1 wreg ]
+[v UpdateCurrentDataRate@valueNew valueNew `uc  1 a 1 wreg ]
+"1026
+[v UpdateCurrentDataRate@valueNew valueNew `uc  1 a 1 4 ]
+"1027
+} 0
+"1097
 [v _ResetParametersForUnconfirmedTransmission ResetParametersForUnconfirmedTransmission `(v  1 e 1 0 ]
 {
 "1102
@@ -3716,15 +3729,15 @@ CNF 1
 {
 "2236
 } 0
-"127 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"128 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
 [v _IO_pins_init IO_pins_init `(v  1 e 1 0 ]
 {
-"138
+"139
 } 0
-"155
+"156
 [v _ADC_Init ADC_Init `(v  1 e 1 0 ]
 {
-"160
+"161
 } 0
 "57 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
@@ -3746,12 +3759,12 @@ CNF 1
 {
 "190
 } 0
-"88 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"87 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
 [v _handle16sInterrupt handle16sInterrupt `(v  1 e 1 0 ]
 {
-"90
+"89
 [v handle16sInterrupt@counterSleepTimeout counterSleepTimeout `VEuc  1 s 1 counterSleepTimeout ]
-"101
+"100
 } 0
 "159 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr1.c
 [v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
