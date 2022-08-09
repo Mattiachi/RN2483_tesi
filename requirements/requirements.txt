@@ -1,0 +1,5 @@
+MPLABX IDE 3.40
+MPLAB Code Configurator v3.25 
+XC8 Compiler v1.38
+
+Microchip's LoRaWAN library is only compatible with MCC version 3.25
