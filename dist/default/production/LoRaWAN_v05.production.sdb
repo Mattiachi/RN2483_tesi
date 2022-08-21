@@ -3,7 +3,7 @@
 [d edition pro ]
 [d chip 18LF46K22 ]
 [d frameptr 4065 ]
-"103 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
+"103 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
 [e E7751 . `uc
 MODULATION_FSK 0
 MODULATION_LORA 1
@@ -94,7 +94,7 @@ INVALID_CLASS 10
 MCAST_PARAM_ERROR 11
 MCAST_MSG_ERROR 12
 ]
-"62 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
+"62 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
 [e E8521 . `uc
 BW_125KHZ 7
 BW_250KHZ 8
@@ -175,7 +175,7 @@ SF_10 10
 SF_11 11
 SF_12 12
 ]
-"54 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+"54 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [e E7992 . `uc
 CLASS_A 0
 CLASS_B 1
@@ -262,7 +262,7 @@ FRAME_TYPE_DATA_CONFIRMED_DOWN 5
 FRAME_TYPE_RFU 6
 FRAME_TYPE_PROPRIETARY 7
 ]
-"61 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"61 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
 [e E8000 . `uc
 MAC_NOT_OK 0
 MAC_OK 1
@@ -304,7 +304,7 @@ ABP_DELAY 7
 CLASS_C_RX2_1_OPEN 8
 CLASS_C_RX2_2_OPEN 9
 ]
-"126
+"125
 [e E8012 . `uc
 UNCNF 0
 CNF 1
@@ -345,7 +345,7 @@ CNF 1
 [v ___flmul __flmul `(d  1 e 3 0 ]
 "15 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\Umul32.c
 [v ___lmul __lmul `(ul  1 e 4 0 ]
-"48 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"48 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
 [v _main main `(v  1 e 1 0 ]
 "89
 [v _handle16sInterrupt handle16sInterrupt `(v  1 e 1 0 ]
@@ -355,21 +355,21 @@ CNF 1
 [v _RxJoinResponse RxJoinResponse `(v  1 e 1 0 ]
 "122
 [v _readAndSend readAndSend `(v  1 e 1 0 ]
-"130
+"129
 [v _IO_pins_init IO_pins_init `(v  1 e 1 0 ]
-"142
+"141
 [v _ADC_SelChannel ADC_SelChannel `(v  1 e 1 0 ]
-"147
+"146
 [v _ADC_Read ADC_Read `(ui  1 e 2 0 ]
-"158
+"157
 [v _ADC_Init ADC_Init `(v  1 e 1 0 ]
-"165
+"164
 [v _SysConfigSleep SysConfigSleep `(v  1 e 1 0 ]
-"242
+"241
 [v _LoRaSleep LoRaSleep `(v  1 e 1 0 ]
-"272
+"271
 [v _LoRaWakeUp LoRaWakeUp `(v  1 e 1 0 ]
-"45 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/ext_int.c
+"45 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/ext_int.c
 [v _INT1_ISR INT1_ISR `(v  1 e 1 0 ]
 "60
 [v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
@@ -393,17 +393,17 @@ CNF 1
 [v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
 "176
 [v _EXT_INT_Initialize EXT_INT_Initialize `(v  1 e 1 0 ]
-"51 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/interrupt_manager.c
+"51 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
 "57
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
-"217 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/AES.c
+"217 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/AES.c
 [v _AESEncode AESEncode `(v  1 e 1 0 ]
 "306
 [v _EncKeySchedule EncKeySchedule `(v  1 e 1 0 ]
 "354
 [v _EncodeShiftRow EncodeShiftRow `(v  1 e 1 0 ]
-"48 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/interrupt_manager_lora_addons.c
+"48 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/interrupt_manager_lora_addons.c
 [v _INTERRUPT_GetDioStatus INTERRUPT_GetDioStatus `(uc  1 e 1 0 ]
 "63
 [v _DIO0_ISR_Lora DIO0_ISR_Lora `(v  1 e 1 0 ]
@@ -413,7 +413,7 @@ CNF 1
 [v _DIO2_ISR_Lora DIO2_ISR_Lora `(v  1 e 1 0 ]
 "88
 [v _DIO5_ISR_Lora DIO5_ISR_Lora `(v  1 e 1 0 ]
-"115 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+"115 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _LORAWAN_Join LORAWAN_Join `(E7957  1 e 1 0 ]
 "185
 [v _LORAWAN_Send LORAWAN_Send `(E7957  1 e 1 0 ]
@@ -509,15 +509,15 @@ CNF 1
 [v _LORAWAN_GetState LORAWAN_GetState `(uc  1 e 1 0 ]
 "2238
 [v _LORAWAN_Mainloop LORAWAN_Mainloop `(v  1 e 1 0 ]
-"34 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_aes.c
+"34 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_aes.c
 [v _AESEncodeLoRa AESEncodeLoRa `(v  1 e 1 0 ]
-"41 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_aes_cmac.c
+"41 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_aes_cmac.c
 [v _AESCmac AESCmac `(v  1 e 1 0 ]
 "124
 [v _GenerateSubkey GenerateSubkey `(v  1 s 1 GenerateSubkey ]
 "167
 [v _FillSubKey FillSubKey `(v  1 s 1 FillSubKey ]
-"123 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
+"123 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
 [v _LORAWAN_Init LORAWAN_Init `(v  1 e 1 0 ]
 "148
 [v _LORAWAN_Reset LORAWAN_Reset `(v  1 e 1 0 ]
@@ -593,7 +593,7 @@ CNF 1
 [v _DutyCycleCallback DutyCycleCallback `R(v  1 s 1 DutyCycleCallback ]
 "1255
 [v _ConfigureRadioTx ConfigureRadioTx `(v  1 s 1 ConfigureRadioTx ]
-"44 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_init.c
+"44 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_init.c
 [v _DIO0_ISR_Lora_Init DIO0_ISR_Lora_Init `(v  1 e 1 0 ]
 "49
 [v _DIO1_ISR_Lora_Init DIO1_ISR_Lora_Init `(v  1 e 1 0 ]
@@ -607,7 +607,7 @@ CNF 1
 [v _DIO5_ISR_Lora_Init DIO5_ISR_Lora_Init `(v  1 e 1 0 ]
 "72
 [v _LORAWAN_PlatformInit LORAWAN_PlatformInit `(v  1 e 1 0 ]
-"45 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_hal.c
+"45 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_hal.c
 [v _HALResetPinMakeOutput HALResetPinMakeOutput `(v  1 e 1 0 ]
 "50
 [v _HALResetPinMakeInput HALResetPinMakeInput `(v  1 e 1 0 ]
@@ -621,7 +621,7 @@ CNF 1
 [v _HALSPISend HALSPISend `(uc  1 e 1 0 ]
 "95
 [v _HALDIO5PinValue HALDIO5PinValue `(uc  1 e 1 0 ]
-"126 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
+"126 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
 [v _RADIO_RegisterWrite RADIO_RegisterWrite `(v  1 e 1 0 ]
 "134
 [v _RADIO_RegisterRead RADIO_RegisterRead `(uc  1 e 1 0 ]
@@ -707,7 +707,7 @@ CNF 1
 [v _RADIO_SetWatchdogTimeout RADIO_SetWatchdogTimeout `(v  1 e 1 0 ]
 "1624
 [v _RADIO_SetFSKSyncWord RADIO_SetFSKSyncWord `(v  1 e 1 0 ]
-"65 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
+"65 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
 [v _TMR_OverrideRemaining TMR_OverrideRemaining `(v  1 e 1 0 ]
 "88
 [v _TMR_GetDeltaTime TMR_GetDeltaTime `(ul  1 e 4 0 ]
@@ -738,15 +738,15 @@ CNF 1
 "287
 [v _SwTimersInterrupt SwTimersInterrupt `(ul  1 e 4 0 ]
 [v i2_SwTimersInterrupt SwTimersInterrupt `(ul  1 e 4 0 ]
-"54 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/tmr_lora_addons.c
+"54 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/tmr_lora_addons.c
 [v _TMR_ISR_Lora_Init TMR_ISR_Lora_Init `(v  1 e 1 0 ]
 "59
 [v _TMR_ISR_lora TMR_ISR_lora `(v  1 e 1 0 ]
-"111 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/mcc.c
+"111 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 "124
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
-"52 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/pin_manager.c
+"52 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 "103
 [v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
@@ -756,11 +756,11 @@ CNF 1
 [v _IOCB4_SetInterruptHandler IOCB4_SetInterruptHandler `(v  1 e 1 0 ]
 "140
 [v _IOCB4_DefaultInterruptHandler IOCB4_DefaultInterruptHandler `(v  1 e 1 0 ]
-"63 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/spi2.c
+"63 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/spi2.c
 [v _SPI2_Initialize SPI2_Initialize `(v  1 e 1 0 ]
 "77
 [v _SPI2_Exchange8bit SPI2_Exchange8bit `(uc  1 e 1 0 ]
-"62 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr1.c
+"62 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr1.c
 [v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
 "94
 [v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
@@ -778,7 +778,7 @@ CNF 1
 [v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
 "187
 [v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
-"62 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr3.c
+"62 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr3.c
 [v _TMR3_Initialize TMR3_Initialize `(v  1 e 1 0 ]
 "94
 [v _TMR3_StartTimer TMR3_StartTimer `(v  1 e 1 0 ]
@@ -796,7 +796,7 @@ CNF 1
 [v _ANSELB ANSELB `VEuc  1 e 1 @3897 ]
 "142
 [v _ANSELC ANSELC `VEuc  1 e 1 @3898 ]
-[s S4594 . 1 `uc 1 . 1 0 :2:0 
+[s S4592 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 ANSC2 1 0 :1:2 
 `uc 1 ANSC3 1 0 :1:3 
 `uc 1 ANSC4 1 0 :1:4 
@@ -805,11 +805,11 @@ CNF 1
 `uc 1 ANSC7 1 0 :1:7 
 ]
 "158
-[u S4602 . 1 `S4594 1 . 1 0 ]
-[v _ANSELCbits ANSELCbits `VES4602  1 e 1 @3898 ]
+[u S4600 . 1 `S4592 1 . 1 0 ]
+[v _ANSELCbits ANSELCbits `VES4600  1 e 1 @3898 ]
 "192
 [v _ANSELD ANSELD `VEuc  1 e 1 @3899 ]
-[s S4613 . 1 `uc 1 ANSD0 1 0 :1:0 
+[s S4611 . 1 `uc 1 ANSD0 1 0 :1:0 
 `uc 1 ANSD1 1 0 :1:1 
 `uc 1 ANSD2 1 0 :1:2 
 `uc 1 ANSD3 1 0 :1:3 
@@ -819,8 +819,8 @@ CNF 1
 `uc 1 ANSD7 1 0 :1:7 
 ]
 "209
-[u S4622 . 1 `S4613 1 . 1 0 ]
-[v _ANSELDbits ANSELDbits `VES4622  1 e 1 @3899 ]
+[u S4620 . 1 `S4611 1 . 1 0 ]
+[v _ANSELDbits ANSELDbits `VES4620  1 e 1 @3899 ]
 "253
 [v _ANSELE ANSELE `VEuc  1 e 1 @3900 ]
 "2688
@@ -1176,7 +1176,7 @@ CNF 1
 [v _LATA LATA `VEuc  1 e 1 @3977 ]
 "7800
 [v _LATB LATB `VEuc  1 e 1 @3978 ]
-[s S4792 . 1 `uc 1 LATB0 1 0 :1:0 
+[s S4790 . 1 `uc 1 LATB0 1 0 :1:0 
 `uc 1 LATB1 1 0 :1:1 
 `uc 1 LATB2 1 0 :1:2 
 `uc 1 LATB3 1 0 :1:3 
@@ -1186,34 +1186,34 @@ CNF 1
 `uc 1 LATB7 1 0 :1:7 
 ]
 "7848
-[s S4801 . 1 `uc 1 LB0 1 0 :1:0 
+[s S4799 . 1 `uc 1 LB0 1 0 :1:0 
 ]
-[s S4803 . 1 `uc 1 . 1 0 :1:0 
+[s S4801 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 LB1 1 0 :1:1 
 ]
-[s S4806 . 1 `uc 1 . 1 0 :2:0 
+[s S4804 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 LB2 1 0 :1:2 
 ]
-[s S4809 . 1 `uc 1 . 1 0 :3:0 
+[s S4807 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 LB3 1 0 :1:3 
 ]
-[s S4812 . 1 `uc 1 . 1 0 :4:0 
+[s S4810 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 LB4 1 0 :1:4 
 ]
-[s S4815 . 1 `uc 1 . 1 0 :5:0 
+[s S4813 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 LB5 1 0 :1:5 
 ]
-[s S4818 . 1 `uc 1 . 1 0 :6:0 
+[s S4816 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 LB6 1 0 :1:6 
 ]
-[s S4821 . 1 `uc 1 . 1 0 :7:0 
+[s S4819 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 LB7 1 0 :1:7 
 ]
-[u S4824 . 1 `S4792 1 . 1 0 `S4801 1 . 1 0 `S4803 1 . 1 0 `S4806 1 . 1 0 `S4809 1 . 1 0 `S4812 1 . 1 0 `S4815 1 . 1 0 `S4818 1 . 1 0 `S4821 1 . 1 0 ]
-[v _LATBbits LATBbits `VES4824  1 e 1 @3978 ]
+[u S4822 . 1 `S4790 1 . 1 0 `S4799 1 . 1 0 `S4801 1 . 1 0 `S4804 1 . 1 0 `S4807 1 . 1 0 `S4810 1 . 1 0 `S4813 1 . 1 0 `S4816 1 . 1 0 `S4819 1 . 1 0 ]
+[v _LATBbits LATBbits `VES4822  1 e 1 @3978 ]
 "7932
 [v _LATC LATC `VEuc  1 e 1 @3979 ]
-[s S4867 . 1 `uc 1 LATC0 1 0 :1:0 
+[s S4865 . 1 `uc 1 LATC0 1 0 :1:0 
 `uc 1 LATC1 1 0 :1:1 
 `uc 1 LATC2 1 0 :1:2 
 `uc 1 LATC3 1 0 :1:3 
@@ -1223,34 +1223,34 @@ CNF 1
 `uc 1 LATC7 1 0 :1:7 
 ]
 "7980
-[s S4876 . 1 `uc 1 LC0 1 0 :1:0 
+[s S4874 . 1 `uc 1 LC0 1 0 :1:0 
 ]
-[s S4878 . 1 `uc 1 . 1 0 :1:0 
+[s S4876 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 LC1 1 0 :1:1 
 ]
-[s S4881 . 1 `uc 1 . 1 0 :2:0 
+[s S4879 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 LC2 1 0 :1:2 
 ]
-[s S4884 . 1 `uc 1 . 1 0 :3:0 
+[s S4882 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 LC3 1 0 :1:3 
 ]
-[s S4887 . 1 `uc 1 . 1 0 :4:0 
+[s S4885 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 LC4 1 0 :1:4 
 ]
-[s S4890 . 1 `uc 1 . 1 0 :5:0 
+[s S4888 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 LC5 1 0 :1:5 
 ]
-[s S4893 . 1 `uc 1 . 1 0 :6:0 
+[s S4891 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 LC6 1 0 :1:6 
 ]
-[s S4896 . 1 `uc 1 . 1 0 :7:0 
+[s S4894 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 LC7 1 0 :1:7 
 ]
-[u S4899 . 1 `S4867 1 . 1 0 `S4876 1 . 1 0 `S4878 1 . 1 0 `S4881 1 . 1 0 `S4884 1 . 1 0 `S4887 1 . 1 0 `S4890 1 . 1 0 `S4893 1 . 1 0 `S4896 1 . 1 0 ]
-[v _LATCbits LATCbits `VES4899  1 e 1 @3979 ]
+[u S4897 . 1 `S4865 1 . 1 0 `S4874 1 . 1 0 `S4876 1 . 1 0 `S4879 1 . 1 0 `S4882 1 . 1 0 `S4885 1 . 1 0 `S4888 1 . 1 0 `S4891 1 . 1 0 `S4894 1 . 1 0 ]
+[v _LATCbits LATCbits `VES4897  1 e 1 @3979 ]
 "8064
 [v _LATD LATD `VEuc  1 e 1 @3980 ]
-[s S4942 . 1 `uc 1 LATD0 1 0 :1:0 
+[s S4940 . 1 `uc 1 LATD0 1 0 :1:0 
 `uc 1 LATD1 1 0 :1:1 
 `uc 1 LATD2 1 0 :1:2 
 `uc 1 LATD3 1 0 :1:3 
@@ -1260,53 +1260,53 @@ CNF 1
 `uc 1 LATD7 1 0 :1:7 
 ]
 "8112
-[s S4951 . 1 `uc 1 LD0 1 0 :1:0 
+[s S4949 . 1 `uc 1 LD0 1 0 :1:0 
 ]
-[s S4953 . 1 `uc 1 . 1 0 :1:0 
+[s S4951 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 LD1 1 0 :1:1 
 ]
-[s S4956 . 1 `uc 1 . 1 0 :2:0 
+[s S4954 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 LD2 1 0 :1:2 
 ]
-[s S4959 . 1 `uc 1 . 1 0 :3:0 
+[s S4957 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 LD3 1 0 :1:3 
 ]
-[s S4962 . 1 `uc 1 . 1 0 :4:0 
+[s S4960 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 LD4 1 0 :1:4 
 ]
-[s S4965 . 1 `uc 1 . 1 0 :5:0 
+[s S4963 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 LD5 1 0 :1:5 
 ]
-[s S4968 . 1 `uc 1 . 1 0 :6:0 
+[s S4966 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 LD6 1 0 :1:6 
 ]
-[s S4971 . 1 `uc 1 . 1 0 :7:0 
+[s S4969 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 LD7 1 0 :1:7 
 ]
-[u S4974 . 1 `S4942 1 . 1 0 `S4951 1 . 1 0 `S4953 1 . 1 0 `S4956 1 . 1 0 `S4959 1 . 1 0 `S4962 1 . 1 0 `S4965 1 . 1 0 `S4968 1 . 1 0 `S4971 1 . 1 0 ]
-[v _LATDbits LATDbits `VES4974  1 e 1 @3980 ]
+[u S4972 . 1 `S4940 1 . 1 0 `S4949 1 . 1 0 `S4951 1 . 1 0 `S4954 1 . 1 0 `S4957 1 . 1 0 `S4960 1 . 1 0 `S4963 1 . 1 0 `S4966 1 . 1 0 `S4969 1 . 1 0 ]
+[v _LATDbits LATDbits `VES4972  1 e 1 @3980 ]
 "8196
 [v _LATE LATE `VEuc  1 e 1 @3981 ]
-[s S5041 . 1 `uc 1 LATE0 1 0 :1:0 
+[s S5039 . 1 `uc 1 LATE0 1 0 :1:0 
 `uc 1 LATE1 1 0 :1:1 
 `uc 1 LATE2 1 0 :1:2 
 ]
 "8219
-[s S5045 . 1 `uc 1 LE0 1 0 :1:0 
+[s S5043 . 1 `uc 1 LE0 1 0 :1:0 
 ]
-[s S5047 . 1 `uc 1 . 1 0 :1:0 
+[s S5045 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 LE1 1 0 :1:1 
 ]
-[s S5050 . 1 `uc 1 . 1 0 :2:0 
+[s S5048 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 LE2 1 0 :1:2 
 ]
-[u S5053 . 1 `S5041 1 . 1 0 `S5045 1 . 1 0 `S5047 1 . 1 0 `S5050 1 . 1 0 ]
-[v _LATEbits LATEbits `VES5053  1 e 1 @3981 ]
+[u S5051 . 1 `S5039 1 . 1 0 `S5043 1 . 1 0 `S5045 1 . 1 0 `S5048 1 . 1 0 ]
+[v _LATEbits LATEbits `VES5051  1 e 1 @3981 ]
 "8253
 [v _TRISA TRISA `VEuc  1 e 1 @3986 ]
 "8474
 [v _TRISB TRISB `VEuc  1 e 1 @3987 ]
-[s S4752 . 1 `uc 1 TRISB0 1 0 :1:0 
+[s S4750 . 1 `uc 1 TRISB0 1 0 :1:0 
 `uc 1 TRISB1 1 0 :1:1 
 `uc 1 TRISB2 1 0 :1:2 
 `uc 1 TRISB3 1 0 :1:3 
@@ -1316,11 +1316,11 @@ CNF 1
 `uc 1 TRISB7 1 0 :1:7 
 ]
 "8506
-[u S4770 . 1 `S4752 1 . 1 0 `S760 1 . 1 0 ]
-[v _TRISBbits TRISBbits `VES4770  1 e 1 @3987 ]
+[u S4768 . 1 `S4750 1 . 1 0 `S760 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES4768  1 e 1 @3987 ]
 "8695
 [v _TRISC TRISC `VEuc  1 e 1 @3988 ]
-[s S4514 . 1 `uc 1 TRISC0 1 0 :1:0 
+[s S4512 . 1 `uc 1 TRISC0 1 0 :1:0 
 `uc 1 TRISC1 1 0 :1:1 
 `uc 1 TRISC2 1 0 :1:2 
 `uc 1 TRISC3 1 0 :1:3 
@@ -1330,11 +1330,11 @@ CNF 1
 `uc 1 TRISC7 1 0 :1:7 
 ]
 "8727
-[u S4532 . 1 `S4514 1 . 1 0 `S4153 1 . 1 0 ]
-[v _TRISCbits TRISCbits `VES4532  1 e 1 @3988 ]
+[u S4530 . 1 `S4512 1 . 1 0 `S4153 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES4530  1 e 1 @3988 ]
 "8916
 [v _TRISD TRISD `VEuc  1 e 1 @3989 ]
-[s S4554 . 1 `uc 1 TRISD0 1 0 :1:0 
+[s S4552 . 1 `uc 1 TRISD0 1 0 :1:0 
 `uc 1 TRISD1 1 0 :1:1 
 `uc 1 TRISD2 1 0 :1:2 
 `uc 1 TRISD3 1 0 :1:3 
@@ -1344,23 +1344,23 @@ CNF 1
 `uc 1 TRISD7 1 0 :1:7 
 ]
 "8948
-[u S4572 . 1 `S4554 1 . 1 0 `S4396 1 . 1 0 ]
-[v _TRISDbits TRISDbits `VES4572  1 e 1 @3989 ]
+[u S4570 . 1 `S4552 1 . 1 0 `S4396 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES4570  1 e 1 @3989 ]
 "9137
 [v _TRISE TRISE `VEuc  1 e 1 @3990 ]
-[s S5017 . 1 `uc 1 TRISE0 1 0 :1:0 
+[s S5015 . 1 `uc 1 TRISE0 1 0 :1:0 
 `uc 1 TRISE1 1 0 :1:1 
 `uc 1 TRISE2 1 0 :1:2 
 `uc 1 . 1 0 :4:3 
 `uc 1 WPUE3 1 0 :1:7 
 ]
 "9161
-[s S5023 . 1 `uc 1 RE0 1 0 :1:0 
+[s S5021 . 1 `uc 1 RE0 1 0 :1:0 
 `uc 1 RE1 1 0 :1:1 
 `uc 1 RE2 1 0 :1:2 
 ]
-[u S5027 . 1 `S5017 1 . 1 0 `S5023 1 . 1 0 ]
-[v _TRISEbits TRISEbits `VES5027  1 e 1 @3990 ]
+[u S5025 . 1 `S5015 1 . 1 0 `S5021 1 . 1 0 ]
+[v _TRISEbits TRISEbits `VES5025  1 e 1 @3990 ]
 "9252
 [v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
 [s S2313 . 1 `uc 1 TMR1IE 1 0 :1:0 
@@ -1469,30 +1469,30 @@ CNF 1
 [v _TMR3H TMR3H `VEuc  1 e 1 @4019 ]
 "11871
 [v _T3GCON T3GCON `VEuc  1 e 1 @4020 ]
-[s S4706 . 1 `uc 1 ADCS 1 0 :3:0 
+[s S4704 . 1 `uc 1 ADCS 1 0 :3:0 
 `uc 1 ACQT 1 0 :3:3 
 `uc 1 . 1 0 :1:6 
 `uc 1 ADFM 1 0 :1:7 
 ]
 "13815
-[s S4711 . 1 `uc 1 ADCS0 1 0 :1:0 
+[s S4709 . 1 `uc 1 ADCS0 1 0 :1:0 
 `uc 1 ADCS1 1 0 :1:1 
 `uc 1 ADCS2 1 0 :1:2 
 `uc 1 ACQT0 1 0 :1:3 
 `uc 1 ACQT1 1 0 :1:4 
 `uc 1 ACQT2 1 0 :1:5 
 ]
-[u S4718 . 1 `S4706 1 . 1 0 `S4711 1 . 1 0 ]
-[v _ADCON2bits ADCON2bits `VES4718  1 e 1 @4032 ]
-[s S4634 . 1 `uc 1 . 1 0 :1:0 
+[u S4716 . 1 `S4704 1 . 1 0 `S4709 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES4716  1 e 1 @4032 ]
+[s S4632 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 GO_NOT_DONE 1 0 :1:1 
 ]
 "13976
-[s S4637 . 1 `uc 1 ADON 1 0 :1:0 
+[s S4635 . 1 `uc 1 ADON 1 0 :1:0 
 `uc 1 GO_nDONE 1 0 :1:1 
 `uc 1 CHS 1 0 :5:2 
 ]
-[s S4641 . 1 `uc 1 . 1 0 :1:0 
+[s S4639 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 GO 1 0 :1:1 
 `uc 1 CHS0 1 0 :1:2 
 `uc 1 CHS1 1 0 :1:3 
@@ -1500,23 +1500,23 @@ CNF 1
 `uc 1 CHS3 1 0 :1:5 
 `uc 1 CHS4 1 0 :1:6 
 ]
-[s S4649 . 1 `uc 1 . 1 0 :1:0 
+[s S4647 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 DONE 1 0 :1:1 
 ]
-[s S4652 . 1 `uc 1 . 1 0 :1:0 
+[s S4650 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 NOT_DONE 1 0 :1:1 
 ]
-[s S4655 . 1 `uc 1 . 1 0 :1:0 
+[s S4653 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 nDONE 1 0 :1:1 
 ]
-[s S4658 . 1 `uc 1 . 1 0 :1:0 
+[s S4656 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 GO_DONE 1 0 :1:1 
 ]
-[s S4661 . 1 `uc 1 . 1 0 :1:0 
+[s S4659 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 GODONE 1 0 :1:1 
 ]
-[u S4664 . 1 `S4634 1 . 1 0 `S4637 1 . 1 0 `S4641 1 . 1 0 `S4649 1 . 1 0 `S4652 1 . 1 0 `S4655 1 . 1 0 `S4658 1 . 1 0 `S4661 1 . 1 0 ]
-[v _ADCON0bits ADCON0bits `VES4664  1 e 1 @4034 ]
+[u S4662 . 1 `S4632 1 . 1 0 `S4635 1 . 1 0 `S4639 1 . 1 0 `S4647 1 . 1 0 `S4650 1 . 1 0 `S4653 1 . 1 0 `S4656 1 . 1 0 `S4659 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES4662  1 e 1 @4034 ]
 "14061
 [v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
 "14080
@@ -1720,7 +1720,7 @@ CNF 1
 [v _UART2MD UART2MD `VEb  1 e 0 @31231 ]
 "3 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\rand.c
 [v _randx randx `l  1 s 4 randx ]
-"35 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"35 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
 [v _nwkSKey nwkSKey `[16]uc  1 e 16 0 ]
 "36
 [v _appSKey appSKey `[16]uc  1 e 16 0 ]
@@ -1730,19 +1730,19 @@ CNF 1
 [v _TimeToSend TimeToSend `uc  1 e 1 0 ]
 "46
 [v _ONE_HOUR_TIMEOUT_COUNTS ONE_HOUR_TIMEOUT_COUNTS `uc  1 e 1 0 ]
-"38 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/ext_int.c
+"38 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/ext_int.c
 [v _INT1_InterruptHandler INT1_InterruptHandler `*.37(v  1 e 2 0 ]
 "39
 [v _INT2_InterruptHandler INT2_InterruptHandler `*.37(v  1 e 2 0 ]
-"32 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/AES.c
+"32 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/AES.c
 [v _STable STable `C[256]uc  1 e 256 0 ]
 "182
 [v __roundCounter _roundCounter `uc  1 s 1 _roundCounter ]
 "183
 [v __rcon _rcon `uc  1 s 1 _rcon ]
-"58 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/interrupt_manager_lora_addons.h
+"58 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/interrupt_manager_lora_addons.h
 [v _dioStatus dioStatus `VEuc  1 e 1 0 ]
-"52 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+"52 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _macEndDevCmdReplyLen macEndDevCmdReplyLen `C[7]uc  1 s 7 macEndDevCmdReplyLen ]
 [s S1345 . 1 `uc 1 ackRequiredFromNextDownlinkMessage 1 0 :1:0 
 `uc 1 ackRequiredFromNextUplinkMessage 1 0 :1:1 
@@ -1817,7 +1817,7 @@ CNF 1
 [v _rxPayload rxPayload `S1658  1 e 4 0 ]
 "111
 [v _localDioStatus localDioStatus `uc  1 e 1 0 ]
-"43 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
+"43 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
 [v _rxWindowSize rxWindowSize `C[8]uc  1 e 8 0 ]
 "46
 [v _maxPayloadSize maxPayloadSize `C[8]uc  1 e 8 0 ]
@@ -1840,16 +1840,16 @@ CNF 1
 "79
 [v _FskSyncWordBuff FskSyncWordBuff `C[3]uc  1 s 3 FskSyncWordBuff ]
 [s S983 . 54 `ul 1 frequency 4 0 `ul 1 frequencyDeviation 4 4 `ul 1 bitRate 4 8 `ui 1 preambleLen 2 12 `uc 1 syncWordLoRa 1 14 `[8]uc 1 syncWord 8 15 `uc 1 syncWordLen 1 23 `E7751 1 modulation 1 24 `E7761 1 dataRate 1 25 `E7769 1 bandWidth 1 26 `c 1 outputPower 1 27 `uc 1 crcOn 1 28 `uc 1 paBoost 1 29 `ui 1 frequencyHopPeriod 2 30 `uc 1 iqInverted 1 32 `E7755 1 errorCodingRate 1 33 `uc 1 implicitHeaderMode 1 34 `uc 1 flags 1 35 `uc 1 dataBufferLen 1 36 `*.39uc 1 dataBuffer 2 37 `uc 1 timeOnAirTimerId 1 39 `uc 1 fskRxWindowTimerId 1 40 `uc 1 watchdogTimerId 1 41 `ul 1 watchdogTimerTimeout 4 42 `uc 1 initialized 1 46 `*.37(ul 1 fhssNextFrequency 2 47 `uc 1 regVersion 1 49 `c 1 packetSNR 1 50 `E7774 1 fskDataShaping 1 51 `E7780 1 rxBw 1 52 `E7780 1 afcBw 1 53 ]
-"103 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
+"103 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
 [v _RadioConfiguration RadioConfiguration `S983  1 s 54 RadioConfiguration ]
 [s S214 . 8 `ul 1 ticksRemaining 4 0 `uc 1 running 1 4 `uc 1 callbackParameter 1 5 `*.37R(v 1 callback 2 6 ]
-"58 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
+"58 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
 [v _swTimers swTimers `VE[20]S214  1 s 160 swTimers ]
 "59
 [v _allocatedTimers allocatedTimers `VEuc  1 s 1 allocatedTimers ]
 "60
 [v _ticksAccounted ticksAccounted `VEul  1 s 4 ticksAccounted ]
-"49 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/tmr_lora_addons.c
+"49 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/tmr_lora_addons.c
 [v _timerOverflow timerOverflow `VEuc  1 e 1 0 ]
 "50
 [v _ticksToScheduledInterrupt ticksToScheduledInterrupt `VEul  1 e 4 0 ]
@@ -1857,17 +1857,17 @@ CNF 1
 [v _reloadVal reloadVal `VEui  1 e 2 0 ]
 "52
 [v _ticksAdded ticksAdded `VEul  1 e 4 0 ]
-"50 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/pin_manager.c
+"50 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/pin_manager.c
 [v _IOCB4_InterruptHandler IOCB4_InterruptHandler `*.37(v  1 e 2 0 ]
-"56 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr1.c
+"56 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr1.c
 [v _timer1ReloadVal timer1ReloadVal `VEui  1 e 2 0 ]
 "57
 [v _TMR1_InterruptHandler TMR1_InterruptHandler `*.37(v  1 e 2 0 ]
-"56 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr3.c
+"56 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr3.c
 [v _timer3ReloadVal timer3ReloadVal `VEui  1 e 2 0 ]
 "57
 [v _TMR3_InterruptHandler TMR3_InterruptHandler `*.37(v  1 e 2 0 ]
-"48 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"48 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
 [v _main main `(v  1 e 1 0 ]
 {
 "87
@@ -1875,41 +1875,39 @@ CNF 1
 "122
 [v _readAndSend readAndSend `(v  1 e 1 0 ]
 {
-"123
-[v readAndSend@j j `i  1 a 2 126 ]
-"128
+"127
 } 0
-"147
+"146
 [v _ADC_Read ADC_Read `(ui  1 e 2 0 ]
 {
 [v ADC_Read@channel channel `uc  1 a 1 wreg ]
-"148
-[v ADC_Read@result result `ui  1 a 2 11 ]
 "147
+[v ADC_Read@result result `ui  1 a 2 11 ]
+"146
 [v ADC_Read@channel channel `uc  1 a 1 wreg ]
-"149
+"148
 [v ADC_Read@channel channel `uc  1 a 1 10 ]
-"156
+"155
 } 0
-"142
+"141
 [v _ADC_SelChannel ADC_SelChannel `(v  1 e 1 0 ]
 {
 [v ADC_SelChannel@c c `uc  1 a 1 wreg ]
 [v ADC_SelChannel@c c `uc  1 a 1 wreg ]
 [v ADC_SelChannel@c c `uc  1 a 1 5 ]
-"145
+"144
 } 0
-"165
+"164
 [v _SysConfigSleep SysConfigSleep `(v  1 e 1 0 ]
 {
-"240
+"239
 } 0
-"111 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/mcc.c
+"111 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
 "122
 } 0
-"62 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr3.c
+"62 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr3.c
 [v _TMR3_Initialize TMR3_Initialize `(v  1 e 1 0 ]
 {
 "92
@@ -1925,7 +1923,7 @@ CNF 1
 [v TMR3_SetInterruptHandler@InterruptHandler InterruptHandler `*.2v  1 p 2 4 ]
 "185
 } 0
-"62 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr1.c
+"62 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr1.c
 [v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
 {
 "92
@@ -1935,38 +1933,38 @@ CNF 1
 {
 "98
 } 0
-"52 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/pin_manager.c
+"52 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 {
 "101
 } 0
-"124 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/mcc.c
+"124 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/mcc.c
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 {
 "134
 } 0
-"72 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_init.c
+"72 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_init.c
 [v _LORAWAN_PlatformInit LORAWAN_PlatformInit `(v  1 e 1 0 ]
 {
 "82
 } 0
-"54 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/tmr_lora_addons.c
+"54 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/tmr_lora_addons.c
 [v _TMR_ISR_Lora_Init TMR_ISR_Lora_Init `(v  1 e 1 0 ]
 {
 "57
 } 0
-"183 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr1.c
+"183 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr1.c
 [v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
 {
 [v TMR1_SetInterruptHandler@InterruptHandler InterruptHandler `*.2v  1 p 2 4 ]
 "185
 } 0
-"135 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
+"135 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
 [v _SystemTimerInit SystemTimerInit `(v  1 e 1 0 ]
 {
 "138
 } 0
-"67 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_init.c
+"67 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_init.c
 [v _DIO5_ISR_Lora_Init DIO5_ISR_Lora_Init `(v  1 e 1 0 ]
 {
 "70
@@ -1986,13 +1984,13 @@ CNF 1
 {
 "57
 } 0
-"133 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/pin_manager.c
+"133 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/pin_manager.c
 [v _IOCB4_SetInterruptHandler IOCB4_SetInterruptHandler `(v  1 e 1 0 ]
 {
 [v IOCB4_SetInterruptHandler@InterruptHandler InterruptHandler `*.2v  1 p 2 4 ]
 "135
 } 0
-"49 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_init.c
+"49 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_init.c
 [v _DIO1_ISR_Lora_Init DIO1_ISR_Lora_Init `(v  1 e 1 0 ]
 {
 "52
@@ -2002,12 +2000,12 @@ CNF 1
 {
 "47
 } 0
-"51 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/interrupt_manager.c
+"51 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
 {
 "55
 } 0
-"176 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/ext_int.c
+"176 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/ext_int.c
 [v _EXT_INT_Initialize EXT_INT_Initialize `(v  1 e 1 0 ]
 {
 "224
@@ -2030,22 +2028,22 @@ CNF 1
 [v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.2v  1 p 2 4 ]
 "156
 } 0
-"272 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"271 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
 [v _LoRaWakeUp LoRaWakeUp `(v  1 e 1 0 ]
 {
-"276
+"275
 } 0
-"63 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/spi2.c
+"63 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/spi2.c
 [v _SPI2_Initialize SPI2_Initialize `(v  1 e 1 0 ]
 {
 "75
 } 0
-"242 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"241 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
 [v _LoRaSleep LoRaSleep `(v  1 e 1 0 ]
 {
-"270
+"269
 } 0
-"379 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+"379 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _LORAWAN_SetNetworkSessionKey LORAWAN_SetNetworkSessionKey `(v  1 e 1 0 ]
 {
 [v LORAWAN_SetNetworkSessionKey@networkSessionKeyNew networkSessionKeyNew `*.39uc  1 p 2 14 ]
@@ -2068,14 +2066,14 @@ CNF 1
 {
 "2269
 } 0
-"260 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
+"260 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
 [v _SwTimersExecute SwTimersExecute `(v  1 e 1 0 ]
 {
 "262
 [v SwTimersExecute@i i `uc  1 a 1 129 ]
 "284
 } 0
-"1221 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
+"1221 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
 [v _DutyCycleCallback DutyCycleCallback `R(v  1 s 1 DutyCycleCallback ]
 {
 "1223
@@ -2086,7 +2084,7 @@ CNF 1
 [v DutyCycleCallback@found found `uc  1 a 1 9 ]
 "1253
 } 10
-"1041 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+"1041 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _UpdateJoinSuccessState UpdateJoinSuccessState `R(v  1 e 1 0 ]
 {
 "1061
@@ -2122,7 +2120,7 @@ CNF 1
 {
 "879
 } 0
-"1408 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
+"1408 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
 [v _RADIO_WatchdogTimeout RADIO_WatchdogTimeout `R(v  1 s 1 RADIO_WatchdogTimeout ]
 {
 "1427
@@ -2134,17 +2132,17 @@ CNF 1
 [v RADIO_RxFSKTimeout@irqFlags irqFlags `uc  1 a 1 0 ]
 "1405
 } 1
-"997 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+"997 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _UnconfirmedTransmissionCallback UnconfirmedTransmissionCallback `R(v  1 e 1 0 ]
 {
 "1015
 } 0
-"883 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
+"883 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
 [v _GetRx1Freq GetRx1Freq `(ul  1 e 4 0 ]
 {
 "886
 } 0
-"1344 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
+"1344 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
 [v _RADIO_DIO5 RADIO_DIO5 `(v  1 e 1 0 ]
 {
 "1365
@@ -2232,7 +2230,7 @@ CNF 1
 [v ___abdiv@dividend dividend `c  1 a 1 8 ]
 "37
 } 0
-"1010 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
+"1010 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
 [v _RADIO_FSKPayloadReady RADIO_FSKPayloadReady `(v  1 s 1 RADIO_FSKPayloadReady ]
 {
 "1013
@@ -2241,7 +2239,7 @@ CNF 1
 [v RADIO_FSKPayloadReady@irqFlags irqFlags `uc  1 a 1 130 ]
 "1064
 } 0
-"464 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
+"464 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
 [v _LORAWAN_RxTimeout LORAWAN_RxTimeout `(v  1 e 1 0 ]
 {
 "467
@@ -2250,7 +2248,7 @@ CNF 1
 [v LORAWAN_RxTimeout@i i `uc  1 a 1 79 ]
 "568
 } 0
-"1121 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+"1121 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _LORAWAN_RxDone LORAWAN_RxDone `(E8191  1 e 1 0 ]
 {
 [s S1880 . 1 `uc 1 major 1 0 :2:0 
@@ -2310,7 +2308,7 @@ CNF 1
 {
 "1039
 } 0
-"888 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
+"888 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
 [v _UpdateDLSettings UpdateDLSettings `(v  1 e 1 0 ]
 {
 [v UpdateDLSettings@dlRx2Dr dlRx2Dr `uc  1 a 1 wreg ]
@@ -2359,7 +2357,7 @@ CNF 1
 [v StartReTxTimer@i i `uc  1 a 1 62 ]
 "917
 } 0
-"1997 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+"1997 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _SetReceptionNotOkState SetReceptionNotOkState `(v  1 s 1 SetReceptionNotOkState ]
 {
 "2017
@@ -2369,12 +2367,12 @@ CNF 1
 {
 "1113
 } 0
-"117 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"117 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
 [v _RxJoinResponse RxJoinResponse `(v  1 e 1 0 ]
 {
 "120
 } 0
-"1575 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+"1575 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _MacExecuteCommands MacExecuteCommands `(*.39uc  1 s 2 MacExecuteCommands ]
 {
 "1578
@@ -2404,7 +2402,7 @@ CNF 1
 [v UpdateReceiveDelays@delay delay `uc  1 a 1 8 ]
 "2035
 } 0
-"740 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
+"740 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
 [v _ExecuteRxParamSetupReq ExecuteRxParamSetupReq `(*.39uc  1 e 2 0 ]
 {
 "743
@@ -2432,14 +2430,14 @@ CNF 1
 [v ValidateRxOffset@rxOffset rxOffset `uc  1 a 1 4 ]
 "1086
 } 0
-"1084 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+"1084 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _UpdateReceiveWindow2Parameters UpdateReceiveWindow2Parameters `(v  1 e 1 0 ]
 {
 [v UpdateReceiveWindow2Parameters@frequency frequency `ul  1 p 4 4 ]
 [v UpdateReceiveWindow2Parameters@dataRate dataRate `uc  1 p 1 8 ]
 "1088
 } 0
-"677 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
+"677 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
 [v _ExecuteNewChannel ExecuteNewChannel `(*.39uc  1 e 2 0 ]
 {
 "681
@@ -2535,13 +2533,13 @@ CNF 1
 [v ValidateChannelId@channelId channelId `uc  1 a 1 6 ]
 "1135
 } 0
-"1652 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+"1652 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _ExecuteLinkCheck ExecuteLinkCheck `(*.39uc  1 s 2 ExecuteLinkCheck ]
 {
 [v ExecuteLinkCheck@ptr ptr `*.39uc  1 p 2 4 ]
 "1657
 } 0
-"613 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
+"613 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
 [v _ExecuteLinkAdr ExecuteLinkAdr `(*.39uc  1 e 2 0 ]
 {
 [s S1830 . 1 `uc 1 nbRep 1 0 :4:0 
@@ -2593,7 +2591,7 @@ CNF 1
 [v ValidateChannelMask@channelMask channelMask `ui  1 p 2 4 ]
 "1191
 } 0
-"1029 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+"1029 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _UpdateTxPower UpdateTxPower `(v  1 e 1 0 ]
 {
 [v UpdateTxPower@txPowerNew txPowerNew `uc  1 a 1 wreg ]
@@ -2602,7 +2600,7 @@ CNF 1
 [v UpdateTxPower@txPowerNew txPowerNew `uc  1 a 1 4 ]
 "1032
 } 0
-"1149 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
+"1149 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
 [v _EnableChannels EnableChannels `(v  1 s 1 EnableChannels ]
 {
 [v EnableChannels@channelMask channelMask `ui  1 p 2 14 ]
@@ -2649,7 +2647,7 @@ CNF 1
 [v ExecuteDevStatus@ptr ptr `*.39uc  1 p 2 4 ]
 "675
 } 0
-"185 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+"185 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _LORAWAN_Send LORAWAN_Send `(E7957  1 e 1 0 ]
 {
 [v LORAWAN_Send@confirmed confirmed `E7984  1 a 1 wreg ]
@@ -2720,12 +2718,12 @@ CNF 1
 [v IncludeMacCommandsResponse@bIncludeInFopts bIncludeInFopts `uc  1 p 1 7 ]
 "1960
 } 0
-"1429 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
+"1429 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
 [v _RADIO_GetPacketSnr RADIO_GetPacketSnr `(c  1 e 1 0 ]
 {
 "1432
 } 0
-"1963 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+"1963 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _FindSmallestDataRate FindSmallestDataRate `(uc  1 s 1 FindSmallestDataRate ]
 {
 "1965
@@ -2859,7 +2857,7 @@ CNF 1
 [v CheckFlags@hdr hdr `*.39S3277  1 p 2 4 ]
 "2095
 } 0
-"1093 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
+"1093 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
 [v _RADIO_FSKPacketSent RADIO_FSKPacketSent `(v  1 s 1 RADIO_FSKPacketSent ]
 {
 "1096
@@ -2868,7 +2866,7 @@ CNF 1
 [v RADIO_FSKPacketSent@irqFlags irqFlags `uc  1 a 1 126 ]
 "1113
 } 0
-"365 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
+"365 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
 [v _LORAWAN_TxDone LORAWAN_TxDone `(v  1 e 1 0 ]
 {
 "371
@@ -2883,7 +2881,7 @@ CNF 1
 [v LORAWAN_TxDone@timeOnAir timeOnAir `ui  1 p 2 64 ]
 "461
 } 0
-"193 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
+"193 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
 [v _SwTimerReadValue SwTimerReadValue `(ul  1 e 4 0 ]
 {
 [v SwTimerReadValue@timerId timerId `uc  1 a 1 wreg ]
@@ -2907,17 +2905,17 @@ CNF 1
 [v SwTimerIsRunning@timerId timerId `uc  1 a 1 4 ]
 "216
 } 0
-"1116 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
+"1116 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
 [v _RADIO_GetStatus RADIO_GetStatus `(uc  1 e 1 0 ]
 {
 "1119
 } 0
-"915 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+"915 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _LORAWAN_EnterContinuousReceive LORAWAN_EnterContinuousReceive `(v  1 e 1 0 ]
 {
 "932
 } 0
-"104 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"104 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
 [v _RxDataDone RxDataDone `(v  1 e 1 0 ]
 {
 [v RxDataDone@pData pData `*.39uc  1 p 2 7 ]
@@ -2925,7 +2923,7 @@ CNF 1
 [v RxDataDone@status status `E8000  1 p 1 10 ]
 "115
 } 0
-"436 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+"436 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _LORAWAN_SetCurrentDataRate LORAWAN_SetCurrentDataRate `(E7957  1 e 1 0 ]
 {
 [v LORAWAN_SetCurrentDataRate@valueNew valueNew `uc  1 a 1 wreg ]
@@ -2934,7 +2932,7 @@ CNF 1
 [v LORAWAN_SetCurrentDataRate@valueNew valueNew `uc  1 a 1 6 ]
 "449
 } 0
-"570 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
+"570 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
 [v _ValidateDataRate ValidateDataRate `(E8016  1 e 1 0 ]
 {
 [v ValidateDataRate@dataRate dataRate `uc  1 a 1 wreg ]
@@ -2946,7 +2944,7 @@ CNF 1
 [v ValidateDataRate@dataRate dataRate `uc  1 a 1 4 ]
 "580
 } 0
-"1024 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+"1024 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _UpdateCurrentDataRate UpdateCurrentDataRate `(v  1 e 1 0 ]
 {
 [v UpdateCurrentDataRate@valueNew valueNew `uc  1 a 1 wreg ]
@@ -2965,7 +2963,7 @@ CNF 1
 {
 "1095
 } 0
-"1134 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
+"1134 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
 [v _RADIO_ReleaseData RADIO_ReleaseData `(v  1 e 1 0 ]
 {
 "1137
@@ -2981,7 +2979,7 @@ CNF 1
 [v RADIO_ReceiveStart@rxWindowSize rxWindowSize `ui  1 p 2 54 ]
 "948
 } 0
-"2019 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+"2019 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _ConfigureRadioRx ConfigureRadioRx `(v  1 s 1 ConfigureRadioRx ]
 {
 [v ConfigureRadioRx@dataRate dataRate `uc  1 a 1 wreg ]
@@ -2991,14 +2989,14 @@ CNF 1
 [v ConfigureRadioRx@dataRate dataRate `uc  1 a 1 26 ]
 "2024
 } 0
-"48 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/interrupt_manager_lora_addons.c
+"48 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/interrupt_manager_lora_addons.c
 [v _INTERRUPT_GetDioStatus INTERRUPT_GetDioStatus `(uc  1 e 1 0 ]
 {
 "50
 [v INTERRUPT_GetDioStatus@a a `uc  1 a 1 4 ]
 "56
 } 0
-"115 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+"115 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _LORAWAN_Join LORAWAN_Join `(E7957  1 e 1 0 ]
 {
 [v LORAWAN_Join@activationTypeNew activationTypeNew `E7980  1 a 1 wreg ]
@@ -3021,7 +3019,7 @@ CNF 1
 [v UpdateJoinInProgress@state state `uc  1 a 1 4 ]
 "2043
 } 0
-"919 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
+"919 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
 [v _SelectChannelForTransmission SelectChannelForTransmission `(E8016  1 e 1 0 ]
 {
 [v SelectChannelForTransmission@transmissionType transmissionType `uc  1 a 1 wreg ]
@@ -3066,7 +3064,7 @@ CNF 1
 [v ConfigureRadioTx@dataRate dataRate `uc  1 a 1 26 ]
 "1274
 } 0
-"1464 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
+"1464 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
 [v _RADIO_SetOutputPower RADIO_SetOutputPower `(v  1 e 1 0 ]
 {
 [v RADIO_SetOutputPower@power power `c  1 a 1 wreg ]
@@ -3093,7 +3091,7 @@ CNF 1
 [v RADIO_SetCRC@crc crc `uc  1 a 1 4 ]
 "1477
 } 0
-"863 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
+"863 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
 [v _ConfigureRadio ConfigureRadio `(v  1 e 1 0 ]
 {
 [v ConfigureRadio@dataRate dataRate `uc  1 a 1 wreg ]
@@ -3103,7 +3101,7 @@ CNF 1
 [v ConfigureRadio@dataRate dataRate `uc  1 a 1 21 ]
 "881
 } 0
-"1434 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
+"1434 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
 [v _RADIO_SetSpreadingFactor RADIO_SetSpreadingFactor `(v  1 e 1 0 ]
 {
 [v RADIO_SetSpreadingFactor@spreadingFactor spreadingFactor `E7761  1 a 1 wreg ]
@@ -3209,7 +3207,7 @@ CNF 1
 [v RADIO_WriteFSKBitRate@bitRate bitRate `ul  1 p 4 17 ]
 "328
 } 0
-"1806 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+"1806 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _PrepareJoinRequestFrame PrepareJoinRequestFrame `(uc  1 s 1 PrepareJoinRequestFrame ]
 {
 "1810
@@ -3257,7 +3255,7 @@ CNF 1
 [v ___lwmod@divisor divisor `ui  1 p 2 20 ]
 "26
 } 0
-"2194 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+"2194 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _ComputeMic ComputeMic `(ul  1 s 4 ComputeMic ]
 {
 "2196
@@ -3268,7 +3266,7 @@ CNF 1
 [v ComputeMic@bufferLength bufferLength `uc  1 p 1 110 ]
 "2203
 } 0
-"41 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_aes_cmac.c
+"41 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_aes_cmac.c
 [v _AESCmac AESCmac `(v  1 e 1 0 ]
 {
 "46
@@ -3324,7 +3322,7 @@ CNF 1
 [v FillSubKey@size size `uc  1 p 1 8 ]
 "179
 } 0
-"34 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_aes.c
+"34 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_aes.c
 [v _AESEncodeLoRa AESEncodeLoRa `(v  1 e 1 0 ]
 {
 "36
@@ -3334,7 +3332,7 @@ CNF 1
 [v AESEncodeLoRa@key key `*.39uc  1 p 2 34 ]
 "39
 } 0
-"217 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/AES.c
+"217 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/AES.c
 [v _AESEncode AESEncode `(v  1 e 1 0 ]
 {
 "248
@@ -3364,7 +3362,7 @@ CNF 1
 [v EncKeySchedule@key key `*.30uc  1 p 1 4 ]
 "334
 } 0
-"123 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
+"123 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
 [v _LORAWAN_Init LORAWAN_Init `(v  1 e 1 0 ]
 {
 [v LORAWAN_Init@RxPayload RxPayload `*.37(v  1 p 2 70 ]
@@ -3377,12 +3375,12 @@ CNF 1
 [v srand@x x `ui  1 p 2 21 ]
 "9
 } 0
-"951 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
+"951 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
 [v _SetCallbackSoftwareTimers SetCallbackSoftwareTimers `(v  1 s 1 SetCallbackSoftwareTimers ]
 {
 "963
 } 0
-"1367 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
+"1367 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
 [v _RADIO_ReadRandom RADIO_ReadRandom `(ui  1 e 2 0 ]
 {
 "1370
@@ -3391,7 +3389,7 @@ CNF 1
 [v RADIO_ReadRandom@i i `uc  1 a 1 20 ]
 "1390
 } 0
-"148 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
+"148 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
 [v _LORAWAN_Reset LORAWAN_Reset `(v  1 e 1 0 ]
 {
 [v LORAWAN_Reset@ismBandNew ismBandNew `E8047  1 a 1 wreg ]
@@ -3400,19 +3398,19 @@ CNF 1
 [v LORAWAN_Reset@ismBandNew ismBandNew `E8047  1 a 1 69 ]
 "233
 } 0
-"1063 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+"1063 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _UpdateMinMaxChDataRate UpdateMinMaxChDataRate `(v  1 e 1 0 ]
 {
 "1065
 [v UpdateMinMaxChDataRate@i i `uc  1 a 1 5 ]
 "1082
 } 0
-"965 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
+"965 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
 [v _StopAllSoftwareTimers StopAllSoftwareTimers `(v  1 s 1 StopAllSoftwareTimers ]
 {
 "977
 } 0
-"522 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
+"522 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
 [v _RADIO_SetLoRaSyncWord RADIO_SetLoRaSyncWord `(v  1 e 1 0 ]
 {
 [v RADIO_SetLoRaSyncWord@syncWord syncWord `uc  1 a 1 wreg ]
@@ -3428,7 +3426,7 @@ CNF 1
 [v RADIO_Init@frequency frequency `ul  1 p 4 31 ]
 "520
 } 0
-"180 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
+"180 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
 [v _SwTimerSetCallback SwTimerSetCallback `(v  1 e 1 0 ]
 {
 [v SwTimerSetCallback@timerId timerId `uc  1 a 1 wreg ]
@@ -3439,7 +3437,7 @@ CNF 1
 [v SwTimerSetCallback@timerId timerId `uc  1 a 1 7 ]
 "184
 } 0
-"147 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
+"147 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
 [v _RADIO_WriteMode RADIO_WriteMode `(v  1 s 1 RADIO_WriteMode ]
 {
 [v RADIO_WriteMode@newMode newMode `E8483  1 a 1 wreg ]
@@ -3471,12 +3469,12 @@ CNF 1
 [v RADIO_RegisterRead@reg reg `uc  1 a 1 6 ]
 "143
 } 0
-"95 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_hal.c
+"95 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_hal.c
 [v _HALDIO5PinValue HALDIO5PinValue `(uc  1 e 1 0 ]
 {
 "98
 } 0
-"262 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
+"262 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
 [v _RADIO_WriteFrequency RADIO_WriteFrequency `(v  1 s 1 RADIO_WriteFrequency ]
 {
 "264
@@ -3496,7 +3494,7 @@ CNF 1
 [v ___llmod@divisor divisor `ul  1 p 4 8 ]
 "26
 } 0
-"126 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
+"126 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
 [v _RADIO_RegisterWrite RADIO_RegisterWrite `(v  1 e 1 0 ]
 {
 [v RADIO_RegisterWrite@reg reg `uc  1 a 1 wreg ]
@@ -3506,7 +3504,7 @@ CNF 1
 [v RADIO_RegisterWrite@reg reg `uc  1 a 1 7 ]
 "132
 } 0
-"73 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_hal.c
+"73 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_hal.c
 [v _HALSPISend HALSPISend `(uc  1 e 1 0 ]
 {
 [v HALSPISend@data data `uc  1 a 1 wreg ]
@@ -3515,7 +3513,7 @@ CNF 1
 [v HALSPISend@data data `uc  1 a 1 5 ]
 "76
 } 0
-"77 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/spi2.c
+"77 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/spi2.c
 [v _SPI2_Exchange8bit SPI2_Exchange8bit `(uc  1 e 1 0 ]
 {
 [v SPI2_Exchange8bit@data data `uc  1 a 1 wreg ]
@@ -3524,7 +3522,7 @@ CNF 1
 [v SPI2_Exchange8bit@data data `uc  1 a 1 4 ]
 "89
 } 0
-"68 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_hal.c
+"68 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_hal.c
 [v _HALSPICSDeassert HALSPICSDeassert `(v  1 e 1 0 ]
 {
 "71
@@ -3534,18 +3532,18 @@ CNF 1
 {
 "66
 } 0
-"249 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
+"249 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_SX1276.c
 [v _RADIO_Reset RADIO_Reset `(v  1 s 1 RADIO_Reset ]
 {
 "259
 } 0
-"145 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
+"145 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
 [v _SystemBlockingWaitMs SystemBlockingWaitMs `(v  1 e 1 0 ]
 {
 [v SystemBlockingWaitMs@ms ms `ul  1 p 4 4 ]
 "152
 } 0
-"55 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_hal.c
+"55 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/radio_driver_hal.c
 [v _HALResetPinOutputValue HALResetPinOutputValue `(v  1 e 1 0 ]
 {
 [v HALResetPinOutputValue@value value `uc  1 a 1 wreg ]
@@ -3564,7 +3562,7 @@ CNF 1
 {
 "53
 } 0
-"755 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+"755 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _LORAWAN_LinkCheckConfigure LORAWAN_LinkCheckConfigure `(v  1 e 1 0 ]
 {
 "757
@@ -3585,7 +3583,7 @@ CNF 1
 [v ___lldiv@divisor divisor `ul  1 p 4 8 ]
 "31
 } 0
-"233 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
+"233 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
 [v _SwTimerStop SwTimerStop `(v  1 e 1 0 ]
 {
 [v SwTimerStop@timerId timerId `uc  1 a 1 wreg ]
@@ -3627,13 +3625,13 @@ CNF 1
 [v TMR_SwapTimer@retVal retVal `ui  1 s 2 retVal ]
 "133
 } 0
-"120 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr1.c
+"120 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr1.c
 [v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
 {
 [v TMR1_WriteTimer@timerVal timerVal `ui  1 p 2 4 ]
 "140
 } 0
-"287 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
+"287 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
 [v _SwTimersInterrupt SwTimersInterrupt `(ul  1 e 4 0 ]
 {
 "291
@@ -3653,7 +3651,7 @@ CNF 1
 [v TMR_GetDeltaTime@tmrVal tmrVal `ui  1 s 2 tmrVal ]
 "110
 } 0
-"106 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr1.c
+"106 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr1.c
 [v _TMR1_ReadTimer TMR1_ReadTimer `(ui  1 e 2 0 ]
 {
 "108
@@ -3664,7 +3662,7 @@ CNF 1
 [v TMR1_ReadTimer@readValHigh readValHigh `uc  1 a 1 10 ]
 "118
 } 0
-"186 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
+"186 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
 [v _SwTimerSetTimeout SwTimerSetTimeout `(v  1 e 1 0 ]
 {
 [v SwTimerSetTimeout@timerId timerId `uc  1 a 1 wreg ]
@@ -3674,7 +3672,7 @@ CNF 1
 [v SwTimerSetTimeout@timerId timerId `uc  1 a 1 25 ]
 "191
 } 0
-"979 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
+"979 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
 [v _InitDefault868Channels InitDefault868Channels `(v  1 s 1 InitDefault868Channels ]
 {
 "981
@@ -3712,39 +3710,39 @@ CNF 1
 [v memcpy@n n `ui  1 p 2 8 ]
 "32
 } 0
-"937 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
+"937 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan_eu.c
 [v _CreateAllSoftwareTimers CreateAllSoftwareTimers `(v  1 s 1 CreateAllSoftwareTimers ]
 {
 "949
 } 0
-"154 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
+"154 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
 [v _SwTimerCreate SwTimerCreate `(uc  1 e 1 0 ]
 {
 "156
 [v SwTimerCreate@retVal retVal `uc  1 a 1 4 ]
 "178
 } 0
-"2233 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
+"2233 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 [v _LORAWAN_GetState LORAWAN_GetState `(uc  1 e 1 0 ]
 {
 "2236
 } 0
-"130 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"129 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
 [v _IO_pins_init IO_pins_init `(v  1 e 1 0 ]
 {
-"141
+"140
 } 0
-"158
+"157
 [v _ADC_Init ADC_Init `(v  1 e 1 0 ]
 {
-"163
+"162
 } 0
-"57 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/interrupt_manager.c
+"57 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
 {
 "84
 } 0
-"159 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr3.c
+"159 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr3.c
 [v _TMR3_ISR TMR3_ISR `(v  1 e 1 0 ]
 {
 "172
@@ -3759,14 +3757,14 @@ CNF 1
 {
 "190
 } 0
-"89 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\main.c
+"89 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
 [v _handle16sInterrupt handle16sInterrupt `(v  1 e 1 0 ]
 {
 "91
 [v handle16sInterrupt@counterSleepTimeout counterSleepTimeout `VEuc  1 s 1 counterSleepTimeout ]
 "102
 } 0
-"159 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr1.c
+"159 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr1.c
 [v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
 {
 "172
@@ -3781,24 +3779,24 @@ CNF 1
 {
 "190
 } 0
-"59 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/tmr_lora_addons.c
+"59 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/tmr_lora_addons.c
 [v _TMR_ISR_lora TMR_ISR_lora `(v  1 e 1 0 ]
 {
 "70
 } 0
-"112 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
+"112 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
 [v i2_TMR_SwapTimer TMR_SwapTimer `(ui  1 e 2 0 ]
 {
 [v i2TMR_SwapTimer@timerVal timerVal `ui  1 p 2 8 ]
 "133
 } 0
-"120 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr1.c
+"120 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr1.c
 [v i2_TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
 {
 [v i2TMR1_WriteTimer@timerVal timerVal `ui  1 p 2 0 ]
 "140
 } 0
-"287 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
+"287 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/sw_timer.c
 [v i2_SwTimersInterrupt SwTimersInterrupt `(ul  1 e 4 0 ]
 {
 [v i2SwTimersInterrupt@ticksToNextTimerEvent SwTimersInterrupt `ul  1 a 4 36 ]
@@ -3811,7 +3809,7 @@ CNF 1
 {
 "110
 } 0
-"106 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr1.c
+"106 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr1.c
 [v i2_TMR1_ReadTimer TMR1_ReadTimer `(ui  1 e 2 0 ]
 {
 [v i2TMR1_ReadTimer@readVal TMR1_ReadTimer `ui  1 a 2 4 ]
@@ -3819,7 +3817,7 @@ CNF 1
 [v i2TMR1_ReadTimer@readValHigh TMR1_ReadTimer `uc  1 a 1 6 ]
 "118
 } 0
-"103 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/pin_manager.c
+"103 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
 {
 "114
@@ -3829,17 +3827,17 @@ CNF 1
 {
 "128
 } 0
-"73 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/interrupt_manager_lora_addons.c
+"73 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/interrupt_manager_lora_addons.c
 [v _DIO2_ISR_Lora DIO2_ISR_Lora `(v  1 e 1 0 ]
 {
 "76
 } 0
-"140 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/pin_manager.c
+"140 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/pin_manager.c
 [v _IOCB4_DefaultInterruptHandler IOCB4_DefaultInterruptHandler `(v  1 e 1 0 ]
 {
 "143
 } 0
-"86 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/ext_int.c
+"86 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/ext_int.c
 [v _INT2_ISR INT2_ISR `(v  1 e 1 0 ]
 {
 "96
@@ -3849,12 +3847,12 @@ CNF 1
 {
 "108
 } 0
-"68 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/interrupt_manager_lora_addons.c
+"68 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/interrupt_manager_lora_addons.c
 [v _DIO1_ISR_Lora DIO1_ISR_Lora `(v  1 e 1 0 ]
 {
 "71
 } 0
-"120 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/ext_int.c
+"120 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/ext_int.c
 [v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
 {
 "123
@@ -3869,12 +3867,12 @@ CNF 1
 {
 "67
 } 0
-"63 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/interrupt_manager_lora_addons.c
+"63 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/interrupt_manager_lora_addons.c
 [v _DIO0_ISR_Lora DIO0_ISR_Lora `(v  1 e 1 0 ]
 {
 "66
 } 0
-"79 C:\Users\chima\OneDrive\Desktop\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/ext_int.c
+"79 C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/ext_int.c
 [v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
 {
 "82

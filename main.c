@@ -1,7 +1,9 @@
 /*  
  * Author   :      Chiappalone Mattia
- * MPLAB    :      MPLABX IDE v3.40
+ * MPLAB    :      MPLABX IDE v3.40 or v3.35
  * Compiler :      XC8 v1.38 PRO
+ * Date     :      August 2022
+ * Revision :      v1.0 
  * 
  * main.c
  * 
@@ -42,7 +44,7 @@ void LoRaSleep(void);
 void LoRaWakeUp(void);
 
 uint8_t TimeToSend;
-uint8_t portNumber = 2;
+uint8_t portNumber = 2;                     // Port number for uplink packet
 uint8_t ONE_HOUR_TIMEOUT_COUNTS = 4;        // Set to 225 for a hour countdown
 
 void main(void)
@@ -120,7 +122,6 @@ void RxJoinResponse(bool status)
 }
 
 void readAndSend(void){
-    for(int j = 1; j<100; j++) __delay_ms(1);
     payload[0] = ADC_Read(TEMP);
     payload[1] = ADC_Read(LIGHT);
     LORAWAN_Send(UNCNF, portNumber, &payload, sizeof(payload)); //4 is the number of bytes sent

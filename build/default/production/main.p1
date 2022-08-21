@@ -120,13 +120,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [n S433 . . . . . . . . ]
 "7297
 [v _PORTDbits `VS433 ~T0 @X0 0 e@3971 ]
-[v F7716 `(v ~T0 @X0 1 tf1`ul ]
-"157 C:\Program Files (x86)\Microchip\xc8\v1.38\include\pic18.h
-[v __delay `JF7716 ~T0 @X0 0 e ]
-[p i __delay ]
 "29 main.c
 [v _ADC_Read `(ui ~T0 @X0 0 ef1`uc ]
-"126
+"125
 [c E8012 0 1 .. ]
 [n E8012 . UNCNF CNF  ]
 "197 mcc_generated_files/LoRaWAN/lorawan.h
@@ -8733,389 +8729,376 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;main.c: 122: void readAndSend(void){
 [e :U _readAndSend ]
 [f ]
-[; ;main.c: 123: for(int j = 1; j<100; j++) _delay((unsigned long)((1)*(16000000/4000.0)));
+[; ;main.c: 123: payload[0] = ADC_Read(27);
 "123
-{
-[v _j `i ~T0 @X0 1 a ]
-[e = _j -> 1 `i ]
-[e $ < _j -> 100 `i 1167  ]
-[e $U 1168  ]
-[e :U 1167 ]
-[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
-[e ++ _j -> 1 `i ]
-[e $ < _j -> 100 `i 1167  ]
-[e :U 1168 ]
-}
-[; ;main.c: 124: payload[0] = ADC_Read(27);
-"124
 [e = *U + &U _payload * -> -> -> 0 `i `ui `ux -> -> # *U &U _payload `ui `ux ( _ADC_Read (1 -> -> 27 `i `uc ]
-[; ;main.c: 125: payload[1] = ADC_Read(26);
-"125
+[; ;main.c: 124: payload[1] = ADC_Read(26);
+"124
 [e = *U + &U _payload * -> -> -> 1 `i `ui `ux -> -> # *U &U _payload `ui `ux ( _ADC_Read (1 -> -> 26 `i `uc ]
-[; ;main.c: 126: LORAWAN_Send(UNCNF, portNumber, &payload, sizeof(payload));
-"126
+[; ;main.c: 125: LORAWAN_Send(UNCNF, portNumber, &payload, sizeof(payload));
+"125
 [e ( _LORAWAN_Send (4 , , , . `E8012 0 _portNumber -> &U _payload `*v -> -> # _payload `ui `uc ]
-[; ;main.c: 128: }
-"128
+[; ;main.c: 127: }
+"127
 [e :UE 1166 ]
 }
-"130
+"129
 [v _IO_pins_init `(v ~T0 @X0 1 ef ]
 {
-[; ;main.c: 130: void IO_pins_init(void){
+[; ;main.c: 129: void IO_pins_init(void){
 [e :U _IO_pins_init ]
 [f ]
-[; ;main.c: 132: TRISCbits.TRISC5 = 0;
-"132
+[; ;main.c: 131: TRISCbits.TRISC5 = 0;
+"131
 [e = . . _TRISCbits 0 5 -> -> 0 `i `uc ]
-[; ;main.c: 133: TRISDbits.TRISD5 = 0;
-"133
+[; ;main.c: 132: TRISDbits.TRISD5 = 0;
+"132
 [e = . . _TRISDbits 0 5 -> -> 0 `i `uc ]
-[; ;main.c: 134: TRISDbits.TRISD6 = 1;
-"134
+[; ;main.c: 133: TRISDbits.TRISD6 = 1;
+"133
 [e = . . _TRISDbits 0 6 -> -> 1 `i `uc ]
-[; ;main.c: 135: TRISDbits.TRISD7 = 1;
-"135
+[; ;main.c: 134: TRISDbits.TRISD7 = 1;
+"134
 [e = . . _TRISDbits 0 7 -> -> 1 `i `uc ]
-[; ;main.c: 137: ANSELCbits.ANSC5 = 0;
-"137
+[; ;main.c: 136: ANSELCbits.ANSC5 = 0;
+"136
 [e = . . _ANSELCbits 0 4 -> -> 0 `i `uc ]
-[; ;main.c: 138: ANSELDbits.ANSD5 = 0;
-"138
+[; ;main.c: 137: ANSELDbits.ANSD5 = 0;
+"137
 [e = . . _ANSELDbits 0 5 -> -> 0 `i `uc ]
-[; ;main.c: 139: ANSELDbits.ANSD6 = 1;
-"139
+[; ;main.c: 138: ANSELDbits.ANSD6 = 1;
+"138
 [e = . . _ANSELDbits 0 6 -> -> 1 `i `uc ]
-[; ;main.c: 140: ANSELDbits.ANSD7 = 1;
-"140
+[; ;main.c: 139: ANSELDbits.ANSD7 = 1;
+"139
 [e = . . _ANSELDbits 0 7 -> -> 1 `i `uc ]
-[; ;main.c: 141: }
-"141
-[e :UE 1170 ]
+[; ;main.c: 140: }
+"140
+[e :UE 1167 ]
 }
-"142
+"141
 [v _ADC_SelChannel `(v ~T0 @X0 1 ef1`uc ]
 {
-[; ;main.c: 142: void ADC_SelChannel(uint8_t c){
+[; ;main.c: 141: void ADC_SelChannel(uint8_t c){
 [e :U _ADC_SelChannel ]
 [v _c `uc ~T0 @X0 1 r1 ]
 [f ]
-[; ;main.c: 143: ADCON0bits.CHS = c;
-"143
+[; ;main.c: 142: ADCON0bits.CHS = c;
+"142
 [e = . . _ADCON0bits 1 2 _c ]
-[; ;main.c: 144: return;
+[; ;main.c: 143: return;
+"143
+[e $UE 1168  ]
+[; ;main.c: 144: }
 "144
-[e $UE 1171  ]
-[; ;main.c: 145: }
-"145
-[e :UE 1171 ]
+[e :UE 1168 ]
 }
-"147
+"146
 [v _ADC_Read `(ui ~T0 @X0 1 ef1`uc ]
 {
-[; ;main.c: 147: uint16_t ADC_Read(uint8_t channel){
+[; ;main.c: 146: uint16_t ADC_Read(uint8_t channel){
 [e :U _ADC_Read ]
 [v _channel `uc ~T0 @X0 1 r1 ]
 [f ]
-"148
+"147
 [v _result `ui ~T0 @X0 1 a ]
-[; ;main.c: 148: uint16_t result = 0;
+[; ;main.c: 147: uint16_t result = 0;
 [e = _result -> -> 0 `i `ui ]
-[; ;main.c: 149: ADCON0bits.ADON = 1;
-"149
+[; ;main.c: 148: ADCON0bits.ADON = 1;
+"148
 [e = . . _ADCON0bits 1 0 -> -> 1 `i `uc ]
-[; ;main.c: 150: ADC_SelChannel(channel);
-"150
+[; ;main.c: 149: ADC_SelChannel(channel);
+"149
 [e ( _ADC_SelChannel (1 _channel ]
-[; ;main.c: 151: ADCON0bits.GO = 1;
-"151
+[; ;main.c: 150: ADCON0bits.GO = 1;
+"150
 [e = . . _ADCON0bits 2 1 -> -> 1 `i `uc ]
-[; ;main.c: 152: while(ADCON0bits.GO);
+[; ;main.c: 151: while(ADCON0bits.GO);
+"151
+[e $U 1170  ]
+[e :U 1171 ]
+[e :U 1170 ]
+[e $ != -> . . _ADCON0bits 2 1 `i -> -> -> 0 `i `Vuc `i 1171  ]
+[e :U 1172 ]
+[; ;main.c: 152: result = (ADRESH<<8) | ADRESL;
 "152
-[e $U 1173  ]
-[e :U 1174 ]
-[e :U 1173 ]
-[e $ != -> . . _ADCON0bits 2 1 `i -> -> -> 0 `i `Vuc `i 1174  ]
-[e :U 1175 ]
-[; ;main.c: 153: result = (ADRESH<<8) | ADRESL;
-"153
 [e = _result -> | << -> _ADRESH `i -> 8 `i -> _ADRESL `i `ui ]
-[; ;main.c: 154: ADCON0bits.ADON = 0;
-"154
+[; ;main.c: 153: ADCON0bits.ADON = 0;
+"153
 [e = . . _ADCON0bits 1 0 -> -> 0 `i `uc ]
-[; ;main.c: 155: return result;
-"155
+[; ;main.c: 154: return result;
+"154
 [e ) _result ]
-[e $UE 1172  ]
-[; ;main.c: 156: }
-"156
-[e :UE 1172 ]
+[e $UE 1169  ]
+[; ;main.c: 155: }
+"155
+[e :UE 1169 ]
 }
-"158
+"157
 [v _ADC_Init `(v ~T0 @X0 1 ef ]
 {
-[; ;main.c: 158: void ADC_Init(void){
+[; ;main.c: 157: void ADC_Init(void){
 [e :U _ADC_Init ]
 [f ]
-[; ;main.c: 159: ADCON0bits.GO = 0;
-"159
+[; ;main.c: 158: ADCON0bits.GO = 0;
+"158
 [e = . . _ADCON0bits 2 1 -> -> 0 `i `uc ]
-[; ;main.c: 160: ADCON2bits.ADFM = 1;
-"160
+[; ;main.c: 159: ADCON2bits.ADFM = 1;
+"159
 [e = . . _ADCON2bits 0 3 -> -> 1 `i `uc ]
-[; ;main.c: 161: ADCON2bits.ADCS = 3;
-"161
+[; ;main.c: 160: ADCON2bits.ADCS = 3;
+"160
 [e = . . _ADCON2bits 0 0 -> -> 3 `i `uc ]
-[; ;main.c: 162: return;
+[; ;main.c: 161: return;
+"161
+[e $UE 1173  ]
+[; ;main.c: 162: }
 "162
-[e $UE 1176  ]
-[; ;main.c: 163: }
-"163
-[e :UE 1176 ]
+[e :UE 1173 ]
 }
-"165
+"164
 [v _SysConfigSleep `(v ~T0 @X0 1 ef ]
-"166
+"165
 {
-[; ;main.c: 165: void SysConfigSleep(void)
-[; ;main.c: 166: {
+[; ;main.c: 164: void SysConfigSleep(void)
+[; ;main.c: 165: {
 [e :U _SysConfigSleep ]
 [f ]
-[; ;main.c: 168: UART2MD = 1;
-"168
+[; ;main.c: 167: UART2MD = 1;
+"167
 [e = _UART2MD -> -> 1 `i `b ]
-[; ;main.c: 169: UART1MD = 1;
-"169
+[; ;main.c: 168: UART1MD = 1;
+"168
 [e = _UART1MD -> -> 1 `i `b ]
-[; ;main.c: 170: TMR6MD = 1;
-"170
+[; ;main.c: 169: TMR6MD = 1;
+"169
 [e = _TMR6MD -> -> 1 `i `b ]
-[; ;main.c: 171: TMR5MD = 1;
-"171
+[; ;main.c: 170: TMR5MD = 1;
+"170
 [e = _TMR5MD -> -> 1 `i `b ]
-[; ;main.c: 172: TMR4MD = 1;
-"172
+[; ;main.c: 171: TMR4MD = 1;
+"171
 [e = _TMR4MD -> -> 1 `i `b ]
-[; ;main.c: 173: TMR2MD = 1;
-"173
+[; ;main.c: 172: TMR2MD = 1;
+"172
 [e = _TMR2MD -> -> 1 `i `b ]
-[; ;main.c: 174: MSSP1MD = 1;
-"174
+[; ;main.c: 173: MSSP1MD = 1;
+"173
 [e = _MSSP1MD -> -> 1 `i `b ]
-[; ;main.c: 175: CCP5MD = 1;
-"175
+[; ;main.c: 174: CCP5MD = 1;
+"174
 [e = _CCP5MD -> -> 1 `i `b ]
-[; ;main.c: 176: CCP4MD = 1;
-"176
+[; ;main.c: 175: CCP4MD = 1;
+"175
 [e = _CCP4MD -> -> 1 `i `b ]
-[; ;main.c: 177: CCP3MD = 1;
-"177
+[; ;main.c: 176: CCP3MD = 1;
+"176
 [e = _CCP3MD -> -> 1 `i `b ]
-[; ;main.c: 178: CCP2MD = 1;
-"178
+[; ;main.c: 177: CCP2MD = 1;
+"177
 [e = _CCP2MD -> -> 1 `i `b ]
-[; ;main.c: 179: CCP1MD = 1;
-"179
+[; ;main.c: 178: CCP1MD = 1;
+"178
 [e = _CCP1MD -> -> 1 `i `b ]
-[; ;main.c: 180: CTMUMD = 1;
-"180
+[; ;main.c: 179: CTMUMD = 1;
+"179
 [e = _CTMUMD -> -> 1 `i `b ]
-[; ;main.c: 181: CMP2MD = 1;
-"181
+[; ;main.c: 180: CMP2MD = 1;
+"180
 [e = _CMP2MD -> -> 1 `i `b ]
-[; ;main.c: 182: CMP1MD = 1;
-"182
+[; ;main.c: 181: CMP1MD = 1;
+"181
 [e = _CMP1MD -> -> 1 `i `b ]
-[; ;main.c: 185: IDLEN = 0;
-"185
+[; ;main.c: 184: IDLEN = 0;
+"184
 [e = _IDLEN -> -> 0 `i `b ]
-[; ;main.c: 189: TRISA = 0x00;
-"189
+[; ;main.c: 188: TRISA = 0x00;
+"188
 [e = _TRISA -> -> 0 `i `uc ]
-[; ;main.c: 190: LATA = 0x00;
-"190
+[; ;main.c: 189: LATA = 0x00;
+"189
 [e = _LATA -> -> 0 `i `uc ]
-[; ;main.c: 193: TRISBbits.RB4 = 0;
-"193
+[; ;main.c: 192: TRISBbits.RB4 = 0;
+"192
 [e = . . _TRISBbits 1 4 -> -> 0 `i `uc ]
-[; ;main.c: 194: TRISBbits.RB5 = 0;
-"194
+[; ;main.c: 193: TRISBbits.RB5 = 0;
+"193
 [e = . . _TRISBbits 1 5 -> -> 0 `i `uc ]
-[; ;main.c: 195: TRISBbits.RB6 = 0;
-"195
+[; ;main.c: 194: TRISBbits.RB6 = 0;
+"194
 [e = . . _TRISBbits 1 6 -> -> 0 `i `uc ]
-[; ;main.c: 196: TRISBbits.RB7 = 0;
-"196
+[; ;main.c: 195: TRISBbits.RB7 = 0;
+"195
 [e = . . _TRISBbits 1 7 -> -> 0 `i `uc ]
-[; ;main.c: 197: LATBbits.LATB4 = 0;
-"197
+[; ;main.c: 196: LATBbits.LATB4 = 0;
+"196
 [e = . . _LATBbits 0 4 -> -> 0 `i `uc ]
-[; ;main.c: 198: LATBbits.LATB5 = 0;
-"198
+[; ;main.c: 197: LATBbits.LATB5 = 0;
+"197
 [e = . . _LATBbits 0 5 -> -> 0 `i `uc ]
-[; ;main.c: 199: LATBbits.LATB6 = 0;
-"199
+[; ;main.c: 198: LATBbits.LATB6 = 0;
+"198
 [e = . . _LATBbits 0 6 -> -> 0 `i `uc ]
-[; ;main.c: 200: LATBbits.LATB7 = 0;
-"200
+[; ;main.c: 199: LATBbits.LATB7 = 0;
+"199
 [e = . . _LATBbits 0 7 -> -> 0 `i `uc ]
-[; ;main.c: 203: TRISCbits.RC0 = 0;
-"203
+[; ;main.c: 202: TRISCbits.RC0 = 0;
+"202
 [e = . . _TRISCbits 1 0 -> -> 0 `i `uc ]
-[; ;main.c: 204: TRISCbits.RC1 = 0;
-"204
+[; ;main.c: 203: TRISCbits.RC1 = 0;
+"203
 [e = . . _TRISCbits 1 1 -> -> 0 `i `uc ]
-[; ;main.c: 205: TRISCbits.RC3 = 0;
-"205
+[; ;main.c: 204: TRISCbits.RC3 = 0;
+"204
 [e = . . _TRISCbits 1 3 -> -> 0 `i `uc ]
-[; ;main.c: 206: TRISCbits.RC4 = 0;
-"206
+[; ;main.c: 205: TRISCbits.RC4 = 0;
+"205
 [e = . . _TRISCbits 1 4 -> -> 0 `i `uc ]
-[; ;main.c: 208: TRISCbits.RC6 = 0;
-"208
+[; ;main.c: 207: TRISCbits.RC6 = 0;
+"207
 [e = . . _TRISCbits 1 6 -> -> 0 `i `uc ]
-[; ;main.c: 209: TRISCbits.RC7 = 0;
-"209
+[; ;main.c: 208: TRISCbits.RC7 = 0;
+"208
 [e = . . _TRISCbits 1 7 -> -> 0 `i `uc ]
-[; ;main.c: 210: LATCbits.LATC0 = 0;
-"210
+[; ;main.c: 209: LATCbits.LATC0 = 0;
+"209
 [e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
-[; ;main.c: 211: LATCbits.LATC1 = 0;
-"211
+[; ;main.c: 210: LATCbits.LATC1 = 0;
+"210
 [e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
-[; ;main.c: 212: LATCbits.LATC3 = 0;
-"212
+[; ;main.c: 211: LATCbits.LATC3 = 0;
+"211
 [e = . . _LATCbits 0 3 -> -> 0 `i `uc ]
-[; ;main.c: 213: LATCbits.LATC4 = 0;
-"213
+[; ;main.c: 212: LATCbits.LATC4 = 0;
+"212
 [e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
-[; ;main.c: 215: LATCbits.LATC6 = 0;
-"215
+[; ;main.c: 214: LATCbits.LATC6 = 0;
+"214
 [e = . . _LATCbits 0 6 -> -> 0 `i `uc ]
-[; ;main.c: 216: LATCbits.LATC7 = 0;
-"216
+[; ;main.c: 215: LATCbits.LATC7 = 0;
+"215
 [e = . . _LATCbits 0 7 -> -> 0 `i `uc ]
-[; ;main.c: 219: TRISDbits.RD0 = 0;
-"219
+[; ;main.c: 218: TRISDbits.RD0 = 0;
+"218
 [e = . . _TRISDbits 1 0 -> -> 0 `i `uc ]
-[; ;main.c: 220: TRISDbits.RD1 = 0;
-"220
+[; ;main.c: 219: TRISDbits.RD1 = 0;
+"219
 [e = . . _TRISDbits 1 1 -> -> 0 `i `uc ]
-[; ;main.c: 221: TRISDbits.RD2 = 0;
-"221
+[; ;main.c: 220: TRISDbits.RD2 = 0;
+"220
 [e = . . _TRISDbits 1 2 -> -> 0 `i `uc ]
-[; ;main.c: 222: TRISDbits.RD4 = 0;
-"222
+[; ;main.c: 221: TRISDbits.RD4 = 0;
+"221
 [e = . . _TRISDbits 1 4 -> -> 0 `i `uc ]
-[; ;main.c: 223: TRISDbits.RD5 = 0;
-"223
+[; ;main.c: 222: TRISDbits.RD5 = 0;
+"222
 [e = . . _TRISDbits 1 5 -> -> 0 `i `uc ]
-[; ;main.c: 224: TRISDbits.RD7 = 0;
-"224
+[; ;main.c: 223: TRISDbits.RD7 = 0;
+"223
 [e = . . _TRISDbits 1 7 -> -> 0 `i `uc ]
-[; ;main.c: 225: LATDbits.LATD0 = 0;
-"225
+[; ;main.c: 224: LATDbits.LATD0 = 0;
+"224
 [e = . . _LATDbits 0 0 -> -> 0 `i `uc ]
-[; ;main.c: 226: LATDbits.LATD1 = 0;
-"226
+[; ;main.c: 225: LATDbits.LATD1 = 0;
+"225
 [e = . . _LATDbits 0 1 -> -> 0 `i `uc ]
-[; ;main.c: 227: LATDbits.LATD2 = 0;
-"227
+[; ;main.c: 226: LATDbits.LATD2 = 0;
+"226
 [e = . . _LATDbits 0 2 -> -> 0 `i `uc ]
-[; ;main.c: 228: LATDbits.LATD4 = 0;
-"228
+[; ;main.c: 227: LATDbits.LATD4 = 0;
+"227
 [e = . . _LATDbits 0 4 -> -> 0 `i `uc ]
-[; ;main.c: 233: TRISEbits.RE0 = 0;
-"233
+[; ;main.c: 232: TRISEbits.RE0 = 0;
+"232
 [e = . . _TRISEbits 1 0 -> -> 0 `i `uc ]
-[; ;main.c: 234: TRISEbits.RE1 = 0;
-"234
+[; ;main.c: 233: TRISEbits.RE1 = 0;
+"233
 [e = . . _TRISEbits 1 1 -> -> 0 `i `uc ]
-[; ;main.c: 235: TRISEbits.RE2 = 0;
-"235
+[; ;main.c: 234: TRISEbits.RE2 = 0;
+"234
 [e = . . _TRISEbits 1 2 -> -> 0 `i `uc ]
-[; ;main.c: 236: LATEbits.LATE0 = 0;
-"236
+[; ;main.c: 235: LATEbits.LATE0 = 0;
+"235
 [e = . . _LATEbits 0 0 -> -> 0 `i `uc ]
-[; ;main.c: 237: LATEbits.LATE1 = 0;
-"237
+[; ;main.c: 236: LATEbits.LATE1 = 0;
+"236
 [e = . . _LATEbits 0 1 -> -> 0 `i `uc ]
-[; ;main.c: 238: LATEbits.LATE2 = 0;
-"238
+[; ;main.c: 237: LATEbits.LATE2 = 0;
+"237
 [e = . . _LATEbits 0 2 -> -> 0 `i `uc ]
-[; ;main.c: 240: }
-"240
-[e :UE 1177 ]
+[; ;main.c: 239: }
+"239
+[e :UE 1174 ]
 }
-"242
+"241
 [v _LoRaSleep `(v ~T0 @X0 1 ef ]
-"243
+"242
 {
-[; ;main.c: 242: void LoRaSleep (void)
-[; ;main.c: 243: {
+[; ;main.c: 241: void LoRaSleep (void)
+[; ;main.c: 242: {
 [e :U _LoRaSleep ]
 [f ]
-[; ;main.c: 245: SSP2CON1 = 0x00;
-"245
+[; ;main.c: 244: SSP2CON1 = 0x00;
+"244
 [e = _SSP2CON1 -> -> 0 `i `uc ]
-[; ;main.c: 248: MSSP2MD = 1;
-"248
+[; ;main.c: 247: MSSP2MD = 1;
+"247
 [e = _MSSP2MD -> -> 1 `i `b ]
-[; ;main.c: 252: ANSD3 = 0;
-"252
+[; ;main.c: 251: ANSD3 = 0;
+"251
 [e = _ANSD3 -> -> 0 `i `b ]
-[; ;main.c: 253: TRISD3 = 0;
-"253
+[; ;main.c: 252: TRISD3 = 0;
+"252
 [e = _TRISD3 -> -> 0 `i `b ]
-[; ;main.c: 254: LATD3 = 1;
-"254
+[; ;main.c: 253: LATD3 = 1;
+"253
 [e = _LATD3 -> -> 1 `i `b ]
-[; ;main.c: 257: ANSD1 = 0;
-"257
+[; ;main.c: 256: ANSD1 = 0;
+"256
 [e = _ANSD1 -> -> 0 `i `b ]
-[; ;main.c: 258: TRISD1 = 0;
-"258
+[; ;main.c: 257: TRISD1 = 0;
+"257
 [e = _TRISD1 -> -> 0 `i `b ]
-[; ;main.c: 259: LATD1 = 0;
-"259
+[; ;main.c: 258: LATD1 = 0;
+"258
 [e = _LATD1 -> -> 0 `i `b ]
-[; ;main.c: 262: ANSD4 = 0;
-"262
+[; ;main.c: 261: ANSD4 = 0;
+"261
 [e = _ANSD4 -> -> 0 `i `b ]
-[; ;main.c: 263: TRISD4 = 0;
-"263
+[; ;main.c: 262: TRISD4 = 0;
+"262
 [e = _TRISD4 -> -> 0 `i `b ]
-[; ;main.c: 264: LATD4 = 0;
-"264
+[; ;main.c: 263: LATD4 = 0;
+"263
 [e = _LATD4 -> -> 0 `i `b ]
-[; ;main.c: 267: ANSD0 = 0;
-"267
+[; ;main.c: 266: ANSD0 = 0;
+"266
 [e = _ANSD0 -> -> 0 `i `b ]
-[; ;main.c: 268: TRISD0 = 0;
-"268
+[; ;main.c: 267: TRISD0 = 0;
+"267
 [e = _TRISD0 -> -> 0 `i `b ]
-[; ;main.c: 269: LATD0 = 0;
-"269
+[; ;main.c: 268: LATD0 = 0;
+"268
 [e = _LATD0 -> -> 0 `i `b ]
-[; ;main.c: 270: }
-"270
-[e :UE 1178 ]
+[; ;main.c: 269: }
+"269
+[e :UE 1175 ]
 }
-"272
+"271
 [v _LoRaWakeUp `(v ~T0 @X0 1 ef ]
-"273
+"272
 {
-[; ;main.c: 272: void LoRaWakeUp(void)
-[; ;main.c: 273: {
+[; ;main.c: 271: void LoRaWakeUp(void)
+[; ;main.c: 272: {
 [e :U _LoRaWakeUp ]
 [f ]
-[; ;main.c: 274: MSSP2MD = 0;
-"274
+[; ;main.c: 273: MSSP2MD = 0;
+"273
 [e = _MSSP2MD -> -> 0 `i `b ]
-[; ;main.c: 275: SPI2_Initialize();
-"275
+[; ;main.c: 274: SPI2_Initialize();
+"274
 [e ( _SPI2_Initialize ..  ]
-[; ;main.c: 276: }
-"276
-[e :UE 1179 ]
+[; ;main.c: 275: }
+"275
+[e :UE 1176 ]
 }

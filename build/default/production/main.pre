@@ -10502,7 +10502,6 @@ PORTCbits.RC5 = 0;
 }
 
 void readAndSend(void){
-for(int j = 1; j<100; j++) _delay((unsigned long)((1)*(16000000/4000.0)));
 payload[0] = ADC_Read(27);
 payload[1] = ADC_Read(26);
 LORAWAN_Send(UNCNF, portNumber, &payload, sizeof(payload));
