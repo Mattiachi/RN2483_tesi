@@ -10423,7 +10423,7 @@ void RxJoinResponse(bool status);
 void LoRaSleep(void);
 void LoRaWakeUp(void);
 
-uint8_t TimeToSend;
+uint8_t TimeToSend = 1;
 uint8_t portNumber = 2;
 uint8_t ONE_HOUR_TIMEOUT_COUNTS = 4;
 

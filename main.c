@@ -43,7 +43,7 @@ void RxJoinResponse(bool status);
 void LoRaSleep(void);
 void LoRaWakeUp(void);
 
-uint8_t TimeToSend;
+uint8_t TimeToSend = 1;
 uint8_t portNumber = 2;                     // Port number for uplink packet
 uint8_t ONE_HOUR_TIMEOUT_COUNTS = 4;        // Set to 225 for a hour countdown
 
