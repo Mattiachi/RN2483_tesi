@@ -8509,10 +8509,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;main.c: 44: void LoRaWakeUp(void);
 "46
 [v _TimeToSend `uc ~T0 @X0 1 e ]
-[i _TimeToSend
--> -> 1 `i `uc
-]
-[; ;main.c: 46: uint8_t TimeToSend = 1;
+[; ;main.c: 46: uint8_t TimeToSend;
 "47
 [v _portNumber `uc ~T0 @X0 1 e ]
 [i _portNumber
