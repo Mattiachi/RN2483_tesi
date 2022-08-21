@@ -26,10 +26,10 @@
 
 
 void handle16sInterrupt();
-void IO_pins_init(void);                
+void IO_pins_init(void);           
+void ADC_Init(void);
 void ADC_SelChannel(uint8_t c);         
 uint16_t ADC_Read(uint8_t channel);
-void ADC_Init(void);
 void SysConfigSleep(void);              
 void readAndSend(void);                 
 

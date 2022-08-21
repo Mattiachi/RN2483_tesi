@@ -262,7 +262,7 @@ text229 CODE 0 7964 7964 2 1
 bssBIGRAM BIGRAM 1 4E0 4E0 21E 1
 bssCOMRAM COMRAM 1 32 32 14 1
 mediumconst MEDIUMCONST 0 FE6C FE6C 194 1
-$C:\Users\chima\AppData\Local\Temp\s7e4.obj
+$C:\Users\chima\AppData\Local\Temp\s3m0.obj
 idloc IDLOC 0 200000 200000 8 1
 stack STACK 2 6FE 6FE 83A 1
 init CODE 0 90 90 4 1
@@ -327,7 +327,7 @@ MEDIUMCONST 7966-FE6B 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\LoRaWAN_v05.production.obj
-8 intcode CODE >162:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+8 intcode CODE >164:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
 8 intcode CODE >57:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/interrupt_manager.c
 2C intcode CODE >60:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/interrupt_manager.c
 32 intcode CODE >62:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/interrupt_manager.c
@@ -448,14 +448,14 @@ $dist/default/production\LoRaWAN_v05.production.obj
 77E0 text209 CODE >166:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr1.c
 77E4 text209 CODE >167:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr1.c
 77E8 text209 CODE >171:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr1.c
-7742 text208 CODE >89:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-7742 text208 CODE >92:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-774A text208 CODE >95:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-774E text208 CODE >96:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-7750 text208 CODE >97:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-7752 text208 CODE >98:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7742 text208 CODE >91:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7742 text208 CODE >94:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+774A text208 CODE >97:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+774E text208 CODE >98:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7750 text208 CODE >99:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
 7752 text208 CODE >100:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-7754 text208 CODE >102:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7752 text208 CODE >102:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7754 text208 CODE >104:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
 795C text207 CODE >187:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr3.c
 795C text207 CODE >190:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr3.c
 756E text206 CODE >174:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr3.c
@@ -466,21 +466,21 @@ $dist/default/production\LoRaWAN_v05.production.obj
 77D2 text205 CODE >166:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr3.c
 77D6 text205 CODE >167:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr3.c
 77DA text205 CODE >171:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/tmr3.c
-77C2 text203 CODE >157:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-77C2 text203 CODE >158:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-77C4 text203 CODE >159:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-77C6 text203 CODE >160:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-77CE text203 CODE >162:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-7768 text202 CODE >129:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+77C2 text203 CODE >159:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+77C2 text203 CODE >160:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+77C4 text203 CODE >161:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+77C6 text203 CODE >162:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+77CE text203 CODE >164:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
 7768 text202 CODE >131:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-776A text202 CODE >132:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-776C text202 CODE >133:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-776E text202 CODE >134:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-7770 text202 CODE >136:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-7772 text202 CODE >137:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-7774 text202 CODE >138:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-7776 text202 CODE >139:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-7778 text202 CODE >140:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7768 text202 CODE >133:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+776A text202 CODE >134:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+776C text202 CODE >135:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+776E text202 CODE >136:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7770 text202 CODE >138:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7772 text202 CODE >139:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7774 text202 CODE >140:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7776 text202 CODE >141:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7778 text202 CODE >142:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
 78EE text201 CODE >2233:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 78EE text201 CODE >2235:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 78F4 text201 CODE >2236:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
@@ -1514,13 +1514,13 @@ $dist/default/production\LoRaWAN_v05.production.obj
 716A text116 CODE >436:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 716C text116 CODE >440:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 7190 text116 CODE >446:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
-611C text115 CODE >104:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-611C text115 CODE >109:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-612C text115 CODE >110:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-613E text115 CODE >111:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-615E text115 CODE >112:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-617C text115 CODE >113:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-618C text115 CODE >115:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+611C text115 CODE >106:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+611C text115 CODE >111:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+612C text115 CODE >112:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+613E text115 CODE >113:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+615E text115 CODE >114:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+617C text115 CODE >115:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+618C text115 CODE >117:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
 6532 text114 CODE >915:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 6532 text114 CODE >917:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 6536 text114 CODE >918:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
@@ -2117,9 +2117,9 @@ FD0 text110 CODE >408:C:\Users\chima\OneDrive - Alma Mater Studiorum Università 
 2F9C text70 CODE >1580:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 2FBA text70 CODE >1649:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 2FC2 text70 CODE >1650:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
-7942 text69 CODE >117:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
 7942 text69 CODE >119:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-7944 text69 CODE >120:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7942 text69 CODE >121:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7944 text69 CODE >122:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
 7354 text68 CODE >1104:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 7354 text68 CODE >1106:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 7356 text68 CODE >1107:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
@@ -2698,30 +2698,30 @@ AF6 text62 CODE >1548:C:\Users\chima\OneDrive - Alma Mater Studiorum Università 
 71E4 text32 CODE >384:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 71E8 text32 CODE >385:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
 71EA text32 CODE >387:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/LoRaWAN/lorawan.c
-7442 text31 CODE >241:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-7442 text31 CODE >244:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-7444 text31 CODE >247:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-7448 text31 CODE >251:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-744A text31 CODE >252:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-744C text31 CODE >253:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-744E text31 CODE >256:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-7450 text31 CODE >257:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-7452 text31 CODE >258:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-7454 text31 CODE >261:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-7456 text31 CODE >262:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-7458 text31 CODE >263:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-745A text31 CODE >266:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-745C text31 CODE >267:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-745E text31 CODE >268:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-7460 text31 CODE >269:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7442 text31 CODE >243:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7442 text31 CODE >246:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7444 text31 CODE >249:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7448 text31 CODE >253:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+744A text31 CODE >254:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+744C text31 CODE >255:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+744E text31 CODE >258:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7450 text31 CODE >259:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7452 text31 CODE >260:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7454 text31 CODE >263:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7456 text31 CODE >264:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7458 text31 CODE >265:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+745A text31 CODE >268:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+745C text31 CODE >269:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+745E text31 CODE >270:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7460 text31 CODE >271:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
 7828 text30 CODE >63:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/spi2.c
 7828 text30 CODE >68:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/spi2.c
 782C text30 CODE >71:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/spi2.c
 7830 text30 CODE >74:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/spi2.c
 7832 text30 CODE >75:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/spi2.c
-78B6 text29 CODE >271:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
 78B6 text29 CODE >273:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-78BA text29 CODE >274:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+78B6 text29 CODE >275:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+78BA text29 CODE >276:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
 795A text28 CODE >154:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/ext_int.c
 795A text28 CODE >156:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/ext_int.c
 785C text27 CODE >72:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/ext_int.c
@@ -2842,180 +2842,180 @@ AF6 text62 CODE >1548:C:\Users\chima\OneDrive - Alma Mater Studiorum Università 
 7416 text5 CODE >119:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/mcc.c
 741A text5 CODE >120:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/mcc.c
 741E text5 CODE >121:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\mcc_generated_files/mcc.c
-618E text4 CODE >164:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-618E text4 CODE >167:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-6192 text4 CODE >168:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-6194 text4 CODE >169:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-6196 text4 CODE >170:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-6198 text4 CODE >171:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-619A text4 CODE >172:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-619C text4 CODE >173:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-619E text4 CODE >174:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61A0 text4 CODE >175:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61A2 text4 CODE >176:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61A4 text4 CODE >177:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61A6 text4 CODE >178:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61A8 text4 CODE >179:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61AA text4 CODE >180:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61AC text4 CODE >181:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61AE text4 CODE >184:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61B0 text4 CODE >188:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61B2 text4 CODE >189:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61B4 text4 CODE >192:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61B6 text4 CODE >193:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61B8 text4 CODE >194:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61BA text4 CODE >195:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61BC text4 CODE >196:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61BE text4 CODE >197:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61C0 text4 CODE >198:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61C2 text4 CODE >199:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61C4 text4 CODE >202:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61C6 text4 CODE >203:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61C8 text4 CODE >204:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61CA text4 CODE >205:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61CC text4 CODE >207:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61CE text4 CODE >208:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61D0 text4 CODE >209:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61D2 text4 CODE >210:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61D4 text4 CODE >211:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61D6 text4 CODE >212:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61D8 text4 CODE >214:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61DA text4 CODE >215:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61DC text4 CODE >218:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61DE text4 CODE >219:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61E0 text4 CODE >220:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61E2 text4 CODE >221:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61E4 text4 CODE >222:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61E6 text4 CODE >223:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61E8 text4 CODE >224:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61EA text4 CODE >225:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61EC text4 CODE >226:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61EE text4 CODE >227:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61F0 text4 CODE >232:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61F2 text4 CODE >233:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61F4 text4 CODE >234:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61F6 text4 CODE >235:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61F8 text4 CODE >236:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61FA text4 CODE >237:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-61FC text4 CODE >239:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-764A text3 CODE >141:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-764C text3 CODE >142:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-7660 text3 CODE >144:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-6F42 text2 CODE >146:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-6F46 text2 CODE >148:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-6F48 text2 CODE >149:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-6F4E text2 CODE >150:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-6F50 text2 CODE >151:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-6F54 text2 CODE >152:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-6F6C text2 CODE >153:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-6F6E text2 CODE >154:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-6F76 text2 CODE >155:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-7016 text1 CODE >122:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-7016 text1 CODE >123:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-7024 text1 CODE >124:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-7032 text1 CODE >125:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-5AFA text0 CODE >48:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+618E text4 CODE >166:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+618E text4 CODE >169:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+6192 text4 CODE >170:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+6194 text4 CODE >171:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+6196 text4 CODE >172:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+6198 text4 CODE >173:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+619A text4 CODE >174:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+619C text4 CODE >175:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+619E text4 CODE >176:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61A0 text4 CODE >177:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61A2 text4 CODE >178:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61A4 text4 CODE >179:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61A6 text4 CODE >180:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61A8 text4 CODE >181:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61AA text4 CODE >182:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61AC text4 CODE >183:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61AE text4 CODE >186:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61B0 text4 CODE >190:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61B2 text4 CODE >191:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61B4 text4 CODE >194:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61B6 text4 CODE >195:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61B8 text4 CODE >196:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61BA text4 CODE >197:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61BC text4 CODE >198:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61BE text4 CODE >199:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61C0 text4 CODE >200:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61C2 text4 CODE >201:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61C4 text4 CODE >204:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61C6 text4 CODE >205:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61C8 text4 CODE >206:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61CA text4 CODE >207:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61CC text4 CODE >209:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61CE text4 CODE >210:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61D0 text4 CODE >211:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61D2 text4 CODE >212:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61D4 text4 CODE >213:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61D6 text4 CODE >214:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61D8 text4 CODE >216:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61DA text4 CODE >217:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61DC text4 CODE >220:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61DE text4 CODE >221:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61E0 text4 CODE >222:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61E2 text4 CODE >223:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61E4 text4 CODE >224:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61E6 text4 CODE >225:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61E8 text4 CODE >226:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61EA text4 CODE >227:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61EC text4 CODE >228:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61EE text4 CODE >229:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61F0 text4 CODE >234:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61F2 text4 CODE >235:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61F4 text4 CODE >236:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61F6 text4 CODE >237:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61F8 text4 CODE >238:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61FA text4 CODE >239:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+61FC text4 CODE >241:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+764A text3 CODE >143:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+764C text3 CODE >144:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7660 text3 CODE >146:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+6F42 text2 CODE >148:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+6F46 text2 CODE >150:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+6F48 text2 CODE >151:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+6F4E text2 CODE >152:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+6F50 text2 CODE >153:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+6F54 text2 CODE >154:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+6F6C text2 CODE >155:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+6F6E text2 CODE >156:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+6F76 text2 CODE >157:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7016 text1 CODE >124:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7016 text1 CODE >125:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7024 text1 CODE >126:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+7032 text1 CODE >127:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
 5AFA text0 CODE >50:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-5AFE text0 CODE >51:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-5B00 text0 CODE >54:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-5B02 text0 CODE >55:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-5B04 text0 CODE >56:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-5B10 text0 CODE >57:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-5B14 text0 CODE >58:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-5B18 text0 CODE >59:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-5B1C text0 CODE >61:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-5B32 text0 CODE >62:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-5B40 text0 CODE >63:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-5B4E text0 CODE >64:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-5B64 text0 CODE >65:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-5B6A text0 CODE >68:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-5B70 text0 CODE >72:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-5B74 text0 CODE >74:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-5B7A text0 CODE >75:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-5B7E text0 CODE >76:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-5B82 text0 CODE >77:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-5B86 text0 CODE >81:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-5B8E text0 CODE >82:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-5B92 text0 CODE >83:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
-59BA cinit CODE >10124:C:\Users\chima\AppData\Local\Temp\s7e4.
-59BA cinit CODE >10126:C:\Users\chima\AppData\Local\Temp\s7e4.
-59BA cinit CODE >10129:C:\Users\chima\AppData\Local\Temp\s7e4.
-59BA cinit CODE >10255:C:\Users\chima\AppData\Local\Temp\s7e4.
-59BC cinit CODE >10256:C:\Users\chima\AppData\Local\Temp\s7e4.
-59BE cinit CODE >10257:C:\Users\chima\AppData\Local\Temp\s7e4.
-59C0 cinit CODE >10258:C:\Users\chima\AppData\Local\Temp\s7e4.
-59C2 cinit CODE >10259:C:\Users\chima\AppData\Local\Temp\s7e4.
-59C4 cinit CODE >10260:C:\Users\chima\AppData\Local\Temp\s7e4.
-59C6 cinit CODE >10261:C:\Users\chima\AppData\Local\Temp\s7e4.
-59CA cinit CODE >10262:C:\Users\chima\AppData\Local\Temp\s7e4.
-59CE cinit CODE >10263:C:\Users\chima\AppData\Local\Temp\s7e4.
-59CE cinit CODE >10264:C:\Users\chima\AppData\Local\Temp\s7e4.
-59D0 cinit CODE >10265:C:\Users\chima\AppData\Local\Temp\s7e4.
-59D4 cinit CODE >10266:C:\Users\chima\AppData\Local\Temp\s7e4.
-59D6 cinit CODE >10267:C:\Users\chima\AppData\Local\Temp\s7e4.
-59D8 cinit CODE >10268:C:\Users\chima\AppData\Local\Temp\s7e4.
-59DA cinit CODE >10272:C:\Users\chima\AppData\Local\Temp\s7e4.
-59DC cinit CODE >10273:C:\Users\chima\AppData\Local\Temp\s7e4.
-59DE cinit CODE >10274:C:\Users\chima\AppData\Local\Temp\s7e4.
-59E0 cinit CODE >10275:C:\Users\chima\AppData\Local\Temp\s7e4.
-59E2 cinit CODE >10276:C:\Users\chima\AppData\Local\Temp\s7e4.
-59E4 cinit CODE >10277:C:\Users\chima\AppData\Local\Temp\s7e4.
-59E6 cinit CODE >10278:C:\Users\chima\AppData\Local\Temp\s7e4.
-59EA cinit CODE >10279:C:\Users\chima\AppData\Local\Temp\s7e4.
-59EE cinit CODE >10280:C:\Users\chima\AppData\Local\Temp\s7e4.
-59EE cinit CODE >10281:C:\Users\chima\AppData\Local\Temp\s7e4.
-59F0 cinit CODE >10282:C:\Users\chima\AppData\Local\Temp\s7e4.
-59F4 cinit CODE >10283:C:\Users\chima\AppData\Local\Temp\s7e4.
-59F6 cinit CODE >10284:C:\Users\chima\AppData\Local\Temp\s7e4.
-59F8 cinit CODE >10285:C:\Users\chima\AppData\Local\Temp\s7e4.
-59FA cinit CODE >10289:C:\Users\chima\AppData\Local\Temp\s7e4.
-59FE cinit CODE >10290:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A02 cinit CODE >10291:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A02 cinit CODE >10292:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A04 cinit CODE >10293:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A06 cinit CODE >10294:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A08 cinit CODE >10295:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A0A cinit CODE >10296:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A0C cinit CODE >10297:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A0E cinit CODE >10300:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A12 cinit CODE >10301:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A14 cinit CODE >10302:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A14 cinit CODE >10303:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A16 cinit CODE >10304:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A18 cinit CODE >10305:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A1A cinit CODE >10308:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A1E cinit CODE >10309:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A20 cinit CODE >10310:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A20 cinit CODE >10311:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A22 cinit CODE >10312:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A24 cinit CODE >10313:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A26 cinit CODE >10316:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A2A cinit CODE >10317:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A2C cinit CODE >10318:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A2C cinit CODE >10319:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A2E cinit CODE >10320:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A30 cinit CODE >10321:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A32 cinit CODE >10324:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A36 cinit CODE >10325:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A38 cinit CODE >10326:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A38 cinit CODE >10327:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A3A cinit CODE >10328:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A3C cinit CODE >10329:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A3E cinit CODE >10332:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A42 cinit CODE >10333:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A44 cinit CODE >10334:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A44 cinit CODE >10335:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A46 cinit CODE >10336:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A48 cinit CODE >10337:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A4A cinit CODE >10340:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A4E cinit CODE >10341:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A50 cinit CODE >10342:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A50 cinit CODE >10343:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A52 cinit CODE >10344:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A54 cinit CODE >10345:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A56 cinit CODE >10351:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A56 cinit CODE >10353:C:\Users\chima\AppData\Local\Temp\s7e4.
-5A58 cinit CODE >10354:C:\Users\chima\AppData\Local\Temp\s7e4.
+5AFA text0 CODE >52:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+5AFE text0 CODE >53:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+5B00 text0 CODE >56:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+5B02 text0 CODE >57:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+5B04 text0 CODE >58:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+5B10 text0 CODE >59:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+5B14 text0 CODE >60:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+5B18 text0 CODE >61:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+5B1C text0 CODE >63:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+5B32 text0 CODE >64:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+5B40 text0 CODE >65:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+5B4E text0 CODE >66:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+5B64 text0 CODE >67:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+5B6A text0 CODE >70:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+5B70 text0 CODE >74:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+5B74 text0 CODE >76:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+5B7A text0 CODE >77:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+5B7E text0 CODE >78:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+5B82 text0 CODE >79:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+5B86 text0 CODE >83:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+5B8E text0 CODE >84:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+5B92 text0 CODE >85:C:\Users\chima\OneDrive - Alma Mater Studiorum Università di Bologna\Tesi LoRa\LoRaWAN_v05\main.c
+59BA cinit CODE >10124:C:\Users\chima\AppData\Local\Temp\s3m0.
+59BA cinit CODE >10126:C:\Users\chima\AppData\Local\Temp\s3m0.
+59BA cinit CODE >10129:C:\Users\chima\AppData\Local\Temp\s3m0.
+59BA cinit CODE >10255:C:\Users\chima\AppData\Local\Temp\s3m0.
+59BC cinit CODE >10256:C:\Users\chima\AppData\Local\Temp\s3m0.
+59BE cinit CODE >10257:C:\Users\chima\AppData\Local\Temp\s3m0.
+59C0 cinit CODE >10258:C:\Users\chima\AppData\Local\Temp\s3m0.
+59C2 cinit CODE >10259:C:\Users\chima\AppData\Local\Temp\s3m0.
+59C4 cinit CODE >10260:C:\Users\chima\AppData\Local\Temp\s3m0.
+59C6 cinit CODE >10261:C:\Users\chima\AppData\Local\Temp\s3m0.
+59CA cinit CODE >10262:C:\Users\chima\AppData\Local\Temp\s3m0.
+59CE cinit CODE >10263:C:\Users\chima\AppData\Local\Temp\s3m0.
+59CE cinit CODE >10264:C:\Users\chima\AppData\Local\Temp\s3m0.
+59D0 cinit CODE >10265:C:\Users\chima\AppData\Local\Temp\s3m0.
+59D4 cinit CODE >10266:C:\Users\chima\AppData\Local\Temp\s3m0.
+59D6 cinit CODE >10267:C:\Users\chima\AppData\Local\Temp\s3m0.
+59D8 cinit CODE >10268:C:\Users\chima\AppData\Local\Temp\s3m0.
+59DA cinit CODE >10272:C:\Users\chima\AppData\Local\Temp\s3m0.
+59DC cinit CODE >10273:C:\Users\chima\AppData\Local\Temp\s3m0.
+59DE cinit CODE >10274:C:\Users\chima\AppData\Local\Temp\s3m0.
+59E0 cinit CODE >10275:C:\Users\chima\AppData\Local\Temp\s3m0.
+59E2 cinit CODE >10276:C:\Users\chima\AppData\Local\Temp\s3m0.
+59E4 cinit CODE >10277:C:\Users\chima\AppData\Local\Temp\s3m0.
+59E6 cinit CODE >10278:C:\Users\chima\AppData\Local\Temp\s3m0.
+59EA cinit CODE >10279:C:\Users\chima\AppData\Local\Temp\s3m0.
+59EE cinit CODE >10280:C:\Users\chima\AppData\Local\Temp\s3m0.
+59EE cinit CODE >10281:C:\Users\chima\AppData\Local\Temp\s3m0.
+59F0 cinit CODE >10282:C:\Users\chima\AppData\Local\Temp\s3m0.
+59F4 cinit CODE >10283:C:\Users\chima\AppData\Local\Temp\s3m0.
+59F6 cinit CODE >10284:C:\Users\chima\AppData\Local\Temp\s3m0.
+59F8 cinit CODE >10285:C:\Users\chima\AppData\Local\Temp\s3m0.
+59FA cinit CODE >10289:C:\Users\chima\AppData\Local\Temp\s3m0.
+59FE cinit CODE >10290:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A02 cinit CODE >10291:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A02 cinit CODE >10292:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A04 cinit CODE >10293:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A06 cinit CODE >10294:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A08 cinit CODE >10295:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A0A cinit CODE >10296:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A0C cinit CODE >10297:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A0E cinit CODE >10300:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A12 cinit CODE >10301:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A14 cinit CODE >10302:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A14 cinit CODE >10303:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A16 cinit CODE >10304:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A18 cinit CODE >10305:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A1A cinit CODE >10308:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A1E cinit CODE >10309:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A20 cinit CODE >10310:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A20 cinit CODE >10311:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A22 cinit CODE >10312:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A24 cinit CODE >10313:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A26 cinit CODE >10316:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A2A cinit CODE >10317:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A2C cinit CODE >10318:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A2C cinit CODE >10319:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A2E cinit CODE >10320:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A30 cinit CODE >10321:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A32 cinit CODE >10324:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A36 cinit CODE >10325:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A38 cinit CODE >10326:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A38 cinit CODE >10327:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A3A cinit CODE >10328:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A3C cinit CODE >10329:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A3E cinit CODE >10332:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A42 cinit CODE >10333:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A44 cinit CODE >10334:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A44 cinit CODE >10335:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A46 cinit CODE >10336:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A48 cinit CODE >10337:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A4A cinit CODE >10340:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A4E cinit CODE >10341:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A50 cinit CODE >10342:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A50 cinit CODE >10343:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A52 cinit CODE >10344:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A54 cinit CODE >10345:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A56 cinit CODE >10351:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A56 cinit CODE >10353:C:\Users\chima\AppData\Local\Temp\s3m0.
+5A58 cinit CODE >10354:C:\Users\chima\AppData\Local\Temp\s3m0.
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -3063,7 +3063,7 @@ _UpdateMinMaxChDataRate 56FC 0 CODE 0 text164 dist/default/production\LoRaWAN_v0
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\LoRaWAN_v05.production.obj
 SystemBlockingWaitMs@ms 64 0 BANK0 1 cstackBANK0 dist/default/production\LoRaWAN_v05.production.obj
 RADIO_SetSpreadingFactor@spreadingFactor 64 0 BANK0 1 cstackBANK0 dist/default/production\LoRaWAN_v05.production.obj
-__mediumconst FE6C 0 MEDIUMCONST 0 mediumconst C:\Users\chima\AppData\Local\Temp\s7e4.obj
+__mediumconst FE6C 0 MEDIUMCONST 0 mediumconst C:\Users\chima\AppData\Local\Temp\s3m0.obj
 RADIO_DIO0@dioMapping E6 0 BANK0 1 cstackBANK0 dist/default/production\LoRaWAN_v05.production.obj
 _INT0_DefaultInterruptHandler 0 0 ABS 0 - dist/default/production\LoRaWAN_v05.production.obj
 _StartReTxTimer 43F0 0 CODE 0 text66 dist/default/production\LoRaWAN_v05.production.obj
@@ -3099,7 +3099,7 @@ _LATE F8D 0 ABS 0 - dist/default/production\LoRaWAN_v05.production.obj
 _TMR1 FCE 0 ABS 0 - dist/default/production\LoRaWAN_v05.production.obj
 _TMR3 FB2 0 ABS 0 - dist/default/production\LoRaWAN_v05.production.obj
 _WPUB F61 0 ABS 0 - dist/default/production\LoRaWAN_v05.production.obj
-___sp 6FE 0 STACK 2 stack C:\Users\chima\AppData\Local\Temp\s7e4.obj
+___sp 6FE 0 STACK 2 stack C:\Users\chima\AppData\Local\Temp\s3m0.obj
 _loRa 200 0 BANK2 1 bssBANK2 dist/default/production\LoRaWAN_v05.production.obj
 _main 5AFA 0 CODE 0 text0 dist/default/production\LoRaWAN_v05.production.obj
 _rand 69C4 0 CODE 0 text148 dist/default/production\LoRaWAN_v05.production.obj
@@ -3107,7 +3107,7 @@ btemp 46 0 COMRAM 1 temp dist/default/production\LoRaWAN_v05.production.obj
 __size_of_RADIO_RxDone 0 0 ABS 0 - dist/default/production\LoRaWAN_v05.production.obj
 __HbssBIGRAM 0 0 ABS 0 bssBIGRAM dist/default/production\LoRaWAN_v05.production.obj
 _RADIO_ReceiveStart 2BD4 0 CODE 0 text123 dist/default/production\LoRaWAN_v05.production.obj
-start 90 0 CODE 0 init C:\Users\chima\AppData\Local\Temp\s7e4.obj
+start 90 0 CODE 0 init C:\Users\chima\AppData\Local\Temp\s3m0.obj
 __end_of_LORAWAN_EnterContinuousReceive 6594 0 CODE 0 text114 dist/default/production\LoRaWAN_v05.production.obj
 __size_of_RADIO_SetCRC 0 0 ABS 0 - dist/default/production\LoRaWAN_v05.production.obj
 __size_of___abdiv 0 0 ABS 0 - dist/default/production\LoRaWAN_v05.production.obj
@@ -3216,11 +3216,11 @@ __size_of_ValidateDataRate 0 0 ABS 0 - dist/default/production\LoRaWAN_v05.produ
 _ValidateTxPower 73BE 0 CODE 0 text86 dist/default/production\LoRaWAN_v05.production.obj
 __size_of_RADIO_RegisterWrite 0 0 ABS 0 - dist/default/production\LoRaWAN_v05.production.obj
 _FskSyncWordBuff FFFC 0 MEDIUMCONST 0 mediumconst dist/default/production\LoRaWAN_v05.production.obj
-__accesstop 60 0 ABS 0 - C:\Users\chima\AppData\Local\Temp\s7e4.obj
-intlevel0 0 0 CODE 0 text C:\Users\chima\AppData\Local\Temp\s7e4.obj
-intlevel1 0 0 CODE 0 text C:\Users\chima\AppData\Local\Temp\s7e4.obj
-intlevel2 0 0 CODE 0 text C:\Users\chima\AppData\Local\Temp\s7e4.obj
-intlevel3 0 0 CODE 0 text C:\Users\chima\AppData\Local\Temp\s7e4.obj
+__accesstop 60 0 ABS 0 - C:\Users\chima\AppData\Local\Temp\s3m0.obj
+intlevel0 0 0 CODE 0 text C:\Users\chima\AppData\Local\Temp\s3m0.obj
+intlevel1 0 0 CODE 0 text C:\Users\chima\AppData\Local\Temp\s3m0.obj
+intlevel2 0 0 CODE 0 text C:\Users\chima\AppData\Local\Temp\s3m0.obj
+intlevel3 0 0 CODE 0 text C:\Users\chima\AppData\Local\Temp\s3m0.obj
 __end_of_rxWindowSize FF8D 0 MEDIUMCONST 0 mediumconst dist/default/production\LoRaWAN_v05.production.obj
 __ptext100 5914 0 CODE 0 text100 dist/default/production\LoRaWAN_v05.production.obj
 __ptext101 4154 0 CODE 0 text101 dist/default/production\LoRaWAN_v05.production.obj
@@ -3453,9 +3453,9 @@ AssembleEncryptionBlock@dir 75 0 BANK0 1 cstackBANK0 dist/default/production\LoR
 AESCmac@flag 162 0 BANK1 1 cstackBANK1 dist/default/production\LoRaWAN_v05.production.obj
 AESCmac@size C2 0 BANK0 1 cstackBANK0 dist/default/production\LoRaWAN_v05.production.obj
 __size_of_LORAWAN_SetDeviceAddress 0 0 ABS 0 - dist/default/production\LoRaWAN_v05.production.obj
-___inthi_sp 9BC 0 STACK 2 stack C:\Users\chima\AppData\Local\Temp\s7e4.obj
+___inthi_sp 9BC 0 STACK 2 stack C:\Users\chima\AppData\Local\Temp\s3m0.obj
 ConfigureRadioRx@freq 76 0 BANK0 1 cstackBANK0 dist/default/production\LoRaWAN_v05.production.obj
-___intlo_sp C7A 0 STACK 2 stack C:\Users\chima\AppData\Local\Temp\s7e4.obj
+___intlo_sp C7A 0 STACK 2 stack C:\Users\chima\AppData\Local\Temp\s3m0.obj
 LORAWAN_RxDone@mhdr 3A2 0 BANK3 1 cstackBANK3 dist/default/production\LoRaWAN_v05.production.obj
 LORAWAN_RxDone@temp 3A8 0 BANK3 1 cstackBANK3 dist/default/production\LoRaWAN_v05.production.obj
 __LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\LoRaWAN_v05.production.obj
@@ -3931,7 +3931,7 @@ __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\LoRaWAN_v05.production.obj
 __Hbigram 0 0 ABS 0 bigram dist/default/production\LoRaWAN_v05.production.obj
 __end_of_RADIO_SetFSKSyncWord 71C2 0 CODE 0 text138 dist/default/production\LoRaWAN_v05.production.obj
 __size_of_UpdateDataRange 0 0 ABS 0 - dist/default/production\LoRaWAN_v05.production.obj
-__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\chima\AppData\Local\Temp\s7e4.obj
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\chima\AppData\Local\Temp\s3m0.obj
 __end_of_TMR_GetDeltaTime 4E34 0 CODE 0 text192 dist/default/production\LoRaWAN_v05.production.obj
 __size_of_RADIO_ReceiveStart 0 0 ABS 0 - dist/default/production\LoRaWAN_v05.production.obj
 __size_of_LORAWAN_ReceiveWindow1Callback 0 0 ABS 0 - dist/default/production\LoRaWAN_v05.production.obj
@@ -4500,8 +4500,8 @@ _TMR_ISR_lora 6A60 0 CODE 0 text212 dist/default/production\LoRaWAN_v05.producti
 _LORAWAN_LinkCheckCallback 3FFC 0 CODE 0 text41 dist/default/production\LoRaWAN_v05.production.obj
 _ADC_SelChannel 764A 0 CODE 0 text3 dist/default/production\LoRaWAN_v05.production.obj
 _ExecuteDevStatus 7866 0 CODE 0 text94 dist/default/production\LoRaWAN_v05.production.obj
-stackhi F37 0 ABS 0 - C:\Users\chima\AppData\Local\Temp\s7e4.obj
-stacklo 6FE 0 ABS 0 - C:\Users\chima\AppData\Local\Temp\s7e4.obj
+stackhi F37 0 ABS 0 - C:\Users\chima\AppData\Local\Temp\s3m0.obj
+stacklo 6FE 0 ABS 0 - C:\Users\chima\AppData\Local\Temp\s3m0.obj
 EncryptFRMPayload@macBufferIndex 9E 0 BANK0 1 cstackBANK0 dist/default/production\LoRaWAN_v05.production.obj
 LORAWAN_Send@result DB 0 BANK0 1 cstackBANK0 dist/default/production\LoRaWAN_v05.production.obj
 _EXT_INT_Initialize 710E 0 CODE 0 text25 dist/default/production\LoRaWAN_v05.production.obj
@@ -4751,7 +4751,7 @@ __Ltext98 0 0 ABS 0 text98 dist/default/production\LoRaWAN_v05.production.obj
 __Ltext99 0 0 ABS 0 text99 dist/default/production\LoRaWAN_v05.production.obj
 __end_of_bandwidth FF94 0 MEDIUMCONST 0 mediumconst dist/default/production\LoRaWAN_v05.production.obj
 __end_of_UpdateDutyCycle 707A 0 CODE 0 text80 dist/default/production\LoRaWAN_v05.production.obj
-__ramtop 1000 0 RAM 0 ramtop C:\Users\chima\AppData\Local\Temp\s7e4.obj
+__ramtop 1000 0 RAM 0 ramtop C:\Users\chima\AppData\Local\Temp\s3m0.obj
 __size_of_ComputeMic 0 0 ABS 0 - dist/default/production\LoRaWAN_v05.production.obj
 __size_of_LORAWAN_SetApplicationSessionKey 0 0 ABS 0 - dist/default/production\LoRaWAN_v05.production.obj
 __end_of_HALSPICSAssert 794E 0 CODE 0 text178 dist/default/production\LoRaWAN_v05.production.obj

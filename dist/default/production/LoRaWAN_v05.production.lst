@@ -1,7 +1,7 @@
 
 
 Microchip Technology PIC18 PRO Macro Assembler V1.38 build -256452561 
-                                                                                               Sun Aug 21 12:49:40 2022
+                                                                                               Sun Aug 21 12:57:52 2022
 
 Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 201607010351
      1                           	processor	18LF46K22
@@ -2563,7 +2563,7 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
   2557 ;;
   2558 ;; *************** function _main *****************
   2559 ;; Defined at:
-  2560 ;;		line 48 in file "main.c"
+  2560 ;;		line 50 in file "main.c"
   2561 ;; Parameters:    Size  Location     Type
   2562 ;;		None
   2563 ;; Auto vars:     Size  Location     Type
@@ -2616,25 +2616,25 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
   2604  005AFA                     _main:
   2605                           	opt stack 12
   2606                           
-  2607                           ;main.c: 50: SYSTEM_Initialize();
+  2607                           ;main.c: 52: SYSTEM_Initialize();
   2608                           
   2609                           ; BSR set to: 0
   2610                           ;incstack = 0
   2611  005AFA  EC01  F03A         	call	_SYSTEM_Initialize	;wreg free
   2612                           
   2613                           ; BSR set to: 0
-  2614                           ;main.c: 51: PORTCbits.RC5 = 1;
+  2614                           ;main.c: 53: PORTCbits.RC5 = 1;
   2615  005AFE  8A82               	bsf	3970,5,c	;volatile
   2616                           
   2617                           ; BSR set to: 0
-  2618                           ;main.c: 54: (INTCONbits.GIE = 1);
+  2618                           ;main.c: 56: (INTCONbits.GIE = 1);
   2619  005B00  8EF2               	bsf	intcon,7,c	;volatile
   2620                           
   2621                           ; BSR set to: 0
-  2622                           ;main.c: 55: (INTCONbits.PEIE = 1);
+  2622                           ;main.c: 57: (INTCONbits.PEIE = 1);
   2623  005B02  8CF2               	bsf	intcon,6,c	;volatile
   2624                           
-  2625                           ;main.c: 56: TMR3_SetInterruptHandler(handle16sInterrupt);
+  2625                           ;main.c: 58: TMR3_SetInterruptHandler(handle16sInterrupt);
   2626  005B04  0E42               	movlw	low _handle16sInterrupt
   2627  005B06  6F64               	movwf	TMR3_SetInterruptHandler@InterruptHandler& (0+255),b
   2628  005B08  0E77               	movlw	high _handle16sInterrupt
@@ -2642,19 +2642,19 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
   2630  005B0C  EC1A  F03C         	call	_TMR3_SetInterruptHandler	;wreg free
   2631                           
   2632                           ; BSR set to: 0
-  2633                           ;main.c: 57: SysConfigSleep();
+  2633                           ;main.c: 59: SysConfigSleep();
   2634  005B10  ECC7  F030         	call	_SysConfigSleep	;wreg free
   2635                           
   2636                           ; BSR set to: 15
-  2637                           ;main.c: 58: ADC_Init();
+  2637                           ;main.c: 60: ADC_Init();
   2638  005B14  ECE1  F03B         	call	_ADC_Init	;wreg free
   2639                           
   2640                           ; BSR set to: 15
-  2641                           ;main.c: 59: IO_pins_init();
+  2641                           ;main.c: 61: IO_pins_init();
   2642  005B18  ECB4  F03B         	call	_IO_pins_init	;wreg free
   2643                           
   2644                           ; BSR set to: 15
-  2645                           ;main.c: 61: LORAWAN_Init(RxDataDone, RxJoinResponse);
+  2645                           ;main.c: 63: LORAWAN_Init(RxDataDone, RxJoinResponse);
   2646  005B1C  0E1C               	movlw	low _RxDataDone
   2647  005B1E  0100               	movlb	0	; () banked
   2648  005B20  6FA6               	movwf	LORAWAN_Init@RxPayload& (0+255),b
@@ -2666,7 +2666,7 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
   2654  005B2C  6FA9               	movwf	(LORAWAN_Init@RxJoinResponse+1)& (0+255),b
   2655  005B2E  EC8B  F033         	call	_LORAWAN_Init	;wreg free
   2656                           
-  2657                           ;main.c: 62: LORAWAN_SetNetworkSessionKey(nwkSKey);
+  2657                           ;main.c: 64: LORAWAN_SetNetworkSessionKey(nwkSKey);
   2658  005B32  0ED4               	movlw	low _nwkSKey
   2659  005B34  0100               	movlb	0	; () banked
   2660  005B36  6F6E               	movwf	LORAWAN_SetNetworkSessionKey@networkSessionKeyNew& (0+255),b
@@ -2674,7 +2674,7 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
   2662  005B3A  6F6F               	movwf	(LORAWAN_SetNetworkSessionKey@networkSessionKeyNew+1)& (0+255),b
   2663  005B3C  ECE1  F038         	call	_LORAWAN_SetNetworkSessionKey	;wreg free
   2664                           
-  2665                           ;main.c: 63: LORAWAN_SetApplicationSessionKey(appSKey);
+  2665                           ;main.c: 65: LORAWAN_SetApplicationSessionKey(appSKey);
   2666  005B40  0EC4               	movlw	low _appSKey
   2667  005B42  0100               	movlb	0	; () banked
   2668  005B44  6F6E               	movwf	LORAWAN_SetApplicationSessionKey@applicationSessionKeyNew& (0+255),b
@@ -2682,7 +2682,7 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
   2670  005B48  6F6F               	movwf	(LORAWAN_SetApplicationSessionKey@applicationSessionKeyNew+1)& (0+255),b
   2671  005B4A  ECF6  F038         	call	_LORAWAN_SetApplicationSessionKey	;wreg free
   2672                           
-  2673                           ;main.c: 64: LORAWAN_SetDeviceAddress(devAddr);
+  2673                           ;main.c: 66: LORAWAN_SetDeviceAddress(devAddr);
   2674  005B4E  0E78               	movlw	120
   2675  005B50  0100               	movlb	0	; () banked
   2676  005B52  6F64               	movwf	LORAWAN_SetDeviceAddress@deviceAddressNew& (0+255),b
@@ -2695,46 +2695,46 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
   2683  005B60  EC31  F03B         	call	_LORAWAN_SetDeviceAddress	;wreg free
   2684                           
   2685                           ; BSR set to: 2
-  2686                           ;main.c: 65: LORAWAN_Join(ABP);
+  2686                           ;main.c: 67: LORAWAN_Join(ABP);
   2687  005B64  0E01               	movlw	1
   2688  005B66  EC12  F02E         	call	_LORAWAN_Join
   2689                           
-  2690                           ;main.c: 68: TimeToSend = 1;
+  2690                           ;main.c: 70: TimeToSend = 1;
   2691  005B6A  0E01               	movlw	1
   2692  005B6C  0101               	movlb	1	; () banked
   2693  005B6E  6F69               	movwf	_TimeToSend& (0+255),b
   2694  005B70                     l16150:
   2695                           
-  2696                           ;main.c: 71: {
-  2697                           ;main.c: 72: LORAWAN_Mainloop();
+  2696                           ;main.c: 73: {
+  2697                           ;main.c: 74: LORAWAN_Mainloop();
   2698  005B70  EC12  F037         	call	_LORAWAN_Mainloop	;wreg free
   2699                           
-  2700                           ;main.c: 74: if(TimeToSend){
+  2700                           ;main.c: 76: if(TimeToSend){
   2701  005B74  0101               	movlb	1	; () banked
   2702  005B76  5169               	movf	_TimeToSend& (0+255),w,b
   2703  005B78  E006               	bz	l16160
   2704                           
   2705                           ; BSR set to: 1
-  2706                           ;main.c: 75: LoRaWakeUp();
+  2706                           ;main.c: 77: LoRaWakeUp();
   2707  005B7A  EC5B  F03C         	call	_LoRaWakeUp	;wreg free
   2708                           
-  2709                           ;main.c: 76: readAndSend();
+  2709                           ;main.c: 78: readAndSend();
   2710  005B7E  EC0B  F038         	call	_readAndSend	;wreg free
   2711                           
-  2712                           ;main.c: 77: TimeToSend = 0;
+  2712                           ;main.c: 79: TimeToSend = 0;
   2713  005B82  0101               	movlb	1	; () banked
   2714  005B84  6B69               	clrf	_TimeToSend& (0+255),b
   2715  005B86                     l16160:
   2716                           
   2717                           ; BSR set to: 1
-  2718                           ;main.c: 79: }
-  2719                           ;main.c: 81: if(LORAWAN_GetState() == IDLE){
+  2718                           ;main.c: 81: }
+  2719                           ;main.c: 83: if(LORAWAN_GetState() == IDLE){
   2720  005B86  EC77  F03C         	call	_LORAWAN_GetState	;wreg free
   2721  005B8A  0900               	iorlw	0
   2722  005B8C  E1F1               	bnz	l16150
   2723                           
   2724                           ; BSR set to: 2
-  2725                           ;main.c: 82: LoRaSleep();
+  2725                           ;main.c: 84: LoRaSleep();
   2726  005B8E  EC21  F03A         	call	_LoRaSleep	;wreg free
   2727  005B92  0003               	sleep		;# 
   2728  005B94  D7ED               	goto	l16150
@@ -2753,7 +2753,7 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
   2741                           
   2742 ;; *************** function _readAndSend *****************
   2743 ;; Defined at:
-  2744 ;;		line 122 in file "main.c"
+  2744 ;;		line 124 in file "main.c"
   2745 ;; Parameters:    Size  Location     Type
   2746 ;;		None
   2747 ;; Auto vars:     Size  Location     Type
@@ -2793,7 +2793,7 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
   2776  007016                     _readAndSend:
   2777                           	opt stack 16
   2778                           
-  2779                           ;main.c: 123: payload[0] = ADC_Read(27);
+  2779                           ;main.c: 125: payload[0] = ADC_Read(27);
   2780                           
   2781                           ;incstack = 0
   2782  007016  0E1B               	movlw	27
@@ -2801,14 +2801,14 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
   2784  00701C  C066  F1B0         	movff	?_ADC_Read,_payload
   2785  007020  C067  F1B1         	movff	?_ADC_Read+1,_payload+1
   2786                           
-  2787                           ;main.c: 124: payload[1] = ADC_Read(26);
+  2787                           ;main.c: 126: payload[1] = ADC_Read(26);
   2788  007024  0E1A               	movlw	26
   2789  007026  ECA1  F037         	call	_ADC_Read
   2790  00702A  C066  F1B2         	movff	?_ADC_Read,_payload+2
   2791  00702E  C067  F1B3         	movff	?_ADC_Read+1,_payload+3
   2792                           
   2793                           ; BSR set to: 0
-  2794                           ;main.c: 125: LORAWAN_Send(UNCNF, portNumber, &payload, sizeof(payload));
+  2794                           ;main.c: 127: LORAWAN_Send(UNCNF, portNumber, &payload, sizeof(payload));
   2795  007032  0E02               	movlw	2
   2796  007034  6FD6               	movwf	LORAWAN_Send@port& (0+255),b
   2797  007036  0EB0               	movlw	low _payload
@@ -2834,7 +2834,7 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
   2817                           
   2818 ;; *************** function _ADC_Read *****************
   2819 ;; Defined at:
-  2820 ;;		line 146 in file "main.c"
+  2820 ;;		line 148 in file "main.c"
   2821 ;; Parameters:    Size  Location     Type
   2822 ;;  channel         1    wreg     unsigned char 
   2823 ;; Auto vars:     Size  Location     Type
@@ -2879,21 +2879,21 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
   2857  006F42  0100               	movlb	0	; () banked
   2858  006F44  6F6A               	movwf	ADC_Read@channel& (0+255),b
   2859                           
-  2860                           ;main.c: 148: ADCON0bits.ADON = 1;
+  2860                           ;main.c: 150: ADCON0bits.ADON = 1;
   2861  006F46  80C2               	bsf	4034,0,c	;volatile
   2862                           
-  2863                           ;main.c: 149: ADC_SelChannel(channel);
+  2863                           ;main.c: 151: ADC_SelChannel(channel);
   2864  006F48  516A               	movf	ADC_Read@channel& (0+255),w,b
   2865  006F4A  EC25  F03B         	call	_ADC_SelChannel
   2866                           
   2867                           ; BSR set to: 0
-  2868                           ;main.c: 150: ADCON0bits.GO = 1;
+  2868                           ;main.c: 152: ADCON0bits.GO = 1;
   2869  006F4E  82C2               	bsf	4034,1,c	;volatile
   2870  006F50                     l2745:
   2871  006F50  B2C2               	btfsc	4034,1,c	;volatile
   2872  006F52  D7FE               	goto	l2745
   2873                           
-  2874                           ;main.c: 152: result = (ADRESH<<8) | ADRESL;
+  2874                           ;main.c: 154: result = (ADRESH<<8) | ADRESL;
   2875  006F54  50C3               	movf	4035,w,c	;volatile
   2876  006F56  CFC4 F068          	movff	4036,??_ADC_Read	;volatile
   2877  006F5A  0100               	movlb	0	; () banked
@@ -2906,11 +2906,11 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
   2884  006F6A  6F6C               	movwf	(ADC_Read@result+1)& (0+255),b
   2885                           
   2886                           ; BSR set to: 0
-  2887                           ;main.c: 153: ADCON0bits.ADON = 0;
+  2887                           ;main.c: 155: ADCON0bits.ADON = 0;
   2888  006F6C  90C2               	bcf	4034,0,c	;volatile
   2889                           
   2890                           ; BSR set to: 0
-  2891                           ;main.c: 154: return result;
+  2891                           ;main.c: 156: return result;
   2892  006F6E  C06B  F066         	movff	ADC_Read@result,?_ADC_Read
   2893  006F72  C06C  F067         	movff	ADC_Read@result+1,?_ADC_Read+1
   2894                           
@@ -2931,7 +2931,7 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
   2909                           
   2910 ;; *************** function _ADC_SelChannel *****************
   2911 ;; Defined at:
-  2912 ;;		line 141 in file "main.c"
+  2912 ;;		line 143 in file "main.c"
   2913 ;; Parameters:    Size  Location     Type
   2914 ;;  c               1    wreg     unsigned char 
   2915 ;; Auto vars:     Size  Location     Type
@@ -2975,7 +2975,7 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
   2948                           ;ADC_SelChannel@c stored from wreg
   2949  00764A  6F65               	movwf	ADC_SelChannel@c& (0+255),b
   2950                           
-  2951                           ;main.c: 142: ADCON0bits.CHS = c;
+  2951                           ;main.c: 144: ADCON0bits.CHS = c;
   2952  00764C  C065  F064         	movff	ADC_SelChannel@c,??_ADC_SelChannel
   2953  007650  0100               	movlb	0	; () banked
   2954  007652  4764               	rlncf	??_ADC_SelChannel& (0+255),f,b
@@ -3003,7 +3003,7 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
   2976                           
   2977 ;; *************** function _SysConfigSleep *****************
   2978 ;; Defined at:
-  2979 ;;		line 164 in file "main.c"
+  2979 ;;		line 166 in file "main.c"
   2980 ;; Parameters:    Size  Location     Type
   2981 ;;		None
   2982 ;; Auto vars:     Size  Location     Type
@@ -3043,170 +3043,170 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
   3011                           	opt stack 23
   3012                           
   3013                           ; BSR set to: 0
-  3014                           ;main.c: 167: UART2MD = 1;
+  3014                           ;main.c: 169: UART2MD = 1;
   3015                           
   3016                           ; BSR set to: 0
   3017                           ;incstack = 0
   3018  00618E  010F               	movlb	15	; () banked
   3019  006190  8F3F               	bsf	63,7,b	;volatile
   3020                           
-  3021                           ;main.c: 168: UART1MD = 1;
+  3021                           ;main.c: 170: UART1MD = 1;
   3022  006192  8D3F               	bsf	63,6,b	;volatile
   3023                           
-  3024                           ;main.c: 169: TMR6MD = 1;
+  3024                           ;main.c: 171: TMR6MD = 1;
   3025  006194  8B3F               	bsf	63,5,b	;volatile
   3026                           
-  3027                           ;main.c: 170: TMR5MD = 1;
+  3027                           ;main.c: 172: TMR5MD = 1;
   3028  006196  893F               	bsf	63,4,b	;volatile
   3029                           
-  3030                           ;main.c: 171: TMR4MD = 1;
+  3030                           ;main.c: 173: TMR4MD = 1;
   3031  006198  873F               	bsf	63,3,b	;volatile
   3032                           
-  3033                           ;main.c: 172: TMR2MD = 1;
+  3033                           ;main.c: 174: TMR2MD = 1;
   3034  00619A  833F               	bsf	63,1,b	;volatile
   3035                           
-  3036                           ;main.c: 173: MSSP1MD = 1;
+  3036                           ;main.c: 175: MSSP1MD = 1;
   3037  00619C  8D3E               	bsf	62,6,b	;volatile
   3038                           
-  3039                           ;main.c: 174: CCP5MD = 1;
+  3039                           ;main.c: 176: CCP5MD = 1;
   3040  00619E  893E               	bsf	62,4,b	;volatile
   3041                           
-  3042                           ;main.c: 175: CCP4MD = 1;
+  3042                           ;main.c: 177: CCP4MD = 1;
   3043  0061A0  873E               	bsf	62,3,b	;volatile
   3044                           
-  3045                           ;main.c: 176: CCP3MD = 1;
+  3045                           ;main.c: 178: CCP3MD = 1;
   3046  0061A2  853E               	bsf	62,2,b	;volatile
   3047                           
-  3048                           ;main.c: 177: CCP2MD = 1;
+  3048                           ;main.c: 179: CCP2MD = 1;
   3049  0061A4  833E               	bsf	62,1,b	;volatile
   3050                           
-  3051                           ;main.c: 178: CCP1MD = 1;
+  3051                           ;main.c: 180: CCP1MD = 1;
   3052  0061A6  813E               	bsf	62,0,b	;volatile
   3053                           
-  3054                           ;main.c: 179: CTMUMD = 1;
+  3054                           ;main.c: 181: CTMUMD = 1;
   3055  0061A8  873D               	bsf	61,3,b	;volatile
   3056                           
-  3057                           ;main.c: 180: CMP2MD = 1;
+  3057                           ;main.c: 182: CMP2MD = 1;
   3058  0061AA  853D               	bsf	61,2,b	;volatile
   3059                           
-  3060                           ;main.c: 181: CMP1MD = 1;
+  3060                           ;main.c: 183: CMP1MD = 1;
   3061  0061AC  833D               	bsf	61,1,b	;volatile
   3062                           
-  3063                           ;main.c: 184: IDLEN = 0;
+  3063                           ;main.c: 186: IDLEN = 0;
   3064  0061AE  9ED3               	bcf	4051,7,c	;volatile
   3065                           
-  3066                           ;main.c: 188: TRISA = 0x00;
+  3066                           ;main.c: 190: TRISA = 0x00;
   3067  0061B0  6A92               	clrf	3986,c	;volatile
   3068                           
-  3069                           ;main.c: 189: LATA = 0x00;
+  3069                           ;main.c: 191: LATA = 0x00;
   3070  0061B2  6A89               	clrf	3977,c	;volatile
   3071                           
-  3072                           ;main.c: 192: TRISBbits.RB4 = 0;
+  3072                           ;main.c: 194: TRISBbits.RB4 = 0;
   3073  0061B4  9893               	bcf	3987,4,c	;volatile
   3074                           
-  3075                           ;main.c: 193: TRISBbits.RB5 = 0;
+  3075                           ;main.c: 195: TRISBbits.RB5 = 0;
   3076  0061B6  9A93               	bcf	3987,5,c	;volatile
   3077                           
-  3078                           ;main.c: 194: TRISBbits.RB6 = 0;
+  3078                           ;main.c: 196: TRISBbits.RB6 = 0;
   3079  0061B8  9C93               	bcf	3987,6,c	;volatile
   3080                           
-  3081                           ;main.c: 195: TRISBbits.RB7 = 0;
+  3081                           ;main.c: 197: TRISBbits.RB7 = 0;
   3082  0061BA  9E93               	bcf	3987,7,c	;volatile
   3083                           
-  3084                           ;main.c: 196: LATBbits.LATB4 = 0;
+  3084                           ;main.c: 198: LATBbits.LATB4 = 0;
   3085  0061BC  988A               	bcf	3978,4,c	;volatile
   3086                           
-  3087                           ;main.c: 197: LATBbits.LATB5 = 0;
+  3087                           ;main.c: 199: LATBbits.LATB5 = 0;
   3088  0061BE  9A8A               	bcf	3978,5,c	;volatile
   3089                           
-  3090                           ;main.c: 198: LATBbits.LATB6 = 0;
+  3090                           ;main.c: 200: LATBbits.LATB6 = 0;
   3091  0061C0  9C8A               	bcf	3978,6,c	;volatile
   3092                           
-  3093                           ;main.c: 199: LATBbits.LATB7 = 0;
+  3093                           ;main.c: 201: LATBbits.LATB7 = 0;
   3094  0061C2  9E8A               	bcf	3978,7,c	;volatile
   3095                           
-  3096                           ;main.c: 202: TRISCbits.RC0 = 0;
+  3096                           ;main.c: 204: TRISCbits.RC0 = 0;
   3097  0061C4  9094               	bcf	3988,0,c	;volatile
   3098                           
-  3099                           ;main.c: 203: TRISCbits.RC1 = 0;
+  3099                           ;main.c: 205: TRISCbits.RC1 = 0;
   3100  0061C6  9294               	bcf	3988,1,c	;volatile
   3101                           
-  3102                           ;main.c: 204: TRISCbits.RC3 = 0;
+  3102                           ;main.c: 206: TRISCbits.RC3 = 0;
   3103  0061C8  9694               	bcf	3988,3,c	;volatile
   3104                           
-  3105                           ;main.c: 205: TRISCbits.RC4 = 0;
+  3105                           ;main.c: 207: TRISCbits.RC4 = 0;
   3106  0061CA  9894               	bcf	3988,4,c	;volatile
   3107                           
-  3108                           ;main.c: 207: TRISCbits.RC6 = 0;
+  3108                           ;main.c: 209: TRISCbits.RC6 = 0;
   3109  0061CC  9C94               	bcf	3988,6,c	;volatile
   3110                           
-  3111                           ;main.c: 208: TRISCbits.RC7 = 0;
+  3111                           ;main.c: 210: TRISCbits.RC7 = 0;
   3112  0061CE  9E94               	bcf	3988,7,c	;volatile
   3113                           
-  3114                           ;main.c: 209: LATCbits.LATC0 = 0;
+  3114                           ;main.c: 211: LATCbits.LATC0 = 0;
   3115  0061D0  908B               	bcf	3979,0,c	;volatile
   3116                           
-  3117                           ;main.c: 210: LATCbits.LATC1 = 0;
+  3117                           ;main.c: 212: LATCbits.LATC1 = 0;
   3118  0061D2  928B               	bcf	3979,1,c	;volatile
   3119                           
-  3120                           ;main.c: 211: LATCbits.LATC3 = 0;
+  3120                           ;main.c: 213: LATCbits.LATC3 = 0;
   3121  0061D4  968B               	bcf	3979,3,c	;volatile
   3122                           
-  3123                           ;main.c: 212: LATCbits.LATC4 = 0;
+  3123                           ;main.c: 214: LATCbits.LATC4 = 0;
   3124  0061D6  988B               	bcf	3979,4,c	;volatile
   3125                           
-  3126                           ;main.c: 214: LATCbits.LATC6 = 0;
+  3126                           ;main.c: 216: LATCbits.LATC6 = 0;
   3127  0061D8  9C8B               	bcf	3979,6,c	;volatile
   3128                           
-  3129                           ;main.c: 215: LATCbits.LATC7 = 0;
+  3129                           ;main.c: 217: LATCbits.LATC7 = 0;
   3130  0061DA  9E8B               	bcf	3979,7,c	;volatile
   3131                           
-  3132                           ;main.c: 218: TRISDbits.RD0 = 0;
+  3132                           ;main.c: 220: TRISDbits.RD0 = 0;
   3133  0061DC  9095               	bcf	3989,0,c	;volatile
   3134                           
-  3135                           ;main.c: 219: TRISDbits.RD1 = 0;
+  3135                           ;main.c: 221: TRISDbits.RD1 = 0;
   3136  0061DE  9295               	bcf	3989,1,c	;volatile
   3137                           
-  3138                           ;main.c: 220: TRISDbits.RD2 = 0;
+  3138                           ;main.c: 222: TRISDbits.RD2 = 0;
   3139  0061E0  9495               	bcf	3989,2,c	;volatile
   3140                           
-  3141                           ;main.c: 221: TRISDbits.RD4 = 0;
+  3141                           ;main.c: 223: TRISDbits.RD4 = 0;
   3142  0061E2  9895               	bcf	3989,4,c	;volatile
   3143                           
-  3144                           ;main.c: 222: TRISDbits.RD5 = 0;
+  3144                           ;main.c: 224: TRISDbits.RD5 = 0;
   3145  0061E4  9A95               	bcf	3989,5,c	;volatile
   3146                           
-  3147                           ;main.c: 223: TRISDbits.RD7 = 0;
+  3147                           ;main.c: 225: TRISDbits.RD7 = 0;
   3148  0061E6  9E95               	bcf	3989,7,c	;volatile
   3149                           
-  3150                           ;main.c: 224: LATDbits.LATD0 = 0;
+  3150                           ;main.c: 226: LATDbits.LATD0 = 0;
   3151  0061E8  908C               	bcf	3980,0,c	;volatile
   3152                           
-  3153                           ;main.c: 225: LATDbits.LATD1 = 0;
+  3153                           ;main.c: 227: LATDbits.LATD1 = 0;
   3154  0061EA  928C               	bcf	3980,1,c	;volatile
   3155                           
-  3156                           ;main.c: 226: LATDbits.LATD2 = 0;
+  3156                           ;main.c: 228: LATDbits.LATD2 = 0;
   3157  0061EC  948C               	bcf	3980,2,c	;volatile
   3158                           
-  3159                           ;main.c: 227: LATDbits.LATD4 = 0;
+  3159                           ;main.c: 229: LATDbits.LATD4 = 0;
   3160  0061EE  988C               	bcf	3980,4,c	;volatile
   3161                           
-  3162                           ;main.c: 232: TRISEbits.RE0 = 0;
+  3162                           ;main.c: 234: TRISEbits.RE0 = 0;
   3163  0061F0  9096               	bcf	3990,0,c	;volatile
   3164                           
-  3165                           ;main.c: 233: TRISEbits.RE1 = 0;
+  3165                           ;main.c: 235: TRISEbits.RE1 = 0;
   3166  0061F2  9296               	bcf	3990,1,c	;volatile
   3167                           
-  3168                           ;main.c: 234: TRISEbits.RE2 = 0;
+  3168                           ;main.c: 236: TRISEbits.RE2 = 0;
   3169  0061F4  9496               	bcf	3990,2,c	;volatile
   3170                           
-  3171                           ;main.c: 235: LATEbits.LATE0 = 0;
+  3171                           ;main.c: 237: LATEbits.LATE0 = 0;
   3172  0061F6  908D               	bcf	3981,0,c	;volatile
   3173                           
-  3174                           ;main.c: 236: LATEbits.LATE1 = 0;
+  3174                           ;main.c: 238: LATEbits.LATE1 = 0;
   3175  0061F8  928D               	bcf	3981,1,c	;volatile
   3176                           
-  3177                           ;main.c: 237: LATEbits.LATE2 = 0;
+  3177                           ;main.c: 239: LATEbits.LATE2 = 0;
   3178  0061FA  948D               	bcf	3981,2,c	;volatile
   3179                           
   3180                           ; BSR set to: 15
@@ -5016,7 +5016,7 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
   4864                           
   4865 ;; *************** function _LoRaWakeUp *****************
   4866 ;; Defined at:
-  4867 ;;		line 271 in file "main.c"
+  4867 ;;		line 273 in file "main.c"
   4868 ;; Parameters:    Size  Location     Type
   4869 ;;		None
   4870 ;; Auto vars:     Size  Location     Type
@@ -5056,7 +5056,7 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
   4899                           	opt stack 22
   4900                           
   4901                           ; BSR set to: 1
-  4902                           ;main.c: 273: MSSP2MD = 0;
+  4902                           ;main.c: 275: MSSP2MD = 0;
   4903                           
   4904                           ; BSR set to: 0
   4905                           ;incstack = 0
@@ -5064,7 +5064,7 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
   4907  0078B8  9F3E               	bcf	62,7,b	;volatile
   4908                           
   4909                           ; BSR set to: 15
-  4910                           ;main.c: 274: SPI2_Initialize();
+  4910                           ;main.c: 276: SPI2_Initialize();
   4911  0078BA  EF14  F03C         	goto	_SPI2_Initialize	;wreg free
   4912  0078BE                     __end_of_LoRaWakeUp:
   4913                           	opt stack 0
@@ -5153,7 +5153,7 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
   4991                           
   4992 ;; *************** function _LoRaSleep *****************
   4993 ;; Defined at:
-  4994 ;;		line 241 in file "main.c"
+  4994 ;;		line 243 in file "main.c"
   4995 ;; Parameters:    Size  Location     Type
   4996 ;;		None
   4997 ;; Auto vars:     Size  Location     Type
@@ -5193,49 +5193,49 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
   5026                           	opt stack 23
   5027                           
   5028                           ; BSR set to: 2
-  5029                           ;main.c: 244: SSP2CON1 = 0x00;
+  5029                           ;main.c: 246: SSP2CON1 = 0x00;
   5030                           
   5031                           ;incstack = 0
   5032  007442  6A6C               	clrf	3948,c	;volatile
   5033                           
-  5034                           ;main.c: 247: MSSP2MD = 1;
+  5034                           ;main.c: 249: MSSP2MD = 1;
   5035  007444  010F               	movlb	15	; () banked
   5036  007446  8F3E               	bsf	62,7,b	;volatile
   5037                           
-  5038                           ;main.c: 251: ANSD3 = 0;
+  5038                           ;main.c: 253: ANSD3 = 0;
   5039  007448  973B               	bcf	59,3,b	;volatile
   5040                           
-  5041                           ;main.c: 252: TRISD3 = 0;
+  5041                           ;main.c: 254: TRISD3 = 0;
   5042  00744A  9695               	bcf	3989,3,c	;volatile
   5043                           
-  5044                           ;main.c: 253: LATD3 = 1;
+  5044                           ;main.c: 255: LATD3 = 1;
   5045  00744C  868C               	bsf	3980,3,c	;volatile
   5046                           
-  5047                           ;main.c: 256: ANSD1 = 0;
+  5047                           ;main.c: 258: ANSD1 = 0;
   5048  00744E  933B               	bcf	59,1,b	;volatile
   5049                           
-  5050                           ;main.c: 257: TRISD1 = 0;
+  5050                           ;main.c: 259: TRISD1 = 0;
   5051  007450  9295               	bcf	3989,1,c	;volatile
   5052                           
-  5053                           ;main.c: 258: LATD1 = 0;
+  5053                           ;main.c: 260: LATD1 = 0;
   5054  007452  928C               	bcf	3980,1,c	;volatile
   5055                           
-  5056                           ;main.c: 261: ANSD4 = 0;
+  5056                           ;main.c: 263: ANSD4 = 0;
   5057  007454  993B               	bcf	59,4,b	;volatile
   5058                           
-  5059                           ;main.c: 262: TRISD4 = 0;
+  5059                           ;main.c: 264: TRISD4 = 0;
   5060  007456  9895               	bcf	3989,4,c	;volatile
   5061                           
-  5062                           ;main.c: 263: LATD4 = 0;
+  5062                           ;main.c: 265: LATD4 = 0;
   5063  007458  988C               	bcf	3980,4,c	;volatile
   5064                           
-  5065                           ;main.c: 266: ANSD0 = 0;
+  5065                           ;main.c: 268: ANSD0 = 0;
   5066  00745A  913B               	bcf	59,0,b	;volatile
   5067                           
-  5068                           ;main.c: 267: TRISD0 = 0;
+  5068                           ;main.c: 269: TRISD0 = 0;
   5069  00745C  9095               	bcf	3989,0,c	;volatile
   5070                           
-  5071                           ;main.c: 268: LATD0 = 0;
+  5071                           ;main.c: 270: LATD0 = 0;
   5072  00745E  908C               	bcf	3980,0,c	;volatile
   5073                           
   5074                           ; BSR set to: 15
@@ -13734,7 +13734,7 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
  13268                           
  13269 ;; *************** function _RxJoinResponse *****************
  13270 ;; Defined at:
- 13271 ;;		line 117 in file "main.c"
+ 13271 ;;		line 119 in file "main.c"
  13272 ;; Parameters:    Size  Location     Type
  13273 ;;  status          1    wreg     unsigned char 
  13274 ;; Auto vars:     Size  Location     Type
@@ -13776,7 +13776,7 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
  13305                           	opt stack 20
  13306                           
  13307                           ; BSR set to: 0
- 13308                           ;main.c: 119: PORTCbits.RC5 = 0;
+ 13308                           ;main.c: 121: PORTCbits.RC5 = 0;
  13309                           
  13310                           ; BSR set to: 0
  13311                           ;incstack = 0
@@ -23514,7 +23514,7 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
  22759                           
  22760 ;; *************** function _RxDataDone *****************
  22761 ;; Defined at:
- 22762 ;;		line 104 in file "main.c"
+ 22762 ;;		line 106 in file "main.c"
  22763 ;; Parameters:    Size  Location     Type
  22764 ;;  pData           2    7[BANK0 ] PTR unsigned char 
  22765 ;;		 -> LORAWAN_RxDone@hdr(2), radioBuffer(271), NULL(0), 
@@ -23565,7 +23565,7 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
  22805                           	opt stack 18
  22806                           
  22807                           ; BSR set to: 0
- 22808                           ;main.c: 109: if(pData[0]==30){
+ 22808                           ;main.c: 111: if(pData[0]==30){
  22809                           
  22810                           ; BSR set to: 0
  22811                           ;incstack = 0
@@ -23577,7 +23577,7 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
  22817  00612A  0012               	return	
  22818                           
  22819                           ; BSR set to: 0
- 22820                           ;main.c: 110: LORAWAN_SetCurrentDataRate(pData[1]);
+ 22820                           ;main.c: 112: LORAWAN_SetCurrentDataRate(pData[1]);
  22821  00612C  EE20 F001          	lfsr	2,1
  22822  006130  5167               	movf	RxDataDone@pData& (0+255),w,b
  22823  006132  26D9               	addwf	fsr2l,f,c
@@ -23586,7 +23586,7 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
  22826  006138  50DF               	movf	indf2,w,c
  22827  00613A  ECB5  F038         	call	_LORAWAN_SetCurrentDataRate
  22828                           
- 22829                           ;main.c: 111: PORTCbits.RC5 = pData[2];
+ 22829                           ;main.c: 113: PORTCbits.RC5 = pData[2];
  22830  00613E  0100               	movlb	0	; () banked
  22831  006140  EE20 F002          	lfsr	2,2
  22832  006144  5167               	movf	RxDataDone@pData& (0+255),w,b
@@ -23604,7 +23604,7 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
  22844  00615C  6E82               	movwf	3970,c	;volatile
  22845                           
  22846                           ; BSR set to: 0
- 22847                           ;main.c: 112: PORTDbits.RD5 = pData[3];
+ 22847                           ;main.c: 114: PORTDbits.RD5 = pData[3];
  22848  00615E  EE20 F003          	lfsr	2,3
  22849  006162  5167               	movf	RxDataDone@pData& (0+255),w,b
  22850  006164  26D9               	addwf	fsr2l,f,c
@@ -23621,7 +23621,7 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
  22861  00617A  6E83               	movwf	3971,c	;volatile
  22862                           
  22863                           ; BSR set to: 0
- 22864                           ;main.c: 113: ONE_HOUR_TIMEOUT_COUNTS = pData[4];
+ 22864                           ;main.c: 115: ONE_HOUR_TIMEOUT_COUNTS = pData[4];
  22865  00617C  EE20 F004          	lfsr	2,4
  22866  006180  5167               	movf	RxDataDone@pData& (0+255),w,b
  22867  006182  26D9               	addwf	fsr2l,f,c
@@ -38669,7 +38669,7 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
  37401                           
  37402 ;; *************** function _IO_pins_init *****************
  37403 ;; Defined at:
- 37404 ;;		line 129 in file "main.c"
+ 37404 ;;		line 131 in file "main.c"
  37405 ;; Parameters:    Size  Location     Type
  37406 ;;		None
  37407 ;; Auto vars:     Size  Location     Type
@@ -38709,31 +38709,31 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
  37436                           	opt stack 23
  37437                           
  37438                           ; BSR set to: 15
- 37439                           ;main.c: 131: TRISCbits.TRISC5 = 0;
+ 37439                           ;main.c: 133: TRISCbits.TRISC5 = 0;
  37440                           
  37441                           ; BSR set to: 2
  37442                           ;incstack = 0
  37443  007768  9A94               	bcf	3988,5,c	;volatile
  37444                           
- 37445                           ;main.c: 132: TRISDbits.TRISD5 = 0;
+ 37445                           ;main.c: 134: TRISDbits.TRISD5 = 0;
  37446  00776A  9A95               	bcf	3989,5,c	;volatile
  37447                           
- 37448                           ;main.c: 133: TRISDbits.TRISD6 = 1;
+ 37448                           ;main.c: 135: TRISDbits.TRISD6 = 1;
  37449  00776C  8C95               	bsf	3989,6,c	;volatile
  37450                           
- 37451                           ;main.c: 134: TRISDbits.TRISD7 = 1;
+ 37451                           ;main.c: 136: TRISDbits.TRISD7 = 1;
  37452  00776E  8E95               	bsf	3989,7,c	;volatile
  37453                           
- 37454                           ;main.c: 136: ANSELCbits.ANSC5 = 0;
+ 37454                           ;main.c: 138: ANSELCbits.ANSC5 = 0;
  37455  007770  9B3A               	bcf	58,5,b	;volatile
  37456                           
- 37457                           ;main.c: 137: ANSELDbits.ANSD5 = 0;
+ 37457                           ;main.c: 139: ANSELDbits.ANSD5 = 0;
  37458  007772  9B3B               	bcf	59,5,b	;volatile
  37459                           
- 37460                           ;main.c: 138: ANSELDbits.ANSD6 = 1;
+ 37460                           ;main.c: 140: ANSELDbits.ANSD6 = 1;
  37461  007774  8D3B               	bsf	59,6,b	;volatile
  37462                           
- 37463                           ;main.c: 139: ANSELDbits.ANSD7 = 1;
+ 37463                           ;main.c: 141: ANSELDbits.ANSD7 = 1;
  37464  007776  8F3B               	bsf	59,7,b	;volatile
  37465                           
  37466                           ; BSR set to: 15
@@ -38774,7 +38774,7 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
  37501                           
  37502 ;; *************** function _ADC_Init *****************
  37503 ;; Defined at:
- 37504 ;;		line 157 in file "main.c"
+ 37504 ;;		line 159 in file "main.c"
  37505 ;; Parameters:    Size  Location     Type
  37506 ;;		None
  37507 ;; Auto vars:     Size  Location     Type
@@ -38814,17 +38814,17 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
  37536                           	opt stack 23
  37537                           
  37538                           ; BSR set to: 15
- 37539                           ;main.c: 158: ADCON0bits.GO = 0;
+ 37539                           ;main.c: 160: ADCON0bits.GO = 0;
  37540                           
  37541                           ; BSR set to: 15
  37542                           ;incstack = 0
  37543  0077C2  92C2               	bcf	4034,1,c	;volatile
  37544                           
- 37545                           ;main.c: 159: ADCON2bits.ADFM = 1;
+ 37545                           ;main.c: 161: ADCON2bits.ADFM = 1;
  37546  0077C4  8EC0               	bsf	4032,7,c	;volatile
  37547                           
  37548                           ; BSR set to: 15
- 37549                           ;main.c: 160: ADCON2bits.ADCS = 3;
+ 37549                           ;main.c: 162: ADCON2bits.ADCS = 3;
  37550  0077C6  50C0               	movf	4032,w,c	;volatile
  37551  0077C8  0BF8               	andlw	-8
  37552  0077CA  0903               	iorlw	3
@@ -39304,7 +39304,7 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
  38004                           
  38005 ;; *************** function _handle16sInterrupt *****************
  38006 ;; Defined at:
- 38007 ;;		line 89 in file "main.c"
+ 38007 ;;		line 91 in file "main.c"
  38008 ;; Parameters:    Size  Location     Type
  38009 ;;		None
  38010 ;; Auto vars:     Size  Location     Type
@@ -39344,8 +39344,8 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
  38039                           	opt stack 15
  38040                           
  38041                           ; BSR set to: 1
- 38042                           ;main.c: 91: static volatile uint8_t counterSleepTimeout = 0;
- 38043                           ;main.c: 92: if( ++counterSleepTimeout == ONE_HOUR_TIMEOUT_COUNTS )
+ 38042                           ;main.c: 93: static volatile uint8_t counterSleepTimeout = 0;
+ 38043                           ;main.c: 94: if( ++counterSleepTimeout == ONE_HOUR_TIMEOUT_COUNTS )
  38044                           
  38045                           ; BSR set to: 1
  38046                           ;incstack = 0
@@ -39355,16 +39355,16 @@ Microchip Technology Omniscient Code Generator v1.38 (PRO mode) build 2016070103
  38050  007748  E104               	bnz	i2l2724
  38051                           
  38052                           ; BSR set to: 1
- 38053                           ;main.c: 93: {
- 38054                           ;main.c: 95: TimeToSend = 1;
+ 38053                           ;main.c: 95: {
+ 38054                           ;main.c: 97: TimeToSend = 1;
  38055  00774A  0E01               	movlw	1
  38056  00774C  6F69               	movwf	_TimeToSend& (0+255),b
  38057                           
  38058                           ; BSR set to: 1
- 38059                           ;main.c: 96: counterSleepTimeout = 0;
+ 38059                           ;main.c: 98: counterSleepTimeout = 0;
  38060  00774E  6A45               	clrf	handle16sInterrupt@counterSleepTimeout,c	;volatile
  38061                           
- 38062                           ;main.c: 97: }
+ 38062                           ;main.c: 99: }
  38063  007750  0012               	return	
  38064  007752                     i2l2724:
  38065                           
@@ -48352,7 +48352,7 @@ CODE                 0      0       0       0        0.0%
 
 
 Microchip Technology PIC18 Macro Assembler V1.38 build -256452561 
-Symbol Table                                                                                   Sun Aug 21 12:49:40 2022
+Symbol Table                                                                                   Sun Aug 21 12:57:52 2022
 
                                         ??_LORAWAN_TxDone 00A2  
                               __end_of_DIO3_ISR_Lora_Init 795A  
